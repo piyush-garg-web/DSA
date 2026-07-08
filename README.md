@@ -101,6 +101,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
+| [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -285,6 +286,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Memoization
