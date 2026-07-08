@@ -554,6 +554,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+| [1615-maximal-network-rank](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1615-maximal-network-rank/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
