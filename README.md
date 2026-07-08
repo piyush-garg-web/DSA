@@ -1,764 +1,87 @@
-# DSA
-Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
+# 📚 Data Structures & Algorithms
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
-| [0007-reverse-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
-| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
-| [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
-| [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
-| [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
-| [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
-| [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
-| [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
-| [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
-| [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
-| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
-| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
-| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-| [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
-## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
-| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
-| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
-| [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
-| [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
-| [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
-| [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-## Bit Manipulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
-| [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
-| [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
-| [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
-| [0476-number-complement](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
-| [1009-complement-of-base-10-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
-| [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
-| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
-| [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
-| [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
-| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
-| [0031-next-permutation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0031-next-permutation/) | Medium |
-| [0033-search-in-rotated-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
-| [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
-| [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
-| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
-| [0051-n-queens](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0051-n-queens/) | Hard |
-| [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
-| [0056-merge-intervals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
-| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
-| [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
-| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
-| [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
-| [0085-maximal-rectangle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0085-maximal-rectangle/) | Hard |
-| [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
-| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
-| [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
-| [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
-| [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
-| [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
-| [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
-| [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
-| [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
-| [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
-| [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
-| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
-| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
-| [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
-| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
-| [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
-| [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
-| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
-| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
-| [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
-| [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
-| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-| [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
-| [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
-| [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
-| [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
-| [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
-| [0860-lemonade-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0860-lemonade-change/) | Easy |
-| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-| [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-| [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
-| [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
-| [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
-| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
-| [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
-| [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
-| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
-| [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
-| [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
-| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
-| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
-| [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
-| [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
-| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
-| [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
-| [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
-| [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
-| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
-| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
-| [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
-| [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
-| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
-| [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
-| [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
-| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
-| [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
-| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0056-merge-intervals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
-| [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
-| [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
-| [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
-| [0295-find-median-from-data-stream](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
-| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
-| [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-| [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
-| [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
-| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
-| [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
-| [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0033-search-in-rotated-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
-| [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
-| [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
-| [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
-| [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
-| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
-| [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
-| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
-| [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
-| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0031-next-permutation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0031-next-permutation/) | Medium |
-| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
-| [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
-| [0125-valid-palindrome](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
-| [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
-| [0151-reverse-words-in-a-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
-| [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
-| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
-| [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
-| [0295-find-median-from-data-stream](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
-| [0344-reverse-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
-| [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
-| [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0876-middle-of-the-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
-| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
-| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
-| [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
-| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
-| [0072-edit-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
-| [0125-valid-palindrome](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
-| [0151-reverse-words-in-a-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
-| [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
-| [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
-| [0344-reverse-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
-| [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
-| [0516-longest-palindromic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0516-longest-palindromic-subsequence/) | Medium |
-| [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
-| [1143-longest-common-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
-| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
-| [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
-| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
-| [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
-| [0085-maximal-rectangle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0085-maximal-rectangle/) | Hard |
-| [0094-binary-tree-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
-| [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
-| [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
-| [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
-| [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
-| [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
-| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
-| [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
-| [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
-| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
-| [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
-| [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
-| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
-| [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
-| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
-| [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
-| [0085-maximal-rectangle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0085-maximal-rectangle/) | Hard |
-| [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
-| [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
-| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
-| [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
-| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
-| [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
-## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
-## Number Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
-| [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
-| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
-| [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
-| [0072-edit-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
-| [0085-maximal-rectangle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0085-maximal-rectangle/) | Hard |
-| [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
-| [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
-| [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
-| [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
-| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
-| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
-| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
-| [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
-| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
-| [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
-| [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
-| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
-| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
-| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
-| [0516-longest-palindromic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0516-longest-palindromic-subsequence/) | Medium |
-| [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
-| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
-| [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
-| [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
-| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
-| [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
-| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
-| [1143-longest-common-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
-| [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
-| [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
-| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
-| [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
-| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
-| [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
-| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
-| [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
-## Memoization
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
-| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
-## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
-| [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
-| [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
-| [0051-n-queens](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0051-n-queens/) | Hard |
-| [0052-n-queens-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0052-n-queens-ii/) | Hard |
-| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
-| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
-| [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
-| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
-| [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
-| [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
-| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
-| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
-| [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
-| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
-| [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
-| [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
-| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
-| [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
-| [0876-middle-of-the-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
-| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
-## Merge Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
-| [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0860-lemonade-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0860-lemonade-change/) | Easy |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
-| [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
-| [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
-| [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
-## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
-| [0085-maximal-rectangle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0085-maximal-rectangle/) | Hard |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
-## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
-| [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
-| [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
-| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
-| [0295-find-median-from-data-stream](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
-| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
-| [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
-## Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
-| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
-| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
-| [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
-| [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
-| [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
-| [0098-validate-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
-| [0100-same-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
-| [0102-binary-tree-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0102-binary-tree-level-order-traversal/) | Medium |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
-| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
-| [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
-| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
-| [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
-| [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
-| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
-| [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
-| [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
-| [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
-| [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
-| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
-| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
-| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
-| [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
-| [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
-| [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
-| [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
-| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
-| [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
-| [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
-| [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
-| [0098-validate-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
-| [0100-same-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
-| [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
-| [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
-| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
-| [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
-| [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
-| [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
-| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
-| [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
-| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
-| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
-| [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
-| [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
-| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
-| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
-| [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
-| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
-| [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
-| [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
-| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
-| [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
-| [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
-| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
-| [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
-| [0098-validate-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
-| [0100-same-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
-| [0102-binary-tree-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0102-binary-tree-level-order-traversal/) | Medium |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
-| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
-| [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
-| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
-| [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
-| [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
-| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
-| [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
-| [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
-| [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
-| [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
-| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
-| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
-| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
-| [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
-| [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
-| [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
-| [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
-| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
-| [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
-| [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
-| [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0100-same-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
-| [0102-binary-tree-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0102-binary-tree-level-order-traversal/) | Medium |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
-| [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
-| [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
-| [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
-| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
-| [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
-| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
-| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
-| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
-| [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
-| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
-| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
-| [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
-| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
-| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
-| [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
-| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
-| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
-## Binary Search Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
-| [0098-validate-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
-| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
-| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
-| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
-| [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
-| [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
-| [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
-| [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
-| [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
-| [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
-| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
-| [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
-| [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
-| [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
-| [0295-find-median-from-data-stream](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
-| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-| [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
-| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
-| [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
-| [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
-| [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
-| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
-| [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
-| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
-## Bucket Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-## Radix Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-## Counting Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
-| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
-| [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
-## Quickselect
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
-| [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-## Trie
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
-| [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
-| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
-| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
-## Geometry
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
-## Data Stream
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0295-find-median-from-data-stream](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
-## Graph Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
-| [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
-| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
-| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
-| [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
-| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
-| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
-| [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
-| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
-| [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
-| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
-| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
-| [1615-maximal-network-rank](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1615-maximal-network-rank/) | Medium |
-| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
-| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
-| [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
-| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
-| [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
-| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
-| [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
-| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
-## Union-Find
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
-| [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
-| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
-## Shortest Path
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
-| [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
-| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
-| [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
-| [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
-| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
-| [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
-| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
-## Topological Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
-| [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
-| [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
-| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
-| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
-| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
-## Minimum Spanning Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
-## Biconnected Component
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
-## Combinatorics
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
-## Game Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
-<!---LeetCode Topics End-->
+A curated collection of **Data Structures & Algorithms** solutions implemented in **C++**, featuring problems from **LeetCode** and **GeeksforGeeks**.
+
+This repository serves as a structured record of my problem-solving journey, helping strengthen algorithmic thinking, improve coding skills, and prepare for software engineering interviews.
+
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
+![LeetCode](https://img.shields.io/badge/LeetCode-181%20Solved-orange?style=for-the-badge&logo=leetcode)
+![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-55%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
+![Total Problems](https://img.shields.io/badge/Total-236%20Problems-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+---
+
+## 📖 About
+
+This repository contains my solutions to **Data Structures & Algorithms** problems solved on **LeetCode** and **GeeksforGeeks**.
+
+Each solution is implemented in **C++** and organized by **platform** and **difficulty**. Every problem directory contains the corresponding solution along with a standardized README that includes the original problem statement, examples, constraints, and (where available) the official problem link.
+
+The primary objectives of this repository are to:
+
+- Strengthen problem-solving skills.
+- Build strong algorithmic intuition.
+- Prepare for coding interviews.
+- Maintain a well-organized and continuously growing collection of DSA solutions.
+
+---
+
+## 📊 Repository statistics
+
+| Platform | Total | Basic | Easy | Medium | Hard |
+|:---------|------:|------:|-----:|-------:|-----:|
+| **LeetCode** | **181** | — | **51** | **110** | **20** |
+| **GeeksforGeeks** | **55** | **9** | **22** | **23** | **1** |
+| **Overall** | **236** | **9** | **73** | **133** | **21** |
+
+---
+
+## 📁 Repository structure
+
+```text
+DSA
+│
+├── LeetCode
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+├── GeeksforGeeks
+│   ├── Basic
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## 🛠️ Language & tools
+
+- **C++**
+- **Git**
+- **GitHub**
+
+---
+
+## ✨ Repository highlights
+
+- 📚 **236** curated Data Structures & Algorithms solutions.
+- 💻 Solutions from both **LeetCode** and **GeeksforGeeks**.
+- 📂 Organized by **platform** and **difficulty** for easy navigation.
+- ⚡ Clean, readable, and interview-ready **C++** implementations.
+- 📝 Standardized problem-specific README files with consistent formatting.
+- 🔗 Official problem links included wherever available.
+- 🚀 Continuously updated with new solutions.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more information.
