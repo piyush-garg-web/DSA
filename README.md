@@ -386,6 +386,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
+| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -452,6 +453,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
+| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -489,6 +491,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
+| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
@@ -540,6 +543,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -552,5 +556,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 <!---LeetCode Topics End-->
