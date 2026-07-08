@@ -277,6 +277,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -302,6 +303,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
@@ -336,6 +338,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -352,6 +355,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -364,6 +368,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
