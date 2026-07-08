@@ -17,12 +17,14 @@ private:
             mapping[inorder[i]] = i;
         }
     }
+
     TreeNode* solve(map<int, int>& mapping, int size, vector<int>& postorder,
                     vector<int>& inorder, int& postorderIndex, int inorderStart,
                     int inorderEnd) {
         if (postorderIndex < 0 || inorderStart > inorderEnd) {
             return NULL;
         }
+
         int element = postorder[postorderIndex--];
         TreeNode* root = new TreeNode(element);
         int position = mapping[element];
@@ -39,8 +41,7 @@ public:
         int postorderIndex = size - 1;
         map<int, int> mapping;
         createMap(mapping, size, inorder);
-        TreeNode* root = solve(mapping, size, postorder, inorder,
-                               postorderIndex, 0, size - 1);
+        TreeNode* root = solve(mapping, size, postorder, inorder, postorderIndex, 0, size - 1);
         return root;
     }
 };

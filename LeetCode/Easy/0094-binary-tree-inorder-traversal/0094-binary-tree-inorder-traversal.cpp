@@ -14,9 +14,11 @@ class Solution {
 private:
     TreeNode* predecessor(TreeNode* node) {
         TreeNode* prev = node->left;
-        while (prev->right && prev->right!=node) {
+
+        while (prev->right && prev->right != node) {
             prev = prev->right;
         }
+
         return prev;
     }
 
@@ -24,14 +26,14 @@ public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
         TreeNode* curr = root;
+
         while (curr != NULL) {
             if (curr->left == NULL) {
                 ans.push_back(curr->val);
                 curr = curr->right;
-            }
-
-            else {
+            } else {
                 TreeNode* pred = predecessor(curr);
+
                 if (pred->right == NULL) {
                     pred->right = curr;
                     curr = curr->left;
@@ -42,6 +44,7 @@ public:
                 }
             }
         }
-            return ans;
-        }
-    };
+
+        return ans;
+    }
+};

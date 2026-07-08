@@ -10,41 +10,38 @@
  * };
  */
 class Solution {
-    private: 
+private:
     void inorder(TreeNode* root, vector<int>& nodes) {
-        if (root==NULL) {
+        if (root == NULL) {
             return;
         }
-        inorder(root->left,nodes);
+
+        inorder(root->left, nodes);
         nodes.push_back(root->val);
-        inorder(root->right,nodes);
+        inorder(root->right, nodes);
     }
 
-    bool isSumPresent (vector<int> nodes,int k) {
-        int i=0;
-        int j=nodes.size()-1;
-        while (i<j) {
-            if (nodes[i]+nodes[j]==k) {
-                return true;
-            }
-            else if (nodes[i]+nodes[j]>k) {
-                j--;
-            }
+    bool isSumPresent(vector<int> nodes, int k) {
+        int i = 0;
+        int j = nodes.size() - 1;
 
-            else {
+        while (i < j) {
+            if (nodes[i] + nodes[j] == k) {
+                return true;
+            } else if (nodes[i] + nodes[j] > k) {
+                j--;
+            } else {
                 i++;
             }
         }
+
         return false;
     }
 
 public:
     bool findTarget(TreeNode* root, int k) {
         vector<int> nodes;
-        inorder(root,nodes);
-        return isSumPresent(nodes,k);
-
-
-        
+        inorder(root, nodes);
+        return isSumPresent(nodes, k);
     }
 };

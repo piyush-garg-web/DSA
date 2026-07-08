@@ -20,38 +20,41 @@
  * };
  */
 class Solution {
-    private:
+private:
     ListNode* findMiddle(ListNode* head) {
-        ListNode* slowPrevious=NULL;
-        ListNode* slow=head;
-        ListNode* fast=head->next;
-        while (fast!=NULL) {
-            slowPrevious=slow;
-            slow=slow->next;
-            fast=fast->next;
-            if (fast!=NULL) {
-                fast=fast->next;
-            }
+        ListNode* slowPrevious = NULL;
+        ListNode* slow = head;
+        ListNode* fast = head->next;
 
+        while (fast != NULL) {
+            slowPrevious = slow;
+            slow = slow->next;
+            fast = fast->next;
+
+            if (fast != NULL) {
+                fast = fast->next;
+            }
         }
+
         return slowPrevious;
     }
+
 public:
     TreeNode* sortedListToBST(ListNode* head) {
-        if (head==NULL) {
+        if (head == NULL) {
             return NULL;
         }
-        if (head->next==NULL) {
+
+        if (head->next == NULL) {
             return new TreeNode(head->val);
         }
 
-        ListNode* middlePrevious=findMiddle(head);
-        ListNode* middle=middlePrevious->next;
-        TreeNode* root=new TreeNode(middle->val);
-        middlePrevious->next=NULL;
-        root->left=sortedListToBST(head);
-        root->right=sortedListToBST(middle->next);
+        ListNode* middlePrevious = findMiddle(head);
+        ListNode* middle = middlePrevious->next;
+        TreeNode* root = new TreeNode(middle->val);
+        middlePrevious->next = NULL;
+        root->left = sortedListToBST(head);
+        root->right = sortedListToBST(middle->next);
         return root;
-        
     }
 };

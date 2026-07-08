@@ -13,8 +13,7 @@
 class Solution {
 private:
     void solve(TreeNode* root, vector<string>& ans, string temp) {
-
-                temp += to_string(root->val);
+        temp += to_string(root->val);
 
         if (root->left == NULL && root->right == NULL) {
             ans.push_back(temp);
@@ -22,10 +21,11 @@ private:
         }
 
         if (root->left) {
-            solve(root->left, ans, temp+"->");
+            solve(root->left, ans, temp + "->");
         }
+
         if (root->right) {
-            solve(root->right, ans, temp+"->");
+            solve(root->right, ans, temp + "->");
         }
     }
 

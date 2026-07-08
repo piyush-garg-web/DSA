@@ -1,49 +1,51 @@
-#include<stack>
+#include <stack>
+
 class MinStack {
-stack<long long> st;
-long long mini;
+    stack<long long> st;
+    long long mini;
+
 public:
     MinStack() {
-       mini=LLONG_MAX; 
+        mini = LLONG_MAX;
     }
-    
+
     void push(int val) {
-if (st.empty()) {
-    st.push(val);
-    mini=val;
-}
-else if (val>=mini) {
-    st.push(val);
-}
-else {
-    st.push(2LL *val-mini);
-    mini=val;
-}
+        if (st.empty()) {
+            st.push(val);
+            mini = val;
+        } else if (val >= mini) {
+            st.push(val);
+        } else {
+            st.push(2LL * val - mini);
+            mini = val;
+        }
     }
-    
+
     void pop() {
         if (st.empty()) {
             return;
         }
-        long long n=st.top();
+
+        long long n = st.top();
         st.pop();
-        if (n<mini) {
-            mini=2*mini-n;
+
+        if (n < mini) {
+            mini = 2 * mini - n;
         }
     }
-    
+
     int top() {
         if (st.empty()) {
             return -1;
         }
-        else if (st.top()>=mini) {
+
+        if (st.top() >= mini) {
             return (int)st.top();
         }
-        else {
-            return (int)mini;
-        }
+
+        return (int)mini;
     }
-    
+
     int getMin() {
         return (int)mini;
     }

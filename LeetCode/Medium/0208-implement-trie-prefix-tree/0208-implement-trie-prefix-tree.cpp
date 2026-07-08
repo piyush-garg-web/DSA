@@ -6,9 +6,11 @@ public:
 
     TrieNode(char ch) {
         this->ch = ch;
+
         for (int i = 0; i < 26; i++) {
             children[i] = NULL;
         }
+
         isTerminal = false;
     }
 };
@@ -17,7 +19,9 @@ class Trie {
     TrieNode* root;
 
 public:
-    Trie() { root = new TrieNode('\0'); }
+    Trie() {
+        root = new TrieNode('\0');
+    }
 
     void insertUtil(TrieNode* root, string word) {
         if (word.length() == 0) {
@@ -26,13 +30,11 @@ public:
         }
 
         TrieNode* child;
-
         int index = word[0] - 'a';
+
         if (root->children[index] != NULL) {
             child = root->children[index];
-        }
-
-        else {
+        } else {
             child = new TrieNode(word[0]);
             root->children[index] = child;
         }
@@ -40,7 +42,9 @@ public:
         insertUtil(child, word.substr(1));
     }
 
-    void insert(string word) { insertUtil(root, word); }
+    void insert(string word) {
+        insertUtil(root, word);
+    }
 
     bool searchUtil(TrieNode* root, string word) {
         if (word.length() == 0) {
@@ -48,21 +52,19 @@ public:
         }
 
         TrieNode* child;
-
         int index = word[0] - 'a';
+
         if (root->children[index] != NULL) {
             child = root->children[index];
-        }
-
-        else {
-           return false;
+        } else {
+            return false;
         }
 
         return searchUtil(child, word.substr(1));
     }
 
     bool search(string word) {
-        return searchUtil(root,word);
+        return searchUtil(root, word);
     }
 
     bool startsWithUtil(TrieNode* root, string prefix) {
@@ -71,21 +73,19 @@ public:
         }
 
         TrieNode* child;
-
         int index = prefix[0] - 'a';
+
         if (root->children[index] != NULL) {
             child = root->children[index];
-        }
-
-        else {
-           return false;
+        } else {
+            return false;
         }
 
         return startsWithUtil(child, prefix.substr(1));
     }
 
     bool startsWith(string prefix) {
-        return startsWithUtil(root,prefix);
+        return startsWithUtil(root, prefix);
     }
 };
 

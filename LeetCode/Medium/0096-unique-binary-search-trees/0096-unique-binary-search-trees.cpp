@@ -1,8 +1,7 @@
 class Solution {
+private:
     int solve(int n) {
-
-        vector<int> dp (n + 1, 0);
-
+        vector<int> dp(n + 1, 0);
         dp[0] = dp[1] = 1;
 
         for (int i = 2; i <= n; i++) {
@@ -12,13 +11,14 @@ class Solution {
                 ans += dp[j - 1] * dp[i - j];
             }
 
-            dp[i]=ans;
-
+            dp[i] = ans;
         }
 
         return dp[n];
     }
 
 public:
-    int numTrees(int n) { return solve(n); }
+    int numTrees(int n) {
+        return solve(n);
+    }
 };

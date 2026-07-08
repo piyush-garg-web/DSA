@@ -10,39 +10,39 @@
  * };
  */
 class Solution {
-    private:
-    void inorder(TreeNode* root,vector<int>& ans,int &freq,int& maxFreq,int& curr) {
-        if (root==NULL) {
+private:
+    void inorder(TreeNode* root, vector<int>& ans, int &freq, int& maxFreq, int& curr) {
+        if (root == NULL) {
             return;
         }
 
-        inorder(root->left,ans,freq,maxFreq,curr);
-        if (root->val==curr) {
+        inorder(root->left, ans, freq, maxFreq, curr);
+
+        if (root->val == curr) {
             freq++;
+        } else {
+            curr = root->val;
+            freq = 1;
         }
-        else {
-            curr=root->val;
-            freq=1;
-        }
-        if (freq>maxFreq) {
-            maxFreq=freq;
+
+        if (freq > maxFreq) {
+            maxFreq = freq;
             ans.clear();
             ans.push_back(curr);
-        }
-        else if (freq==maxFreq) {
+        } else if (freq == maxFreq) {
             ans.push_back(curr);
         }
-        inorder(root->right,ans,freq,maxFreq,curr);
-        }
+
+        inorder(root->right, ans, freq, maxFreq, curr);
+    }
 
 public:
     vector<int> findMode(TreeNode* root) {
-        int freq=0;
-        int maxFreq=0;
-        int curr=INT_MIN;
+        int freq = 0;
+        int maxFreq = 0;
+        int curr = INT_MIN;
         vector<int> ans;
-        inorder(root,ans,freq,maxFreq,curr);
+        inorder(root, ans, freq, maxFreq, curr);
         return ans;
-        
     }
 };

@@ -10,25 +10,24 @@
  * };
  */
 class Solution {
-    private:
-    void solve (TreeNode* root, int& sum) {
-        if (root==NULL) {
+private:
+    void solve(TreeNode* root, int& sum) {
+        if (root == NULL) {
             return;
         }
-      if (root->left && root->left->left==NULL && root->left->right==NULL) {
-        sum+=root->left->val;
-      }
-      solve(root->left,sum);
-      solve(root->right,sum);
 
+        if (root->left && root->left->left == NULL && root->left->right == NULL) {
+            sum += root->left->val;
+        }
+
+        solve(root->left, sum);
+        solve(root->right, sum);
     }
+
 public:
     int sumOfLeftLeaves(TreeNode* root) {
-        int sum=0;
-        solve(root,sum);
+        int sum = 0;
+        solve(root, sum);
         return sum;
-
-
-        
     }
 };

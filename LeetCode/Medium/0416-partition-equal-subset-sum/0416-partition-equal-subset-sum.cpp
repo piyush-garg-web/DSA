@@ -1,9 +1,7 @@
 class Solution {
 private:
     bool solve(vector<int>& nums, int n, int target) {
-
         vector<int> dp(target + 1, 0);
-
         dp[0] = 1;
 
         for (int i = 0; i < n; i++) {
@@ -11,6 +9,7 @@ private:
                 dp[j] = dp[j] || dp[j - nums[i]];
             }
         }
+
         return dp[target];
     }
 
@@ -18,6 +17,7 @@ public:
     bool canPartition(vector<int>& nums) {
         int n = nums.size();
         int sum = 0;
+
         for (int i = 0; i < n; i++) {
             sum += nums[i];
         }
@@ -26,9 +26,6 @@ public:
             return false;
         }
 
-        else {
-
-            return (solve(nums, n, sum / 2));
-        }
+        return solve(nums, n, sum / 2);
     }
 };

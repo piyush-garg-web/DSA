@@ -19,10 +19,12 @@ private:
 
         kSmallest(root->left, k, ans, count);
         count++;
+
         if (count == k) {
             ans = root->val;
             return;
         }
+
         kSmallest(root->right, k, ans, count);
     }
 

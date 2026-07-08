@@ -15,6 +15,7 @@ public:
             }
 
             reverse(temp.begin(), temp.end());
+
             if (temp.length() > 0) {
                 ans += temp;
                 ans += ' ';

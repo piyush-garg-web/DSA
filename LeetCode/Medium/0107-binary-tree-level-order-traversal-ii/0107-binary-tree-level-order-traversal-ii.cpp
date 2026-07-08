@@ -10,30 +10,37 @@
  * };
  */
 #include <queue>
+
 class Solution {
 private:
     void levelOrderTraversal(TreeNode* root, vector<vector<int>>& ans,
                              vector<int>& subans) {
-                                if (root==NULL) {
-                                    return;
-                                }
+        if (root == NULL) {
+            return;
+        }
+
         queue<TreeNode*> q;
         q.push(root);
         q.push(NULL);
+
         while (!q.empty()) {
             TreeNode* temp = q.front();
             q.pop();
+
             if (temp == NULL) {
                 ans.push_back(subans);
                 subans.clear();
+
                 if (!q.empty()) {
                     q.push(NULL);
                 }
             } else {
                 subans.push_back(temp->val);
+
                 if (temp->left) {
                     q.push(temp->left);
                 }
+
                 if (temp->right) {
                     q.push(temp->right);
                 }
@@ -41,11 +48,12 @@ private:
         }
     }
 
-    void reverse (vector<vector<int>>& ans) {
-        int start=0;
-        int end=ans.size()-1;
-        while (start<=end) {
-            swap(ans[start],ans[end]);
+    void reverse(vector<vector<int>>& ans) {
+        int start = 0;
+        int end = ans.size() - 1;
+
+        while (start <= end) {
+            swap(ans[start], ans[end]);
             start++;
             end--;
         }

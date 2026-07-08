@@ -14,19 +14,20 @@ public:
         if (head == NULL || head->next == NULL) {
             return head;
         }
+
         ListNode* curr = head;
+
         while (curr->next != NULL) {
-                if (curr->next->val != curr->val) {
-                    curr = curr->next;
-                }
-                 else 
-                 {
+            if (curr->next->val != curr->val) {
+                curr = curr->next;
+            } else {
                 ListNode* nextNode = curr->next;
                 curr->next = curr->next->next;
                 nextNode->next = NULL;
                 delete (nextNode);
             }
         }
+
         return head;
     }
 };
