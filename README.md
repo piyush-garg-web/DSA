@@ -18,6 +18,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
@@ -305,6 +306,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
 | [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
@@ -713,4 +715,8 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
 <!---LeetCode Topics End-->
