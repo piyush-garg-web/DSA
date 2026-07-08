@@ -36,6 +36,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
