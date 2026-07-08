@@ -76,6 +76,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
@@ -418,6 +419,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
+| [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
