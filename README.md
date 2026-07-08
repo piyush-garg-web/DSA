@@ -265,6 +265,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
@@ -314,6 +315,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
@@ -338,6 +340,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
