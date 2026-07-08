@@ -139,6 +139,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0094-binary-tree-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -198,6 +199,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
@@ -248,6 +250,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -266,6 +269,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -287,6 +291,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
