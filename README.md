@@ -81,6 +81,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
@@ -174,6 +175,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 ## Prefix Sum
@@ -286,6 +288,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
 | [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
