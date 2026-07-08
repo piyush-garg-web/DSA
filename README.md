@@ -74,6 +74,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
+| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
@@ -256,6 +257,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -472,6 +474,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
+| [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
