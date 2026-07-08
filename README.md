@@ -413,6 +413,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -480,6 +481,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -585,6 +587,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
@@ -613,6 +616,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/2360-longest-cycle-in-a-graph/) | Hard |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
