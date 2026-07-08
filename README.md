@@ -55,6 +55,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
+| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -177,6 +178,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
+| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Merge Sort
@@ -195,4 +197,9 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
+| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 <!---LeetCode Topics End-->
