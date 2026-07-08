@@ -111,6 +111,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
@@ -148,6 +149,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
@@ -314,6 +316,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
