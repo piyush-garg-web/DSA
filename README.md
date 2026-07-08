@@ -379,6 +379,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -454,6 +455,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
@@ -551,6 +553,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
@@ -577,6 +580,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 <!---LeetCode Topics End-->
