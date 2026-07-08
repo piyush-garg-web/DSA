@@ -519,6 +519,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -580,6 +581,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -594,6 +596,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3342-find-minimum-time-to-reach-last-room-ii/) | Medium |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3650-minimum-cost-path-with-edge-reversals/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
