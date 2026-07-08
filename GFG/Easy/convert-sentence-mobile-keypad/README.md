@@ -1,5 +1,7 @@
 # Convert Sentence Mobile Keypad
 
+Problem Link: https://www.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence0547/1
+
 ---
 
 ## Problem Statement

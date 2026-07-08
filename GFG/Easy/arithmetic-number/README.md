@@ -1,5 +1,7 @@
 # Arithmetic Number
 
+Problem Link: https://www.geeksforgeeks.org/problems/arithmetic-number2815/1
+
 ---
 
 ## Problem Statement

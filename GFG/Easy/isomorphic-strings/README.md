@@ -1,5 +1,7 @@
 # Isomorphic Strings
 
+Problem Link: https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1
+
 ---
 
 ## Problem Statement

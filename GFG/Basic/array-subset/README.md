@@ -1,5 +1,7 @@
 # Array Subset
 
+Problem Link: https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
+
 ---
 
 ## Problem Statement

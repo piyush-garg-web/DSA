@@ -1,5 +1,7 @@
 # Middle Of Three
 
+Problem Link: https://www.geeksforgeeks.org/problems/middle-of-three2926/1
+
 ---
 
 ## Problem Statement

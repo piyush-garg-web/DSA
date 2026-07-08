@@ -1,4 +1,6 @@
-# Sory 0s 1s 2s
+# Sort 0s 1s 2s
+
+Problem Link: https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
 
 ---
 

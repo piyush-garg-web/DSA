@@ -1,5 +1,7 @@
 # Common 3 Sorted Arrays
 
+Problem Link: https://www.geeksforgeeks.org/problems/common-elements1132/1
+
 ---
 
 ## Problem Statement

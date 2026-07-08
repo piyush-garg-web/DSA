@@ -1,5 +1,7 @@
 # More Than N K Occur
 
+Problem Link: https://www.geeksforgeeks.org/problems/count-element-occurences/1
+
 ---
 
 ## Problem Statement

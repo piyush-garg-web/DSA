@@ -1,5 +1,7 @@
 # Minimize Height 2
 
+Problem Link: https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1
+
 ---
 
 ## Problem Statement

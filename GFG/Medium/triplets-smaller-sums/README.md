@@ -1,5 +1,7 @@
 # Triplets Smaller Sums
 
+Problem Link: https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1
+
 ---
 
 ## Problem Statement

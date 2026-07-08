@@ -1,5 +1,7 @@
 # Kth Element 2 Arrays
 
+Problem Link: https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
+
 ---
 
 ## Problem Statement

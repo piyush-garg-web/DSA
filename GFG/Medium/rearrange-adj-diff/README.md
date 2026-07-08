@@ -1,5 +1,7 @@
 # Rearrange Adj Diff
 
+Problem Link: https://www.geeksforgeeks.org/problems/rearrange-characters4649/1
+
 ---
 
 ## Problem Statement

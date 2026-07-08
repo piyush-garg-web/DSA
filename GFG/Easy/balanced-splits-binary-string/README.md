@@ -1,5 +1,7 @@
 # Balanced Splits Binary String
 
+Problem Link: https://www.geeksforgeeks.org/problems/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/1
+
 ---
 
 ## Problem Statement

@@ -1,5 +1,7 @@
 # Count Perfect Squares
 
+Problem Link: https://www.geeksforgeeks.org/problems/count-squares3649/1
+
 ---
 
 ## Problem Statement

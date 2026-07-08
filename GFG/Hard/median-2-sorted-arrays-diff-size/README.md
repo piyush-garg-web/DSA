@@ -1,5 +1,7 @@
 # Median 2 Sorted Arrays Diff Size
 
+Problem Link: https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1
+
 ---
 
 ## Problem Statement

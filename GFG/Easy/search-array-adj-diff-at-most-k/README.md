@@ -1,5 +1,7 @@
 # Search Array Adj Diff At Most K
 
+Problem Link: https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1
+
 ---
 
 ## Problem Statement

@@ -1,5 +1,7 @@
 # Value Equal Position
 
+Problem Link: https://www.geeksforgeeks.org/problems/value-equal-to-index-value1330/1
+
 ---
 
 ## Problem Statement

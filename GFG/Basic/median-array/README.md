@@ -1,5 +1,7 @@
 # Median Array
 
+Problem Link: https://www.geeksforgeeks.org/problems/find-the-median0527/1
+
 ---
 
 ## Problem Statement

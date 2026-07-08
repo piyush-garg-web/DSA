@@ -1,5 +1,7 @@
 # 3 Way Partition
 
+Problem Link: https://www.geeksforgeeks.org/problems/three-way-partitioning/1
+
 ---
 
 ## Problem Statement

@@ -1,5 +1,7 @@
 # Smallest Subarray Sum More Than K
 
+Problem Link: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
+
 ---
 
 ## Problem Statement

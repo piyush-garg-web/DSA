@@ -1,5 +1,7 @@
 # Median Row Wise Sorted Matrix
 
+Problem Link: https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
+
 ---
 
 ## Problem Statement

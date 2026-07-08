@@ -1,5 +1,7 @@
 # Array All Palindromes
 
+Problem Link: https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1
+
 ---
 
 ## Problem Statement

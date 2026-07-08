@@ -1,5 +1,7 @@
 # Replace Consecutive 2 Same With One
 
+Problem Link: https://www.geeksforgeeks.org/problems/consecutive-elements2306/1
+
 ---
 
 ## Problem Statement

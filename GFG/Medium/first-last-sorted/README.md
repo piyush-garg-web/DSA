@@ -1,5 +1,7 @@
 # First Last Sorted
 
+Problem Link: https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1
+
 ---
 
 ## Problem Statement

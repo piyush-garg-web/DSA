@@ -1,5 +1,7 @@
 # Min Max Array
 
+Problem Link: https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
+
 ---
 
 ## Problem Statement

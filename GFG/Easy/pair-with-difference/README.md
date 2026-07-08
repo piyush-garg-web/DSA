@@ -1,5 +1,7 @@
 # Pair With Difference
 
+Problem Link: https://www.geeksforgeeks.org/problems/find-pair-given-difference1559/1?utm_source=chatgpt.com
+
 ---
 
 ## Problem Statement

@@ -1,5 +1,7 @@
 # Chocolate Dis Problem
 
+Problem Link: https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
+
 ---
 
 ## Problem Statement
