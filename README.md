@@ -32,6 +32,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -85,6 +86,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
@@ -103,6 +105,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
 ## Simulation
@@ -151,5 +154,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
 <!---LeetCode Topics End-->
