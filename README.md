@@ -380,6 +380,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
+| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -445,6 +446,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
+| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -533,6 +535,11 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
