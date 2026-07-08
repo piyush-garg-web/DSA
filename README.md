@@ -110,6 +110,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
+| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
@@ -309,6 +310,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
@@ -362,6 +364,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
+| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
 | [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
@@ -583,6 +586,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
+| [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
