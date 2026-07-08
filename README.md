@@ -277,6 +277,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
+| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -309,6 +310,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
+| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -346,6 +348,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
+| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -384,6 +387,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
+| [0501-find-mode-in-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0501-find-mode-in-binary-search-tree/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
