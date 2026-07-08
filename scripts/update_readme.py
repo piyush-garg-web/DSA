@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 
 LC_DIR = ROOT / "LeetCode"
-GFG_DIR = ROOT / "GeeksforGeeks"
+GFG_DIR = ROOT / "GFG"
 
 
 def count_problem_folders(path: Path) -> int:
