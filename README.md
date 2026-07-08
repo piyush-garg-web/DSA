@@ -55,6 +55,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
@@ -168,6 +169,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0125-valid-palindrome](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
@@ -501,6 +503,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 ## Geometry
