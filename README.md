@@ -97,6 +97,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
 | [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -237,6 +238,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -511,6 +513,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -569,6 +572,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -580,6 +584,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0743-network-delay-time](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3341-find-minimum-time-to-reach-last-room-i/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
