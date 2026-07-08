@@ -53,6 +53,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
+| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
@@ -227,6 +228,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0125-valid-palindrome](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
@@ -305,6 +307,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
 | [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
@@ -393,6 +396,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0044-wildcard-matching/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
