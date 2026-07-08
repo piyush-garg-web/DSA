@@ -30,6 +30,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
@@ -149,6 +150,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
