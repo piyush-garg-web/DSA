@@ -96,6 +96,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -288,6 +289,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -315,6 +317,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -355,6 +358,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -388,5 +392,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
