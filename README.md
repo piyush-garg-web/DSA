@@ -6,6 +6,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
@@ -30,6 +31,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
@@ -151,6 +153,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
