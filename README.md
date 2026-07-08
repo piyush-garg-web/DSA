@@ -7,6 +7,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
+| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
@@ -30,6 +31,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
@@ -99,6 +101,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
