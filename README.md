@@ -74,6 +74,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
@@ -301,6 +302,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0096-unique-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0096-unique-binary-search-trees/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0221-maximal-square](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0221-maximal-square/) | Medium |
