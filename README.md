@@ -107,6 +107,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -145,6 +146,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
@@ -185,6 +187,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0354-russian-doll-envelopes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0354-russian-doll-envelopes/) | Hard |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
+| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -308,6 +311,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
+| [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
