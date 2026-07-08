@@ -1,83 +1,79 @@
 class MyCircularQueue {
-    int *arr;
+    int* arr;
     int front;
     int rear;
     int size;
+
 public:
     MyCircularQueue(int k) {
-        size=k;
-        arr=new int[size];
-        front=rear=-1;
+        size = k;
+        arr = new int[size];
+        front = rear = -1;
     }
-    
+
     bool enQueue(int value) {
         if (isFull()) {
             return false;
         }
+
         if (isEmpty()) {
-            front=rear=0;
-        }
-        else if (rear==size-1 && front!=0) {
-            rear=0;
-        }
-        else {
+            front = rear = 0;
+        } else if (rear == size - 1 && front != 0) {
+            rear = 0;
+        } else {
             rear++;
         }
-        arr[rear]=value;
+
+        arr[rear] = value;
         return true;
     }
-    
+
     bool deQueue() {
         if (isEmpty()) {
-           return false;
+            return false;
         }
 
-        if (front==rear) {
-            front=rear=-1;
-        }
-        else if (front==size-1) {
-            front=0;
-        }
-        else {
+        if (front == rear) {
+            front = rear = -1;
+        } else if (front == size - 1) {
+            front = 0;
+        } else {
             front++;
         }
+
         return true;
     }
-    
+
     int Front() {
         if (isEmpty()) {
             return -1;
         }
-        else {
-            return arr[front];
-        }
+
+        return arr[front];
     }
-    
+
     int Rear() {
         if (isEmpty()) {
             return -1;
         }
-        else {
-            return arr[rear];
-        }
+
+        return arr[rear];
     }
-    
+
     bool isEmpty() {
-        if (front==-1) {
+        if (front == -1) {
             return true;
         }
-        else {
-            return false;
-        }
+
+        return false;
     }
-    
+
     bool isFull() {
-        if ((front==0 && rear==size-1)||(rear==front-1)) {
+        if ((front == 0 && rear == size - 1) || (rear == front - 1)) {
             return true;
         }
-        else {
-            return false;
-        }
+
+        return false;
     }
 };
 

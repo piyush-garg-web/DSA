@@ -7,6 +7,7 @@ private:
 
         for (int i = n - 1; i >= 0; i--) {
             int curr = arr[i];
+
             while (s.top() != -1 && arr[s.top()] >= curr) {
                 s.pop();
             }
@@ -25,6 +26,7 @@ private:
 
         for (int i = 0; i < n; i++) {
             int curr = arr[i];
+
             while (s.top() != -1 && arr[s.top()] >= curr) {
                 s.pop();
             }
@@ -39,14 +41,15 @@ private:
     int largestArea(vector<int>& histogram, int n) {
         vector<int> next = nSE(histogram, n);
         vector<int> prev = pSE(histogram, n);
-
         int maxArea = INT_MIN;
 
         for (int i = 0; i < n; i++) {
             int l = histogram[i];
+
             if (next[i] == -1) {
                 next[i] = n;
             }
+
             int b = next[i] - prev[i] - 1;
             int a = l * b;
             maxArea = max(maxArea, a);

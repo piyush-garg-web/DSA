@@ -1,11 +1,10 @@
 class Solution {
 private:
     int solve(int n, vector<int>& nums1, vector<int>& nums2) {
-
-       int sWAP=0;
-       int noSwap=0;
-       int currSwap=0;
-       int currNoSwap=0;
+        int sWAP = 0;
+        int noSwap = 0;
+        int currSwap = 0;
+        int currNoSwap = 0;
 
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j >= 0; j--) {
@@ -16,28 +15,26 @@ private:
                 if (j) {
                     swap(prev1, prev2);
                 }
+
                 if (nums1[i] > prev1 && nums2[i] > prev2) {
                     ans = min(ans, noSwap);
                 }
 
                 if (nums1[i] > prev2 && nums2[i] > prev1) {
-                    ans =
-                        min(ans, 1 + sWAP);
+                    ans = min(ans, 1 + sWAP);
                 }
 
                 if (j) {
-                    currSwap=ans;
-                }
-
-                else {
-                    currNoSwap=ans;
+                    currSwap = ans;
+                } else {
+                    currNoSwap = ans;
                 }
             }
-            sWAP=currSwap;
-            noSwap=currNoSwap;
+            sWAP = currSwap;
+            noSwap = currNoSwap;
         }
 
-        return min(sWAP,noSwap);
+        return min(sWAP, noSwap);
     }
 
 public:

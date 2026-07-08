@@ -14,16 +14,16 @@ class Solution {
 private:
     int minimum(TreeNode* root) {
         TreeNode* temp = root;
+
         while (temp->left != NULL) {
-            temp = temp -> left;
+            temp = temp->left;
         }
 
         return temp->val;
     }
 
     TreeNode* deleting(TreeNode* root, int key) {
-
-           if (root == NULL) {
+        if (root == NULL) {
             return root;
         }
 
@@ -46,26 +46,25 @@ private:
             }
 
             if (root->left != NULL && root->right != NULL) {
-
                 int mini = minimum(root->right);
                 root->val = mini;
-                root->right = deleting (root->right, mini);
+                root->right = deleting(root->right, mini);
                 return root;
             }
         } else if (root->val > key) {
-            root->left = deleting (root->left, key);
+            root->left = deleting(root->left, key);
             return root;
         } else {
-            root->right = deleting (root->right, key);
+            root->right = deleting(root->right, key);
             return root;
         }
+
         return root;
     }
 
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
-     
-        TreeNode* finalAns = deleting (root, key);
+        TreeNode* finalAns = deleting(root, key);
         return finalAns;
     }
 };

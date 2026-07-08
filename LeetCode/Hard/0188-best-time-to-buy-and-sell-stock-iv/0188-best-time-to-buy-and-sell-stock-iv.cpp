@@ -1,7 +1,6 @@
 class Solution {
 private:
     int solve(vector<int>& prices, int n, int k) {
-
         vector<int> curr(2 * k + 1, 0);
         vector<int> next(2 * k + 1, 0);
 
@@ -13,9 +12,7 @@ private:
                     int buy = -prices[index] + next[opr + 1];
                     int skip = 0 + next[opr];
                     profit = max(buy, skip);
-                }
-
-                else {
+                } else {
                     int sell = prices[index] + next[opr + 1];
                     int skip = 0 + next[opr];
                     profit = max(sell, skip);
@@ -23,7 +20,7 @@ private:
 
                 curr[opr] = profit;
             }
-            next=curr;
+            next = curr;
         }
 
         return next[0];

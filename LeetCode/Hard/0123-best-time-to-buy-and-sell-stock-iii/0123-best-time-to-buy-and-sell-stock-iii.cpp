@@ -1,23 +1,19 @@
 class Solution {
 private:
     int solve(vector<int>& prices, int n) {
-
         vector<vector<int>> curr(2, vector<int>(3, 0));
         vector<vector<int>> next(2, vector<int>(3, 0));
 
         for (int index = n - 1; index >= 0; index--) {
             for (int buy = 0; buy <= 1; buy++) {
                 for (int limit = 1; limit <= 2; limit++) {
-
                     int profit = 0;
 
                     if (buy) {
-                        int buy = -prices[index] + next[0][limit];
+                        int buyK = -prices[index] + next[0][limit];
                         int skip = 0 + next[1][limit];
-                        profit = max(buy, skip);
-                    }
-
-                    else {
+                        profit = max(buyK, skip);
+                    } else {
                         int sell = prices[index] + next[1][limit - 1];
                         int skip = 0 + next[0][limit];
                         profit = max(sell, skip);

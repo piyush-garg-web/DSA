@@ -11,6 +11,7 @@
  * };
  */
 class Solution {
+private:
     class info {
     public:
         int sum;
@@ -19,7 +20,6 @@ class Solution {
         int maxi;
     };
 
-public:
     info solve(TreeNode* root, int& maxSum) {
         if (root == NULL) {
             return {0, true, INT_MAX, INT_MIN};
@@ -31,8 +31,8 @@ public:
         currNode.sum = left.sum + right.sum + root->val;
         currNode.mini = min(root->val, left.mini);
         currNode.maxi = max(root->val, right.maxi);
-        if (left.isBST && right.isBST &&
-            (root->val > left.maxi && root->val < right.mini)) {
+
+        if (left.isBST && right.isBST && (root->val > left.maxi && root->val < right.mini)) {
             currNode.isBST = true;
         } else {
             currNode.isBST = false;

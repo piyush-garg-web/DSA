@@ -1,7 +1,6 @@
 class Solution {
 private:
     int solve(int n, vector<int>& slices) {
-
         vector<int> prev1(n + 2, 0);
         vector<int> curr1(n + 2, 0);
         vector<int> next1(n + 2, 0);

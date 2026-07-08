@@ -1,6 +1,6 @@
 class Solution {
+private:
     int solve(int n, vector<int>& satisfaction) {
-
         vector<int> curr(n + 1, 0);
         vector<int> next(n + 1, 0);
 

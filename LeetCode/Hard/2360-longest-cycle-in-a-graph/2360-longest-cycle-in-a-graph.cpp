@@ -4,17 +4,16 @@ private:
              vector<int>& edges) {
         vis[node] = 1;
         int next = edges[node];
+
         if (next != -1) {
             if (vis[next] == 0) {
                 depth[next] = depth[node] + 1;
                 dfs(next, ans, vis, depth, edges);
-
-            }
-
-            else if (vis[next] == 1) {
+            } else if (vis[next] == 1) {
                 ans = max(ans, depth[node] - depth[next] + 1);
             }
         }
+
         vis[node] = 2;
     }
 
@@ -30,6 +29,7 @@ public:
                 dfs(i, ans, vis, depth, edges);
             }
         }
+
         return ans;
     }
 };

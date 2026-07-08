@@ -1,7 +1,6 @@
 class Solution {
 private:
     int solve(int n, vector<vector<int>>& cuboids) {
-
         vector<int> currRow(n + 1, 0);
         vector<int> nextRow(n + 1, 0);
 
@@ -16,7 +15,6 @@ private:
                 }
 
                 int exclude = 0 + nextRow[prev + 1];
-
                 currRow[prev + 1] = max(include, exclude);
             }
             nextRow = currRow;
@@ -28,6 +26,7 @@ private:
 public:
     int maxHeight(vector<vector<int>>& cuboids) {
         int n = cuboids.size();
+
         for (auto& it : cuboids) {
             sort(it.begin(), it.end());
         }

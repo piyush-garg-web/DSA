@@ -1,8 +1,7 @@
 class Solution {
 private:
-    void solve(int col, int n, int& count,
-               vector<string>& board, vector<bool>& rowCheck,
-               vector<bool>& lowerDiagonalCheck,
+    void solve(int col, int n, int& count, vector<string>& board,
+               vector<bool>& rowCheck, vector<bool>& lowerDiagonalCheck,
                vector<bool>& upperDiagonalCheck) {
         if (col == n) {
             count++;
@@ -29,12 +28,11 @@ private:
 public:
     int totalNQueens(int n) {
         vector<string> board(n, string(n, '.'));
-      int count=0;
+        int count = 0;
         vector<bool> rowCheck(n, false);
         vector<bool> lowerDiagonalCheck(2 * n - 1, false);
         vector<bool> upperDiagonalCheck(2 * n - 1, false);
-        solve(0, n, count, board, rowCheck, lowerDiagonalCheck,
-              upperDiagonalCheck);
+        solve(0, n, count, board, rowCheck, lowerDiagonalCheck, upperDiagonalCheck);
         return count;
     }
 };

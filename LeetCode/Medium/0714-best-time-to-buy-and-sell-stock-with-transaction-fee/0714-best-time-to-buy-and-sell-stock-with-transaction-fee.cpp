@@ -1,7 +1,6 @@
 class Solution {
 private:
     int solve(vector<int>& prices, int n, int fee) {
-
         vector<int> curr(2, 0);
         vector<int> next(2, 0);
 
@@ -10,12 +9,10 @@ private:
                 int profit = 0;
 
                 if (buy) {
-                    int buy = -prices[index] + next[0];
+                    int buyK = -prices[index] + next[0];
                     int skip = 0 + next[1];
-                    profit = max(buy, skip);
-                }
-
-                else {
+                    profit = max(buyK, skip);
+                } else {
                     int sell = prices[index] + next[1] - fee;
                     int skip = 0 + next[0];
                     profit = max(sell, skip);
