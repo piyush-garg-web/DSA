@@ -307,6 +307,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
+| [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
