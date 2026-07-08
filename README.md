@@ -238,6 +238,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Depth-First Search
@@ -252,6 +253,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
@@ -269,6 +271,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Breadth-First Search
@@ -280,5 +283,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
