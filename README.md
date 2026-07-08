@@ -12,6 +12,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -29,6 +30,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -115,4 +117,12 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 <!---LeetCode Topics End-->
