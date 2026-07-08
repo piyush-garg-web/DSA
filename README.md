@@ -52,6 +52,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
 | [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -84,6 +85,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0125-valid-palindrome](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
@@ -130,5 +132,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->
