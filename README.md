@@ -16,5 +16,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
+| [0476-number-complement](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
