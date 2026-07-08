@@ -7,6 +7,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
+| [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 ## Divide and Conquer
@@ -42,5 +43,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 <!---LeetCode Topics End-->
