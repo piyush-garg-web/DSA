@@ -177,6 +177,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
+| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
@@ -231,6 +232,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -244,6 +246,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0100-same-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -260,6 +263,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
