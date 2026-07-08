@@ -22,6 +22,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0476-number-complement](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
@@ -37,6 +38,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
+| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
@@ -125,4 +127,8 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->
