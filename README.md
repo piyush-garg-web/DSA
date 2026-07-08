@@ -240,6 +240,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2976-minimum-cost-to-convert-string-i/) | Medium |
@@ -332,6 +333,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
+| [1143-longest-common-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
