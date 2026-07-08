@@ -92,6 +92,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
+| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
@@ -574,6 +575,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [1615-maximal-network-rank](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1615-maximal-network-rank/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
@@ -587,6 +589,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -604,4 +607,8 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
+## Minimum Spanning Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 <!---LeetCode Topics End-->
