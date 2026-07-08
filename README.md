@@ -127,6 +127,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
@@ -204,12 +205,14 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
