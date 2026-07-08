@@ -1,4 +1,9 @@
-hard
+# Median 2 Sorted Arrays Diff Size
+
+---
+
+## Problem Statement
+
 Given two sorted arrays a[] and b[], find and return the median of the combined array after merging them into a single sorted array.
 
 Examples:
@@ -16,3 +21,17 @@ Constraints:
 1 ≤ a.size(), b.size() ≤ 106
 1 ≤ a[i], b[i] ≤ 109
 a.size() + b.size() > 0
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search
+- Two Pointers

@@ -1,4 +1,9 @@
-medium 
+# Kth Smallest
+
+---
+
+## Problem Statement
+
 Given an integer array arr[] and an integer k, find and return the kth smallest element in the given array.
 Note: The kth smallest element is determined based on the sorted order of the array.
 
@@ -13,4 +18,17 @@ Explanation: 3rd smallest element in the given array is 7.
 Constraints:
 1 ≤ arr.size() ≤ 105
 1 ≤ arr[i] ≤ 105
-1 ≤ k ≤  arr.size() 
+1 ≤ k ≤  arr.size()
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Heap

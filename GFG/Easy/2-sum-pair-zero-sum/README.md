@@ -1,4 +1,9 @@
-easy 
+# 2 Sum Pair Zero Sum
+
+---
+
+## Problem Statement
+
 Given an integer array arr, return all the unique pairs [arr[i], arr[j]] such that i != j and arr[i] + arr[j] == 0.
 
 Note: The pairs must be returned in sorted order, the solution array should also be sorted, and the answer must not contain any duplicate pairs.
@@ -16,3 +21,16 @@ Explanation: The distinct pairs are [-1, 1] and [-6, 6].
 Constraints:
 3 ≤ arr.size ≤ 105
 -105 ≤ arr[i] ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Two Pointers

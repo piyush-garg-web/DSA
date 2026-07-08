@@ -1,4 +1,9 @@
-easy
+# Convert Sentence Mobile Keypad
+
+---
+
+## Problem Statement
+
 Given a sentence in the form of a string in uppercase, convert it into its equivalent mobile numeric keypad sequence. Please note there might be spaces in between the words in a sentence and we can print spaces by pressing 0.
 
 
@@ -29,3 +34,16 @@ You dont need to read input or print anything. Complete the function printSequen
 
 1 <= Length of String <= 105
 Characters of string can be empty space or capital alphabets.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

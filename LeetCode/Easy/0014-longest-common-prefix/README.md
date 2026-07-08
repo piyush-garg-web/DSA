@@ -1,28 +1,49 @@
-<h2><a href="https://leetcode.com/problems/longest-common-prefix">14. Longest Common Prefix</a></h2><h3>Easy</h3><hr><p>Write a function to find the longest common prefix string amongst an array of strings.</p>
+# Longest Common Prefix
 
-<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>
+Problem Link: https://leetcode.com/problems/longest-common-prefix
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> strs = [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
-<strong>Output:</strong> &quot;fl&quot;
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
+Write a function to find the longest common prefix string amongst an array of strings.
 
-<pre>
-<strong>Input:</strong> strs = [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
-<strong>Output:</strong> &quot;&quot;
-<strong>Explanation:</strong> There is no common prefix among the input strings.
-</pre>
+If there is no common prefix, return an empty string "".
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
 
-<ul>
-	<li><code>1 &lt;= strs.length &lt;= 200</code></li>
-	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
-	<li><code>strs[i]</code> consists of only lowercase English letters if it is non-empty.</li>
-</ul>
+Example 1:
+
+```
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+```
+
+Example 2:
+
+```
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+
+ 
+
+Constraints:
+
+	1 <= strs.length <= 200
+	0 <= strs[i].length <= 200
+	strs[i] consists of only lowercase English letters if it is non-empty.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

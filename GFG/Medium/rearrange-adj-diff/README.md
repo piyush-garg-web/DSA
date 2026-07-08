@@ -1,4 +1,9 @@
-medium
+# Rearrange Adj Diff
+
+---
+
+## Problem Statement
+
 Given a string s consisting of lowercase English letters, check whether it can be rearranged such that no two adjacent characters are the same.
 
 Return true if possible, otherwise, return false.
@@ -16,3 +21,16 @@ Output: false
 Explanation: No combinations possible such that two adjacent characters are different.
 Constraints :
 1 ≤ |s| ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

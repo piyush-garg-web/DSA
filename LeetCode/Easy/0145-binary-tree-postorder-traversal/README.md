@@ -1,53 +1,76 @@
-<h2><a href="https://leetcode.com/problems/binary-tree-postorder-traversal">145. Binary Tree Postorder Traversal</a></h2><h3>Easy</h3><hr><p>Given the <code>root</code> of a&nbsp;binary tree, return <em>the postorder traversal of its nodes&#39; values</em>.</p>
+# Binary Tree Postorder Traversal
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Problem Link: https://leetcode.com/problems/binary-tree-postorder-traversal
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1,null,2,3]</span></p>
+---
 
-<p><strong>Output:</strong> <span class="example-io">[3,2,1]</span></p>
+## Problem Statement
 
-<p><strong>Explanation:</strong></p>
+Given the root of a binary tree, return the postorder traversal of its nodes' values.
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/08/29/screenshot-2024-08-29-202743.png" style="width: 200px; height: 264px;" /></p>
-</div>
+ 
+Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1,2,3,4,5,null,8,null,null,6,7,9]</span></p>
+Input: root = [1,null,2,3]
 
-<p><strong>Output:</strong> <span class="example-io">[4,6,7,5,2,9,8,3,1]</span></p>
+Output: [3,2,1]
 
-<p><strong>Explanation:</strong></p>
+Explanation:
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/08/29/tree_2.png" style="width: 350px; height: 286px;" /></p>
-</div>
 
-<p><strong class="example">Example 3:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = []</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">[]</span></p>
-</div>
+Example 2:
 
-<p><strong class="example">Example 4:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1]</span></p>
+Input: root = [1,2,3,4,5,null,8,null,null,6,7,9]
 
-<p><strong>Output:</strong> <span class="example-io">[1]</span></p>
-</div>
+Output: [4,6,7,5,2,9,8,3,1]
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Explanation:
 
-<ul>
-	<li>The number of the nodes in the tree is in the range <code>[0, 100]</code>.</li>
-	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
-</ul>
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?
+
+
+Example 3:
+
+
+Input: root = []
+
+Output: []
+
+
+Example 4:
+
+
+Input: root = [1]
+
+Output: [1]
+
+
+ 
+Constraints:
+
+
+	The number of the nodes in the tree is in the range [0, 100].
+	-100 <= Node.val <= 100
+
+
+ 
+Follow up: Recursive solution is trivial, could you do it iteratively?
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search
+- Two Pointers
+- Tree

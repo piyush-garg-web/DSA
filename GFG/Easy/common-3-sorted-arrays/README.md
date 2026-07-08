@@ -1,4 +1,9 @@
-easy 
+# Common 3 Sorted Arrays
+
+---
+
+## Problem Statement
+
 Given three sorted arrays in non-decreasing order, return all common elements in non-decreasing order across these arrays. If there are no such elements return an empty array.
 Note: Ignore duplicates, include each common element only once in the output.
 
@@ -17,3 +22,14 @@ Constraints:
 1 ≤ a.size(), b.size(), c.size() ≤ 105
 -105 ≤ a[i], b[i] , c[i] ≤ 105
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

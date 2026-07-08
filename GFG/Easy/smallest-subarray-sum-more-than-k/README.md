@@ -1,4 +1,9 @@
-easy
+# Smallest Subarray Sum More Than K
+
+---
+
+## Problem Statement
+
 Given a number x and an array of integers arr, find the smallest subarray with sum strictly greater than the given value. If such a subarray do not exist return 0 in that case.
 
 Examples:
@@ -12,3 +17,16 @@ Explanation: No subarray exist
 Constraints:
 1 ≤ arr.size, x ≤ 105
 0 ≤ arr[] ≤ 104
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Two Pointers

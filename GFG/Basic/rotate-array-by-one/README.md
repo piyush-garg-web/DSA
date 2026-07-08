@@ -1,4 +1,9 @@
-basic
+# Rotate Array By One
+
+---
+
+## Problem Statement
+
 Given an array arr, rotate the array by one position in clockwise direction.
 
 Examples:
@@ -12,3 +17,15 @@ Explanation: After rotating clock-wise 3 comes in first position.
 Constraints:
 1 ≤ arr.size() ≤ 105
 0 ≤ arr[i] ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

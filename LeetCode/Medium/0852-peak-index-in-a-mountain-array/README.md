@@ -1,39 +1,58 @@
-<h2><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array">852. Peak Index in a Mountain Array</a></h2><h3>Medium</h3><hr><p>You are given an integer <strong>mountain</strong> array <code>arr</code> of length <code>n</code> where the values increase to a <strong>peak element</strong> and then decrease.</p>
+# Peak Index in a Mountain Array
 
-<p>Return the index of the peak element.</p>
+Problem Link: https://leetcode.com/problems/peak-index-in-a-mountain-array
 
-<p>Your task is to solve it in <code>O(log(n))</code> time complexity.</p>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [0,1,0]</span></p>
+You are given an integer mountain array arr of length n where the values increase to a peak element and then decrease.
 
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
+Return the index of the peak element.
 
-<p><strong class="example">Example 2:</strong></p>
+Your task is to solve it in O(log(n)) time complexity.
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [0,2,1,0]</span></p>
+ 
+Example 1:
 
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
 
-<p><strong class="example">Example 3:</strong></p>
+Input: arr = [0,1,0]
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [0,10,5,2]</span></p>
+Output: 1
 
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Example 2:
 
-<ul>
-	<li><code>3 &lt;= arr.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>
-	<li><code>arr</code> is <strong>guaranteed</strong> to be a mountain array.</li>
-</ul>
+
+Input: arr = [0,2,1,0]
+
+Output: 1
+
+
+Example 3:
+
+
+Input: arr = [0,10,5,2]
+
+Output: 1
+
+
+ 
+Constraints:
+
+
+	3 <= arr.length <= 105
+	0 <= arr[i] <= 106
+	arr is guaranteed to be a mountain array.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

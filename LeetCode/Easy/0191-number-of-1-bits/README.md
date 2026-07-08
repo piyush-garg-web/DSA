@@ -1,48 +1,67 @@
-<h2><a href="https://leetcode.com/problems/number-of-1-bits">191. Number of 1 Bits</a></h2><h3>Easy</h3><hr><p>Given a positive integer <code>n</code>, write a function that returns the number of <span data-keyword="set-bit">set bits</span> in its binary representation (also known as the <a href="http://en.wikipedia.org/wiki/Hamming_weight" target="_blank">Hamming weight</a>).</p>
+# Number of 1 Bits
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Problem Link: https://leetcode.com/problems/number-of-1-bits
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 11</span></p>
+---
 
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
+## Problem Statement
 
-<p><strong>Explanation:</strong></p>
+Given a positive integer n, write a function that returns the number of set bits in its binary representation (also known as the Hamming weight).
 
-<p>The input binary string <strong>1011</strong> has a total of three set bits.</p>
-</div>
+ 
+Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 128</span></p>
+Input: n = 11
 
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
+Output: 3
 
-<p><strong>Explanation:</strong></p>
+Explanation:
 
-<p>The input binary string <strong>10000000</strong> has a total of one set bit.</p>
-</div>
+The input binary string 1011 has a total of three set bits.
 
-<p><strong class="example">Example 3:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 2147483645</span></p>
+Example 2:
 
-<p><strong>Output:</strong> <span class="example-io">30</span></p>
 
-<p><strong>Explanation:</strong></p>
+Input: n = 128
 
-<p>The input binary string <strong>1111111111111111111111111111101</strong> has a total of thirty set bits.</p>
-</div>
+Output: 1
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Explanation:
 
-<ul>
-	<li><code>1 &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+The input binary string 10000000 has a total of one set bit.
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> If this function is called many times, how would you optimize it?
+
+Example 3:
+
+
+Input: n = 2147483645
+
+Output: 30
+
+Explanation:
+
+The input binary string 1111111111111111111111111111101 has a total of thirty set bits.
+
+
+ 
+Constraints:
+
+
+	1 <= n <= 231 - 1
+
+
+ 
+Follow up: If this function is called many times, how would you optimize it?
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics

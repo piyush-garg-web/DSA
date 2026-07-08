@@ -1,50 +1,72 @@
-<h2><a href="https://leetcode.com/problems/binary-tree-right-side-view">199. Binary Tree Right Side View</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, imagine yourself standing on the <strong>right side</strong> of it, return <em>the values of the nodes you can see ordered from top to bottom</em>.</p>
+# Binary Tree Right Side View
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Problem Link: https://leetcode.com/problems/binary-tree-right-side-view
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1,2,3,null,5,null,4]</span></p>
+---
 
-<p><strong>Output:</strong> <span class="example-io">[1,3,4]</span></p>
+## Problem Statement
 
-<p><strong>Explanation:</strong></p>
+Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/11/24/tmpd5jn43fs-1.png" style="width: 400px; height: 207px;" /></p>
-</div>
+ 
+Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1,2,3,4,null,null,null,5]</span></p>
+Input: root = [1,2,3,null,5,null,4]
 
-<p><strong>Output:</strong> <span class="example-io">[1,3,4,5]</span></p>
+Output: [1,3,4]
 
-<p><strong>Explanation:</strong></p>
+Explanation:
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/11/24/tmpkpe40xeh-1.png" style="width: 400px; height: 214px;" /></p>
-</div>
 
-<p><strong class="example">Example 3:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = [1,null,3]</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">[1,3]</span></p>
-</div>
+Example 2:
 
-<p><strong class="example">Example 4:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">root = []</span></p>
+Input: root = [1,2,3,4,null,null,null,5]
 
-<p><strong>Output:</strong> <span class="example-io">[]</span></p>
-</div>
+Output: [1,3,4,5]
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Explanation:
 
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
-	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
-</ul>
+
+
+
+Example 3:
+
+
+Input: root = [1,null,3]
+
+Output: [1,3]
+
+
+Example 4:
+
+
+Input: root = []
+
+Output: []
+
+
+ 
+Constraints:
+
+
+	The number of nodes in the tree is in the range [0, 100].
+	-100 <= Node.val <= 100
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search
+- Two Pointers
+- Tree

@@ -1,4 +1,9 @@
-easy
+# Min Number Flips
+
+---
+
+## Problem Statement
+
 Given a binary string s of length n. We need to make this string a sequence of alternate characters by flipping some of the bits, our goal is to minimize the number of bits to be flipped.
 
 Examples:
@@ -11,3 +16,15 @@ Output: 2
 Explanation: We can flip the 1st and 8th bit. After this we have "0101010101"
 Constraints:
 1 ≤ |s| ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String

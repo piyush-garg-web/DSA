@@ -1,4 +1,9 @@
-medium
+# Count Inversions
+
+---
+
+## Problem Statement
+
 Given an array of integers arr[]. You have to find the Inversion Count of the array. 
 Note : Inversion count is the number of pairs of elements (i, j) such that i < j and arr[i] > arr[j].
 
@@ -16,3 +21,16 @@ Explanation: As all the elements of array are same, so there is no inversion cou
 Constraints:
 1 ≤ arr.size() ≤ 105
 1 ≤ arr[i] ≤ 104
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search

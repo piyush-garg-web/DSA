@@ -1,28 +1,47 @@
-<h2><a href="https://leetcode.com/problems/middle-of-the-linked-list/">876. Middle of the Linked List</a></h2><h3>Easy</h3><hr><p>Given the <code>head</code> of a singly linked list, return <em>the middle node of the linked list</em>.</p>
+# Middle of the Linked List
 
-<p>If there are two middle nodes, return <strong>the second middle</strong> node.</p>
+Problem Link: https://leetcode.com/problems/middle-of-the-linked-list/
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-midlist1.jpg" style="width: 544px; height: 65px;" />
-<pre>
-<strong>Input:</strong> head = [1,2,3,4,5]
-<strong>Output:</strong> [3,4,5]
-<strong>Explanation:</strong> The middle node of the list is node 3.
-</pre>
+---
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-midlist2.jpg" style="width: 664px; height: 65px;" />
-<pre>
-<strong>Input:</strong> head = [1,2,3,4,5,6]
-<strong>Output:</strong> [4,5,6]
-<strong>Explanation:</strong> Since the list has two middle nodes with values 3 and 4, we return the second one.
-</pre>
+## Problem Statement
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Given the head of a singly linked list, return the middle node of the linked list.
 
-<ul>
-	<li>The number of nodes in the list is in the range <code>[1, 100]</code>.</li>
-	<li><code>1 &lt;= Node.val &lt;= 100</code></li>
-</ul>
+If there are two middle nodes, return the second middle node.
+
+ 
+Example 1:
+
+
+Input: head = [1,2,3,4,5]
+Output: [3,4,5]
+Explanation: The middle node of the list is node 3.
+
+
+Example 2:
+
+
+Input: head = [1,2,3,4,5,6]
+Output: [4,5,6]
+Explanation: Since the list has two middle nodes with values 3 and 4, we return the second one.
+
+
+ 
+Constraints:
+
+
+	The number of nodes in the list is in the range [1, 100].
+	1 <= Node.val <= 100
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Linked List

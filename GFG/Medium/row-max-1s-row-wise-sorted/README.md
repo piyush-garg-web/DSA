@@ -1,4 +1,9 @@
-medium
+# Row Max 1s Row Wise Sorted
+
+---
+
+## Problem Statement
+
 You are given a 2D binary array arr[][] consisting of only 1s and 0s. Each row of the array is sorted in non-decreasing order. Your task is to find and return the index of the first row that contains the maximum number of 1s. If no such row exists, return -1.
 
 Note:
@@ -23,3 +28,15 @@ Output: -1
 Explanation: No row contains any 1s, so the output is -1.
 Constraints:
 1 ≤ arr.size(), arr[i].size() ≤ 103
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

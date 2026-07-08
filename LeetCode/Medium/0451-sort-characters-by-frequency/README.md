@@ -1,39 +1,60 @@
-<h2><a href="https://leetcode.com/problems/sort-characters-by-frequency">451. Sort Characters By Frequency</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, sort it in <strong>decreasing order</strong> based on the <strong>frequency</strong> of the characters. The <strong>frequency</strong> of a character is the number of times it appears in the string.</p>
+# Sort Characters By Frequency
 
-<p>Return <em>the sorted string</em>. If there are multiple answers, return <em>any of them</em>.</p>
+Problem Link: https://leetcode.com/problems/sort-characters-by-frequency
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> s = &quot;tree&quot;
-<strong>Output:</strong> &quot;eert&quot;
-<strong>Explanation:</strong> &#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.
-So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;. Therefore &quot;eetr&quot; is also a valid answer.
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
+Given a string s, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string.
 
-<pre>
-<strong>Input:</strong> s = &quot;cccaaa&quot;
-<strong>Output:</strong> &quot;aaaccc&quot;
-<strong>Explanation:</strong> Both &#39;c&#39; and &#39;a&#39; appear three times, so both &quot;cccaaa&quot; and &quot;aaaccc&quot; are valid answers.
-Note that &quot;cacaca&quot; is incorrect, as the same characters must be together.
-</pre>
+Return the sorted string. If there are multiple answers, return any of them.
 
-<p><strong class="example">Example 3:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> s = &quot;Aabb&quot;
-<strong>Output:</strong> &quot;bbAa&quot;
-<strong>Explanation:</strong> &quot;bbaA&quot; is also a valid answer, but &quot;Aabb&quot; is incorrect.
-Note that &#39;A&#39; and &#39;a&#39; are treated as two different characters.
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: s = "tree"
+Output: "eert"
+Explanation: 'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 5 * 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of uppercase and lowercase English letters and digits.</li>
-</ul>
+
+Example 2:
+
+
+Input: s = "cccaaa"
+Output: "aaaccc"
+Explanation: Both 'c' and 'a' appear three times, so both "cccaaa" and "aaaccc" are valid answers.
+Note that "cacaca" is incorrect, as the same characters must be together.
+
+
+Example 3:
+
+
+Input: s = "Aabb"
+Output: "bbAa"
+Explanation: "bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
+
+
+ 
+Constraints:
+
+
+	1 <= s.length <= 5 * 105
+	s consists of uppercase and lowercase English letters and digits.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String
+- Hash Map
+- Heap

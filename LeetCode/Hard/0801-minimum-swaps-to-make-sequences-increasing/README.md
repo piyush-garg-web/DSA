@@ -1,37 +1,56 @@
-<h2><a href="https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing">801. Minimum Swaps To Make Sequences Increasing</a></h2><h3>Hard</h3><hr><p>You are given two integer arrays of the same length <code>nums1</code> and <code>nums2</code>. In one operation, you are allowed to swap <code>nums1[i]</code> with <code>nums2[i]</code>.</p>
+# Minimum Swaps To Make Sequences Increasing
 
-<ul>
-	<li>For example, if <code>nums1 = [1,2,3,<u>8</u>]</code>, and <code>nums2 = [5,6,7,<u>4</u>]</code>, you can swap the element at <code>i = 3</code> to obtain <code>nums1 = [1,2,3,4]</code> and <code>nums2 = [5,6,7,8]</code>.</li>
-</ul>
+Problem Link: https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing
 
-<p>Return <em>the minimum number of needed operations to make </em><code>nums1</code><em> and </em><code>nums2</code><em> <strong>strictly increasing</strong></em>. The test cases are generated so that the given input always makes it possible.</p>
+---
 
-<p>An array <code>arr</code> is <strong>strictly increasing</strong> if and only if <code>arr[0] &lt; arr[1] &lt; arr[2] &lt; ... &lt; arr[arr.length - 1]</code>.</p>
+## Problem Statement
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+You are given two integer arrays of the same length nums1 and nums2. In one operation, you are allowed to swap nums1[i] with nums2[i].
 
-<pre>
-<strong>Input:</strong> nums1 = [1,3,5,4], nums2 = [1,2,3,7]
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> 
+
+	For example, if nums1 = [1,2,3,8], and nums2 = [5,6,7,4], you can swap the element at i = 3 to obtain nums1 = [1,2,3,4] and nums2 = [5,6,7,8].
+
+
+Return the minimum number of needed operations to make nums1 and nums2 strictly increasing. The test cases are generated so that the given input always makes it possible.
+
+An array arr is strictly increasing if and only if arr[0] < arr[1] < arr[2] < ... < arr[arr.length - 1].
+
+ 
+Example 1:
+
+
+Input: nums1 = [1,3,5,4], nums2 = [1,2,3,7]
+Output: 1
+Explanation: 
 Swap nums1[3] and nums2[3]. Then the sequences are:
 nums1 = [1, 3, 5, 7] and nums2 = [1, 2, 3, 4]
 which are both strictly increasing.
-</pre>
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> nums1 = [0,3,5,8,9], nums2 = [2,1,4,6,9]
-<strong>Output:</strong> 1
-</pre>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>2 &lt;= nums1.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums2.length == nums1.length</code></li>
-	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 2 * 10<sup>5</sup></code></li>
-</ul>
+Input: nums1 = [0,3,5,8,9], nums2 = [2,1,4,6,9]
+Output: 1
+
+
+ 
+Constraints:
+
+
+	2 <= nums1.length <= 105
+	nums2.length == nums1.length
+	0 <= nums1[i], nums2[i] <= 2 * 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

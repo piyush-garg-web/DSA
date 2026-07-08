@@ -1,24 +1,46 @@
-<h2><a href="https://leetcode.com/problems/all-elements-in-two-binary-search-trees">1305. All Elements in Two Binary Search Trees</a></h2><h3>Medium</h3><hr><p>Given two binary search trees <code>root1</code> and <code>root2</code>, return <em>a list containing all the integers from both trees sorted in <strong>ascending</strong> order</em>.</p>
+# All Elements in Two Binary Search Trees
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png" style="width: 457px; height: 207px;" />
-<pre>
-<strong>Input:</strong> root1 = [2,1,4], root2 = [1,0,3]
-<strong>Output:</strong> [0,1,1,2,3,4]
-</pre>
+Problem Link: https://leetcode.com/problems/all-elements-in-two-binary-search-trees
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png" style="width: 352px; height: 197px;" />
-<pre>
-<strong>Input:</strong> root1 = [1,null,8], root2 = [8,1]
-<strong>Output:</strong> [1,1,8,8]
-</pre>
+---
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+## Problem Statement
 
-<ul>
-	<li>The number of nodes in each tree is in the range <code>[0, 5000]</code>.</li>
-	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
-</ul>
+Given two binary search trees root1 and root2, return a list containing all the integers from both trees sorted in ascending order.
+
+ 
+Example 1:
+
+
+Input: root1 = [2,1,4], root2 = [1,0,3]
+Output: [0,1,1,2,3,4]
+
+
+Example 2:
+
+
+Input: root1 = [1,null,8], root2 = [8,1]
+Output: [1,1,8,8]
+
+
+ 
+Constraints:
+
+
+	The number of nodes in each tree is in the range [0, 5000].
+	-105 <= Node.val <= 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search
+- Two Pointers
+- Tree

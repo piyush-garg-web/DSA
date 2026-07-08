@@ -1,4 +1,9 @@
-basic
+# Array Subset
+
+---
+
+## Problem Statement
+
 Given two arrays a[] and b[], your task is to determine whether b[] is a subset of a[].
 
 Examples:
@@ -15,3 +20,16 @@ Explanation: b[] is not a subset of a[]
 Constraints:
 1 <= a.size(), b.size() <= 105
 1 <= a[i], b[j] <= 106
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Hash Map

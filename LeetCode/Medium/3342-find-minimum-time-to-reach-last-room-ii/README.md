@@ -1,61 +1,81 @@
-<h2><a href="https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii">3342. Find Minimum Time to Reach Last Room II</a></h2><h3>Medium</h3><hr><p>There is a dungeon with <code>n x m</code> rooms arranged as a grid.</p>
+# Find Minimum Time to Reach Last Room II
 
-<p>You are given a 2D array <code>moveTime</code> of size <code>n x m</code>, where <code>moveTime[i][j]</code> represents the <strong>minimum</strong> time in seconds when you can <strong>start moving</strong> to that room. You start from the room <code>(0, 0)</code> at time <code>t = 0</code> and can move to an <strong>adjacent</strong> room. Moving between <strong>adjacent</strong> rooms takes one second for one move and two seconds for the next, <strong>alternating</strong> between the two.</p>
+Problem Link: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii
 
-<p>Return the <strong>minimum</strong> time to reach the room <code>(n - 1, m - 1)</code>.</p>
+---
 
-<p>Two rooms are <strong>adjacent</strong> if they share a common wall, either <em>horizontally</em> or <em>vertically</em>.</p>
+## Problem Statement
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+There is a dungeon with n x m rooms arranged as a grid.
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">moveTime = [[0,4],[4,4]]</span></p>
+You are given a 2D array moveTime of size n x m, where moveTime[i][j] represents the minimum time in seconds when you can start moving to that room. You start from the room (0, 0) at time t = 0 and can move to an adjacent room. Moving between adjacent rooms takes one second for one move and two seconds for the next, alternating between the two.
 
-<p><strong>Output:</strong> 7</p>
+Return the minimum time to reach the room (n - 1, m - 1).
 
-<p><strong>Explanation:</strong></p>
+Two rooms are adjacent if they share a common wall, either horizontally or vertically.
 
-<p>The minimum time required is 7 seconds.</p>
+ 
+Example 1:
 
-<ul>
-	<li>At time <code>t == 4</code>, move from room <code>(0, 0)</code> to room <code>(1, 0)</code> in one second.</li>
-	<li>At time <code>t == 5</code>, move from room <code>(1, 0)</code> to room <code>(1, 1)</code> in two seconds.</li>
-</ul>
-</div>
 
-<p><strong class="example">Example 2:</strong></p>
+Input: moveTime = [[0,4],[4,4]]
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">moveTime = [[0,0,0,0],[0,0,0,0]]</span></p>
+Output: 7
 
-<p><strong>Output:</strong> 6</p>
+Explanation:
 
-<p><strong>Explanation:</strong></p>
+The minimum time required is 7 seconds.
 
-<p>The minimum time required is 6 seconds.</p>
 
-<ul>
-	<li>At time <code>t == 0</code>, move from room <code>(0, 0)</code> to room <code>(1, 0)</code> in one second.</li>
-	<li>At time <code>t == 1</code>, move from room <code>(1, 0)</code> to room <code>(1, 1)</code> in two seconds.</li>
-	<li>At time <code>t == 3</code>, move from room <code>(1, 1)</code> to room <code>(1, 2)</code> in one second.</li>
-	<li>At time <code>t == 4</code>, move from room <code>(1, 2)</code> to room <code>(1, 3)</code> in two seconds.</li>
-</ul>
-</div>
+	At time t == 4, move from room (0, 0) to room (1, 0) in one second.
+	At time t == 5, move from room (1, 0) to room (1, 1) in two seconds.
 
-<p><strong class="example">Example 3:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">moveTime = [[0,1],[1,2]]</span></p>
 
-<p><strong>Output:</strong> 4</p>
-</div>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>2 &lt;= n == moveTime.length &lt;= 750</code></li>
-	<li><code>2 &lt;= m == moveTime[i].length &lt;= 750</code></li>
-	<li><code>0 &lt;= moveTime[i][j] &lt;= 10<sup>9</sup></code></li>
-</ul>
+Input: moveTime = [[0,0,0,0],[0,0,0,0]]
+
+Output: 6
+
+Explanation:
+
+The minimum time required is 6 seconds.
+
+
+	At time t == 0, move from room (0, 0) to room (1, 0) in one second.
+	At time t == 1, move from room (1, 0) to room (1, 1) in two seconds.
+	At time t == 3, move from room (1, 1) to room (1, 2) in one second.
+	At time t == 4, move from room (1, 2) to room (1, 3) in two seconds.
+
+
+
+Example 3:
+
+
+Input: moveTime = [[0,1],[1,2]]
+
+Output: 4
+
+
+ 
+Constraints:
+
+
+	2 <= n == moveTime.length <= 750
+	2 <= m == moveTime[i].length <= 750
+	0 <= moveTime[i][j] <= 109
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Heap

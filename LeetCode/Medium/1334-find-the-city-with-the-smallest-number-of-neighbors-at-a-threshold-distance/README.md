@@ -1,51 +1,71 @@
-<h2><a href="https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance">1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance</a></h2><h3>Medium</h3><hr><p>There are <code>n</code> cities numbered from <code>0</code> to <code>n-1</code>. Given the array <code>edges</code> where <code>edges[i] = [from<sub>i</sub>, to<sub>i</sub>, weight<sub>i</sub>]</code> represents a bidirectional and weighted edge between cities <code>from<sub>i</sub></code> and <code>to<sub>i</sub></code>, and given the integer <code>distanceThreshold</code>.</p>
+# Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
-<p>Return the city with the smallest number of cities that are reachable through some path and whose distance is <strong>at most</strong> <code>distanceThreshold</code>, If there are multiple such cities, return the city with the greatest number.</p>
+Problem Link: https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
 
-<p>Notice that the distance of a path connecting cities <em><strong>i</strong></em> and <em><strong>j</strong></em> is equal to the sum of the edges&#39; weights along that path.</p>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/08/23/problem1334example1.png" style="width: 300px; height: 224px;" /></p>
+There are n cities numbered from 0 to n-1. Given the array edges where edges[i] = [fromi, toi, weighti] represents a bidirectional and weighted edge between cities fromi and toi, and given the integer distanceThreshold.
 
-<pre>
-<strong>Input:</strong> n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4
-<strong>Output:</strong> 3
-<strong>Explanation: </strong>The figure above describes the graph.&nbsp;
+Return the city with the smallest number of cities that are reachable through some path and whose distance is at most distanceThreshold, If there are multiple such cities, return the city with the greatest number.
+
+Notice that the distance of a path connecting cities i and j is equal to the sum of the edges' weights along that path.
+
+ 
+Example 1:
+
+
+
+
+Input: n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4
+Output: 3
+Explanation: The figure above describes the graph. 
 The neighboring cities at a distanceThreshold = 4 for each city are:
-City 0 -&gt; [City 1, City 2]&nbsp;
-City 1 -&gt; [City 0, City 2, City 3]&nbsp;
-City 2 -&gt; [City 0, City 1, City 3]&nbsp;
-City 3 -&gt; [City 1, City 2]&nbsp;
+City 0 -> [City 1, City 2] 
+City 1 -> [City 0, City 2, City 3] 
+City 2 -> [City 0, City 1, City 3] 
+City 3 -> [City 1, City 2] 
 Cities 0 and 3 have 2 neighboring cities at a distanceThreshold = 4, but we have to return city 3 since it has the greatest number.
-</pre>
 
-<p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/08/23/problem1334example0.png" style="width: 300px; height: 224px;" /></p>
+Example 2:
 
-<pre>
-<strong>Input:</strong> n = 5, edges = [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], distanceThreshold = 2
-<strong>Output:</strong> 0
-<strong>Explanation: </strong>The figure above describes the graph.&nbsp;
+
+
+
+Input: n = 5, edges = [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], distanceThreshold = 2
+Output: 0
+Explanation: The figure above describes the graph. 
 The neighboring cities at a distanceThreshold = 2 for each city are:
-City 0 -&gt; [City 1]&nbsp;
-City 1 -&gt; [City 0, City 4]&nbsp;
-City 2 -&gt; [City 3, City 4]&nbsp;
-City 3 -&gt; [City 2, City 4]
-City 4 -&gt; [City 1, City 2, City 3]&nbsp;
+City 0 -> [City 1] 
+City 1 -> [City 0, City 4] 
+City 2 -> [City 3, City 4] 
+City 3 -> [City 2, City 4]
+City 4 -> [City 1, City 2, City 3] 
 The city 0 has 1 neighboring city at a distanceThreshold = 2.
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>2 &lt;= n &lt;= 100</code></li>
-	<li><code>1 &lt;= edges.length &lt;= n * (n - 1) / 2</code></li>
-	<li><code>edges[i].length == 3</code></li>
-	<li><code>0 &lt;= from<sub>i</sub> &lt; to<sub>i</sub> &lt; n</code></li>
-	<li><code>1 &lt;= weight<sub>i</sub>,&nbsp;distanceThreshold &lt;= 10^4</code></li>
-	<li>All pairs <code>(from<sub>i</sub>, to<sub>i</sub>)</code> are distinct.</li>
-</ul>
+ 
+Constraints:
+
+
+	2 <= n <= 100
+	1 <= edges.length <= n * (n - 1) / 2
+	edges[i].length == 3
+	0 <= fromi < toi < n
+	1 <= weighti, distanceThreshold <= 10^4
+	All pairs (fromi, toi) are distinct.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Hash Map

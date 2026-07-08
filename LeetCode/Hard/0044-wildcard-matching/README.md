@@ -1,42 +1,62 @@
-<h2><a href="https://leetcode.com/problems/wildcard-matching">44. Wildcard Matching</a></h2><h3>Hard</h3><hr><p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code> where:</p>
+# Wildcard Matching
 
-<ul>
-	<li><code>&#39;?&#39;</code> Matches any single character.</li>
-	<li><code>&#39;*&#39;</code> Matches any sequence of characters (including the empty sequence).</li>
-</ul>
+Problem Link: https://leetcode.com/problems/wildcard-matching
 
-<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<pre>
-<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.
-</pre>
+Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;*&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;&#39;*&#39; matches any sequence.
-</pre>
+	'?' Matches any single character.
+	'*' Matches any sequence of characters (including the empty sequence).
 
-<p><strong class="example">Example 3:</strong></p>
 
-<pre>
-<strong>Input:</strong> s = &quot;cb&quot;, p = &quot;?a&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong>&nbsp;&#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.
-</pre>
+The matching should cover the entire input string (not partial).
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>0 &lt;= s.length, p.length &lt;= 2000</code></li>
-	<li><code>s</code> contains only lowercase English letters.</li>
-	<li><code>p</code> contains only lowercase English letters, <code>&#39;?&#39;</code> or <code>&#39;*&#39;</code>.</li>
-</ul>
+
+Input: s = "aa", p = "a"
+Output: false
+Explanation: "a" does not match the entire string "aa".
+
+
+Example 2:
+
+
+Input: s = "aa", p = "*"
+Output: true
+Explanation: '*' matches any sequence.
+
+
+Example 3:
+
+
+Input: s = "cb", p = "?a"
+Output: false
+Explanation: '?' matches 'c', but the second letter is 'a', which does not match 'b'.
+
+
+ 
+Constraints:
+
+
+	0 <= s.length, p.length <= 2000
+	s contains only lowercase English letters.
+	p contains only lowercase English letters, '?' or '*'.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

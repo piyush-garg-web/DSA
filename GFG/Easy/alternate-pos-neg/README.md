@@ -1,4 +1,9 @@
-easy
+# Alternate Pos Neg
+
+---
+
+## Problem Statement
+
 Given an unsorted array arr containing both positive and negative numbers. Your task is to rearrange the array and convert it into an array of alternate positive and negative numbers without changing the relative order.
 
 Note:
@@ -19,3 +24,15 @@ Explanation: The positive numbers are [9, 5, 5, 0, 2] and the negative integers 
 Constraints:
 1 ≤ arr.size() ≤ 106
 -106 ≤ arr[i] ≤ 106
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

@@ -1,33 +1,53 @@
-<h2><a href="https://leetcode.com/problems/maximal-square">221. Maximal Square</a></h2><h3>Medium</h3><hr><p>Given an <code>m x n</code> binary <code>matrix</code> filled with <code>0</code>&#39;s and <code>1</code>&#39;s, <em>find the largest square containing only</em> <code>1</code>&#39;s <em>and return its area</em>.</p>
+# Maximal Square
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/11/26/max1grid.jpg" style="width: 400px; height: 319px;" />
-<pre>
-<strong>Input:</strong> matrix = [[&quot;1&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;,&quot;0&quot;],[&quot;1&quot;,&quot;0&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],[&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],[&quot;1&quot;,&quot;0&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;]]
-<strong>Output:</strong> 4
-</pre>
+Problem Link: https://leetcode.com/problems/maximal-square
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/11/26/max2grid.jpg" style="width: 165px; height: 165px;" />
-<pre>
-<strong>Input:</strong> matrix = [[&quot;0&quot;,&quot;1&quot;],[&quot;1&quot;,&quot;0&quot;]]
-<strong>Output:</strong> 1
-</pre>
+---
 
-<p><strong class="example">Example 3:</strong></p>
+## Problem Statement
 
-<pre>
-<strong>Input:</strong> matrix = [[&quot;0&quot;]]
-<strong>Output:</strong> 0
-</pre>
+Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>m == matrix.length</code></li>
-	<li><code>n == matrix[i].length</code></li>
-	<li><code>1 &lt;= m, n &lt;= 300</code></li>
-	<li><code>matrix[i][j]</code> is <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code>.</li>
-</ul>
+
+Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+Output: 4
+
+
+Example 2:
+
+
+Input: matrix = [["0","1"],["1","0"]]
+Output: 1
+
+
+Example 3:
+
+
+Input: matrix = [["0"]]
+Output: 0
+
+
+ 
+Constraints:
+
+
+	m == matrix.length
+	n == matrix[i].length
+	1 <= m, n <= 300
+	matrix[i][j] is '0' or '1'.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Two Pointers

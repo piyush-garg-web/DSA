@@ -1,42 +1,62 @@
-<h2><a href="https://leetcode.com/problems/edit-distance">72. Edit Distance</a></h2><h3>Medium</h3><hr><p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>
+# Edit Distance
 
-<p>You have the following three operations permitted on a word:</p>
+Problem Link: https://leetcode.com/problems/edit-distance
 
-<ul>
-	<li>Insert a character</li>
-	<li>Delete a character</li>
-	<li>Replace a character</li>
-</ul>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<pre>
-<strong>Input:</strong> word1 = &quot;horse&quot;, word2 = &quot;ros&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> 
-horse -&gt; rorse (replace &#39;h&#39; with &#39;r&#39;)
-rorse -&gt; rose (remove &#39;r&#39;)
-rose -&gt; ros (remove &#39;e&#39;)
-</pre>
+Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
 
-<p><strong class="example">Example 2:</strong></p>
+You have the following three operations permitted on a word:
 
-<pre>
-<strong>Input:</strong> word1 = &quot;intention&quot;, word2 = &quot;execution&quot;
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> 
-intention -&gt; inention (remove &#39;t&#39;)
-inention -&gt; enention (replace &#39;i&#39; with &#39;e&#39;)
-enention -&gt; exention (replace &#39;n&#39; with &#39;x&#39;)
-exention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)
-exection -&gt; execution (insert &#39;u&#39;)
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+	Insert a character
+	Delete a character
+	Replace a character
 
-<ul>
-	<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>
-	<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>
-</ul>
+
+ 
+Example 1:
+
+
+Input: word1 = "horse", word2 = "ros"
+Output: 3
+Explanation: 
+horse -> rorse (replace 'h' with 'r')
+rorse -> rose (remove 'r')
+rose -> ros (remove 'e')
+
+
+Example 2:
+
+
+Input: word1 = "intention", word2 = "execution"
+Output: 5
+Explanation: 
+intention -> inention (remove 't')
+inention -> enention (replace 'i' with 'e')
+enention -> exention (replace 'n' with 'x')
+exention -> exection (replace 'n' with 'c')
+exection -> execution (insert 'u')
+
+
+ 
+Constraints:
+
+
+	0 <= word1.length, word2.length <= 500
+	word1 and word2 consist of lowercase English letters.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

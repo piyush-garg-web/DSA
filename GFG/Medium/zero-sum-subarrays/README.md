@@ -1,4 +1,9 @@
-medium
+# Zero Sum Subarrays
+
+---
+
+## Problem Statement
+
 You are given an array arr[] of integers. Find the total count of subarrays with their sum equal to 0.
 
 Examples:
@@ -16,3 +21,16 @@ Explanation: The only subarray is [0].
 Constraints:    
 1 <= n <= 106
 -109 <= arr[ i ] <= 109
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Hash Map

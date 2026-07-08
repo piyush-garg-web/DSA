@@ -1,4 +1,9 @@
-easy
+# Palindrome String
+
+---
+
+## Problem Statement
+
 Given a string s, return true if the string is a palindrome. Otherwise, return false.
 
 A string is considered a palindrome if it reads the same forwards and backwards.
@@ -15,3 +20,14 @@ Constraints:
 1 ≤ s.size() ≤ 106
 The string s contains only lowercase english letters (a-z).
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String

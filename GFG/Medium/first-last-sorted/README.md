@@ -1,4 +1,9 @@
-medium
+# First Last Sorted
+
+---
+
+## Problem Statement
+
 Given a sorted array arr[] with possibly some duplicates, find the first and last occurrences of an element x in the given array.
 Note: If the number x is not found in the array then return both the indices as -1.
 
@@ -17,3 +22,15 @@ Constraints:
 1 ≤ arr.size() ≤ 106
 1 ≤ arr[i], x ≤ 109
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search

@@ -1,45 +1,65 @@
-<h2><a href="https://leetcode.com/problems/coin-change-ii">518. Coin Change II</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>coins</code> representing coins of different denominations and an integer <code>amount</code> representing a total amount of money.</p>
+# Coin Change II
 
-<p>Return <em>the number of combinations that make up that amount</em>. If that amount of money cannot be made up by any combination of the coins, return <code>0</code>.</p>
+Problem Link: https://leetcode.com/problems/coin-change-ii
 
-<p>You may assume that you have an infinite number of each kind of coin.</p>
+---
 
-<p>The <strong>final</strong> answer is <strong>guaranteed</strong> to fit into a signed <strong>32-bit</strong> integer.</p>
+## Problem Statement
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 
-<pre>
-<strong>Input:</strong> amount = 5, coins = [1,2,5]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> there are four ways to make up the amount:
+Return the number of combinations that make up that amount. If that amount of money cannot be made up by any combination of the coins, return 0.
+
+You may assume that you have an infinite number of each kind of coin.
+
+The final answer is guaranteed to fit into a signed 32-bit integer.
+
+ 
+Example 1:
+
+
+Input: amount = 5, coins = [1,2,5]
+Output: 4
+Explanation: there are four ways to make up the amount:
 5=5
 5=2+2+1
 5=2+1+1+1
 5=1+1+1+1+1
-</pre>
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> amount = 3, coins = [2]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> the amount of 3 cannot be made up just with coins of 2.
-</pre>
+Example 2:
 
-<p><strong class="example">Example 3:</strong></p>
 
-<pre>
-<strong>Input:</strong> amount = 10, coins = [10]
-<strong>Output:</strong> 1
-</pre>
+Input: amount = 3, coins = [2]
+Output: 0
+Explanation: the amount of 3 cannot be made up just with coins of 2.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>1 &lt;= coins.length &lt;= 300</code></li>
-	<li><code>1 &lt;= coins[i] &lt;= 5000</code></li>
-	<li>All the values of <code>coins</code> are <strong>unique</strong>.</li>
-	<li><code>0 &lt;= amount &lt;= 5000</code></li>
-</ul>
+Example 3:
+
+
+Input: amount = 10, coins = [10]
+Output: 1
+
+
+ 
+Constraints:
+
+
+	1 <= coins.length <= 300
+	1 <= coins[i] <= 5000
+	All the values of coins are unique.
+	0 <= amount <= 5000
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Dynamic Programming

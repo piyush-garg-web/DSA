@@ -1,34 +1,57 @@
-<h2><a href="https://leetcode.com/problems/top-k-frequent-words">692. Top K Frequent Words</a></h2><h3>Medium</h3><hr><p>Given an array of strings <code>words</code> and an integer <code>k</code>, return <em>the </em><code>k</code><em> most frequent strings</em>.</p>
+# Top K Frequent Words
 
-<p>Return the answer <strong>sorted</strong> by <strong>the frequency</strong> from highest to lowest. Sort the words with the same frequency by their <strong>lexicographical order</strong>.</p>
+Problem Link: https://leetcode.com/problems/top-k-frequent-words
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> words = [&quot;i&quot;,&quot;love&quot;,&quot;leetcode&quot;,&quot;i&quot;,&quot;love&quot;,&quot;coding&quot;], k = 2
-<strong>Output:</strong> [&quot;i&quot;,&quot;love&quot;]
-<strong>Explanation:</strong> &quot;i&quot; and &quot;love&quot; are the two most frequent words.
-Note that &quot;i&quot; comes before &quot;love&quot; due to a lower alphabetical order.
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
+Given an array of strings words and an integer k, return the k most frequent strings.
 
-<pre>
-<strong>Input:</strong> words = [&quot;the&quot;,&quot;day&quot;,&quot;is&quot;,&quot;sunny&quot;,&quot;the&quot;,&quot;the&quot;,&quot;the&quot;,&quot;sunny&quot;,&quot;is&quot;,&quot;is&quot;], k = 4
-<strong>Output:</strong> [&quot;the&quot;,&quot;is&quot;,&quot;sunny&quot;,&quot;day&quot;]
-<strong>Explanation:</strong> &quot;the&quot;, &quot;is&quot;, &quot;sunny&quot; and &quot;day&quot; are the four most frequent words, with the number of occurrence being 4, 3, 2 and 1 respectively.
-</pre>
+Return the answer sorted by the frequency from highest to lowest. Sort the words with the same frequency by their lexicographical order.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>1 &lt;= words.length &lt;= 500</code></li>
-	<li><code>1 &lt;= words[i].length &lt;= 10</code></li>
-	<li><code>words[i]</code> consists of lowercase English letters.</li>
-	<li><code>k</code> is in the range <code>[1, The number of <strong>unique</strong> words[i]]</code></li>
-</ul>
 
-<p>&nbsp;</p>
-<p><strong>Follow-up:</strong> Could you solve it in <code>O(n log(k))</code> time and <code>O(n)</code> extra space?</p>
+Input: words = ["i","love","leetcode","i","love","coding"], k = 2
+Output: ["i","love"]
+Explanation: "i" and "love" are the two most frequent words.
+Note that "i" comes before "love" due to a lower alphabetical order.
+
+
+Example 2:
+
+
+Input: words = ["the","day","is","sunny","the","the","the","sunny","is","is"], k = 4
+Output: ["the","is","sunny","day"]
+Explanation: "the", "is", "sunny" and "day" are the four most frequent words, with the number of occurrence being 4, 3, 2 and 1 respectively.
+
+
+ 
+Constraints:
+
+
+	1 <= words.length <= 500
+	1 <= words[i].length <= 10
+	words[i] consists of lowercase English letters.
+	k is in the range [1, The number of unique words[i]]
+
+
+ 
+Follow-up: Could you solve it in O(n log(k)) time and O(n) extra space?
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String
+- Hash Map
+- Heap

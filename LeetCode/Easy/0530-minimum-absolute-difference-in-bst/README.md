@@ -1,27 +1,49 @@
-<h2><a href="https://leetcode.com/problems/minimum-absolute-difference-in-bst">530. Minimum Absolute Difference in BST</a></h2><h3>Easy</h3><hr><p>Given the <code>root</code> of a Binary Search Tree (BST), return <em>the minimum absolute difference between the values of any two different nodes in the tree</em>.</p>
+# Minimum Absolute Difference in BST
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/05/bst1.jpg" style="width: 292px; height: 301px;" />
-<pre>
-<strong>Input:</strong> root = [4,2,6,1,3]
-<strong>Output:</strong> 1
-</pre>
+Problem Link: https://leetcode.com/problems/minimum-absolute-difference-in-bst
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/05/bst2.jpg" style="width: 282px; height: 301px;" />
-<pre>
-<strong>Input:</strong> root = [1,0,48,null,null,12,49]
-<strong>Output:</strong> 1
-</pre>
+---
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+## Problem Statement
 
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[2, 10<sup>4</sup>]</code>.</li>
-	<li><code>0 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
-</ul>
+Given the root of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.
 
-<p>&nbsp;</p>
-<p><strong>Note:</strong> This question is the same as 783: <a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes/" target="_blank">https://leetcode.com/problems/minimum-distance-between-bst-nodes/</a></p>
+ 
+Example 1:
+
+
+Input: root = [4,2,6,1,3]
+Output: 1
+
+
+Example 2:
+
+
+Input: root = [1,0,48,null,null,12,49]
+Output: 1
+
+
+ 
+Constraints:
+
+
+	The number of nodes in the tree is in the range [2, 104].
+	0 <= Node.val <= 105
+
+
+ 
+Note: This question is the same as 783: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Binary Search
+- Two Pointers
+- Tree

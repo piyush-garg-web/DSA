@@ -1,58 +1,78 @@
-<h2><a href="https://leetcode.com/problems/valid-parentheses">20. Valid Parentheses</a></h2><h3>Easy</h3><hr><p>Given a string <code>s</code> containing just the characters <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;[&#39;</code> and <code>&#39;]&#39;</code>, determine if the input string is valid.</p>
+# Valid Parentheses
 
-<p>An input string is valid if:</p>
+Problem Link: https://leetcode.com/problems/valid-parentheses
 
-<ol>
-	<li>Open brackets must be closed by the same type of brackets.</li>
-	<li>Open brackets must be closed in the correct order.</li>
-	<li>Every close bracket has a corresponding open bracket of the same type.</li>
-</ol>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;()&quot;</span></p>
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-</div>
+An input string is valid if:
 
-<p><strong class="example">Example 2:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;()[]{}&quot;</span></p>
+	Open brackets must be closed by the same type of brackets.
+	Open brackets must be closed in the correct order.
+	Every close bracket has a corresponding open bracket of the same type.
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-</div>
 
-<p><strong class="example">Example 3:</strong></p>
+ 
+Example 1:
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;(]&quot;</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
-</div>
+Input: s = "()"
 
-<p><strong class="example">Example 4:</strong></p>
+Output: true
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;([])&quot;</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-</div>
+Example 2:
 
-<p><strong class="example">Example 5:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;([)]&quot;</span></p>
+Input: s = "()[]{}"
 
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
-</div>
+Output: true
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>s</code> consists of parentheses only <code>&#39;()[]{}&#39;</code>.</li>
-</ul>
+Example 3:
+
+
+Input: s = "(]"
+
+Output: false
+
+
+Example 4:
+
+
+Input: s = "([])"
+
+Output: true
+
+
+Example 5:
+
+
+Input: s = "([)]"
+
+Output: false
+
+
+ 
+Constraints:
+
+
+	1 <= s.length <= 104
+	s consists of parentheses only '()[]{}'.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String
+- Stack

@@ -1,4 +1,9 @@
-easy
+# Roman Integer
+
+---
+
+## Problem Statement
+
 Given a string s in Roman number format, your task is to convert it to an integer. Various symbols and their values are given below.
 Note: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000
 
@@ -16,3 +21,16 @@ Explanation: M is 1000, CM is 1000 – 100 = 900, and IV is 4. So we have total 
 Constraints:
 1 ≤ roman number ≤ 3999
 s[i] belongs to [I, V, X, L, C, D, M]
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String
+- Hash Map

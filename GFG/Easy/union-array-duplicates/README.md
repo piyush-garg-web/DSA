@@ -1,4 +1,9 @@
-easy 
+# Union Array Duplicates
+
+---
+
+## Problem Statement
+
 You are given two arrays a[] and b[], return the Union of both the arrays in any order.
 
 The Union of two arrays is a collection of all distinct elements present in either of the arrays. If an element appears more than once in one or both arrays, it should be included only once in the result.
@@ -20,3 +25,16 @@ Explanation: Union set of both the arrays will be 1 and 2.
 Constraints:
 1 ≤ a.size(), b.size() ≤ 106
 0 ≤ a[i], b[i] ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Hash Map

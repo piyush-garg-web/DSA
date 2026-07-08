@@ -1,42 +1,61 @@
-<h2><a href="https://leetcode.com/problems/complement-of-base-10-integer">1009. Complement of Base 10 Integer</a></h2><h3>Easy</h3><hr><p>The <strong>complement</strong> of an integer is the integer you get when you flip all the <code>0</code>&#39;s to <code>1</code>&#39;s and all the <code>1</code>&#39;s to <code>0</code>&#39;s in its binary representation.</p>
+# Complement of Base 10 Integer
 
-<ul>
-	<li>For example, The integer <code>5</code> is <code>&quot;101&quot;</code> in binary and its <strong>complement</strong> is <code>&quot;010&quot;</code> which is the integer <code>2</code>.</li>
-</ul>
+Problem Link: https://leetcode.com/problems/complement-of-base-10-integer
 
-<p>Given an integer <code>n</code>, return <em>its complement</em>.</p>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Statement
 
-<pre>
-<strong>Input:</strong> n = 5
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> 5 is &quot;101&quot; in binary, with complement &quot;010&quot; in binary, which is 2 in base-10.
-</pre>
+The complement of an integer is the integer you get when you flip all the 0's to 1's and all the 1's to 0's in its binary representation.
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> n = 7
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> 7 is &quot;111&quot; in binary, with complement &quot;000&quot; in binary, which is 0 in base-10.
-</pre>
+	For example, The integer 5 is "101" in binary and its complement is "010" which is the integer 2.
 
-<p><strong class="example">Example 3:</strong></p>
 
-<pre>
-<strong>Input:</strong> n = 10
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> 10 is &quot;1010&quot; in binary, with complement &quot;0101&quot; in binary, which is 5 in base-10.
-</pre>
+Given an integer n, return its complement.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>0 &lt;= n &lt; 10<sup>9</sup></code></li>
-</ul>
 
-<p>&nbsp;</p>
-<p><strong>Note:</strong> This question is the same as 476: <a href="https://leetcode.com/problems/number-complement/" target="_blank">https://leetcode.com/problems/number-complement/</a></p>
+Input: n = 5
+Output: 2
+Explanation: 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
+
+
+Example 2:
+
+
+Input: n = 7
+Output: 0
+Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
+
+
+Example 3:
+
+
+Input: n = 10
+Output: 5
+Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 5 in base-10.
+
+
+ 
+Constraints:
+
+
+	0 <= n < 109
+
+
+ 
+Note: This question is the same as 476: https://leetcode.com/problems/number-complement/
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics

@@ -1,4 +1,8 @@
-basic
+# Min Max Array
+
+---
+
+## Problem Statement
 
 Given an array arr[]. Your task is to find the minimum and maximum elements in the array.
 
@@ -13,3 +17,15 @@ Explanation: minimum and maximum element of array are 3 and 15.
 Constraints:
 1 ≤ arr.size() ≤ 105
 1 ≤ arr[i] ≤ 109
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

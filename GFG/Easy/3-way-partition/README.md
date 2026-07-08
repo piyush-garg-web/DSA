@@ -1,4 +1,9 @@
-easy
+# 3 Way Partition
+
+---
+
+## Problem Statement
+
 Given an array and a range a, b. The task is to partition the array around the range such that the array is divided into three parts.
 1) All elements smaller than a come first.
 2) All elements in range a to b come next.
@@ -21,3 +26,15 @@ Constraints:
 1 <= arr.size()<= 106
 1 <= array[i], a, b <= 109
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search

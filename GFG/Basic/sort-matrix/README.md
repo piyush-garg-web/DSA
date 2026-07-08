@@ -1,4 +1,9 @@
-basic
+# Sort Matrix
+
+---
+
+## Problem Statement
+
 Given an n*n matrix mat[][]. returns the matrix with all elements sorted in non-decreasing order.
 
 Examples:
@@ -27,3 +32,14 @@ Constraints:
 1 ≤ n ≤ 1000
 1 ≤ mat[i][j] ≤ 105
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

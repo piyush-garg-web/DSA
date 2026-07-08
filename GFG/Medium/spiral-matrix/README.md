@@ -1,4 +1,9 @@
-medium
+# Spiral Matrix
+
+---
+
+## Problem Statement
+
 Given a rectangular matrix mat[][] of size n x m, and return a 1D array containing all its elements in spiral order.
 
 Examples:
@@ -17,3 +22,14 @@ Constraints:
 1 ≤ n, m ≤1000
 0 ≤ mat[i][j] ≤100
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

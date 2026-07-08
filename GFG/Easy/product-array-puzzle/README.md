@@ -1,4 +1,9 @@
-easy
+# Product Array Puzzle
+
+---
+
+## Problem Statement
+
 Given an array, arr[] construct a product array, res[] where each element in res[i] is the product of all elements in arr[] except arr[i]. Return this resultant array, res[].
 Note: Each element is res[] lies inside the 32-bit integer range.
 
@@ -19,3 +24,14 @@ Constraints:
 2 <= arr.size() <= 105
 -100 <= arr[i] <= 100
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

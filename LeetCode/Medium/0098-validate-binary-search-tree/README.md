@@ -1,33 +1,54 @@
-<h2><a href="https://leetcode.com/problems/validate-binary-search-tree">98. Validate Binary Search Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, <em>determine if it is a valid binary search tree (BST)</em>.</p>
+# Validate Binary Search Tree
 
-<p>A <strong>valid BST</strong> is defined as follows:</p>
+Problem Link: https://leetcode.com/problems/validate-binary-search-tree
 
-<ul>
-	<li>The left <span data-keyword="subtree">subtree</span> of a node contains only nodes with keys&nbsp;<strong>strictly less than</strong> the node&#39;s key.</li>
-	<li>The right subtree of a node contains only nodes with keys <strong>strictly greater than</strong> the node&#39;s key.</li>
-	<li>Both the left and right subtrees must also be binary search trees.</li>
-</ul>
+---
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg" style="width: 302px; height: 182px;" />
-<pre>
-<strong>Input:</strong> root = [2,1,3]
-<strong>Output:</strong> true
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree2.jpg" style="width: 422px; height: 292px;" />
-<pre>
-<strong>Input:</strong> root = [5,1,4,null,null,3,6]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The root node&#39;s value is 5 but its right child&#39;s value is 4.
-</pre>
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+A valid BST is defined as follows:
 
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
-	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+
+	The left subtree of a node contains only nodes with keys strictly less than the node's key.
+	The right subtree of a node contains only nodes with keys strictly greater than the node's key.
+	Both the left and right subtrees must also be binary search trees.
+
+
+ 
+Example 1:
+
+
+Input: root = [2,1,3]
+Output: true
+
+
+Example 2:
+
+
+Input: root = [5,1,4,null,null,3,6]
+Output: false
+Explanation: The root node's value is 5 but its right child's value is 4.
+
+
+ 
+Constraints:
+
+
+	The number of nodes in the tree is in the range [1, 104].
+	-231 <= Node.val <= 231 - 1
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Binary Search
+- Two Pointers
+- Tree

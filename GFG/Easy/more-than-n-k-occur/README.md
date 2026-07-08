@@ -1,4 +1,9 @@
-easy
+# More Than N K Occur
+
+---
+
+## Problem Statement
+
 Given an array arr and an element k. The task is to find the count of elements in the array that appear more than n/k times and n is length of arr.
 
 Examples :
@@ -17,3 +22,15 @@ Constraints:
 0 <= arr[i] <= 108
 1 <= k <= arr.size()
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Hash Map

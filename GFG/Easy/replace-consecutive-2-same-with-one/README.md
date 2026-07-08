@@ -1,4 +1,9 @@
-easy
+# Replace Consecutive 2 Same With One
+
+---
+
+## Problem Statement
+
 Given a string s, consisting of lowercase alphabets. Remove consecutive duplicate characters from the string. 
 
 Example:
@@ -16,3 +21,14 @@ Constraints:
 1 ≤ n ≤ 106
 All characters in the string are lowercase English alphabets.
 
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- String

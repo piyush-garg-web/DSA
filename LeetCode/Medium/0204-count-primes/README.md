@@ -1,31 +1,50 @@
-<h2><a href="https://leetcode.com/problems/count-primes">204. Count Primes</a></h2><h3>Medium</h3><hr><p>Given an integer <code>n</code>, return <em>the number of prime numbers that are strictly less than</em> <code>n</code>.</p>
+# Count Primes
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Problem Link: https://leetcode.com/problems/count-primes
 
-<pre>
-<strong>Input:</strong> n = 10
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
-</pre>
+---
 
-<p><strong class="example">Example 2:</strong></p>
+## Problem Statement
 
-<pre>
-<strong>Input:</strong> n = 0
-<strong>Output:</strong> 0
-</pre>
+Given an integer n, return the number of prime numbers that are strictly less than n.
 
-<p><strong class="example">Example 3:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> n = 1
-<strong>Output:</strong> 0
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 
-<ul>
-	<li><code>0 &lt;= n &lt;= 5 * 10<sup>6</sup></code></li>
-</ul>
+
+Example 2:
+
+
+Input: n = 0
+Output: 0
+
+
+Example 3:
+
+
+Input: n = 1
+Output: 0
+
+
+ 
+Constraints:
+
+
+	0 <= n <= 5 * 106
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

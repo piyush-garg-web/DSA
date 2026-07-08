@@ -1,28 +1,48 @@
-<h2><a href="https://leetcode.com/problems/longest-palindromic-subsequence">516. Longest Palindromic Subsequence</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, find <em>the longest palindromic <strong>subsequence</strong>&#39;s length in</em> <code>s</code>.</p>
+# Longest Palindromic Subsequence
 
-<p>A <strong>subsequence</strong> is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.</p>
+Problem Link: https://leetcode.com/problems/longest-palindromic-subsequence
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> s = &quot;bbbab&quot;
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> One possible longest palindromic subsequence is &quot;bbbb&quot;.
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
+Given a string s, find the longest palindromic subsequence's length in s.
 
-<pre>
-<strong>Input:</strong> s = &quot;cbbd&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> One possible longest palindromic subsequence is &quot;bb&quot;.
-</pre>
+A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
-	<li><code>s</code> consists only of lowercase English letters.</li>
-</ul>
+
+Input: s = "bbbab"
+Output: 4
+Explanation: One possible longest palindromic subsequence is "bbbb".
+
+
+Example 2:
+
+
+Input: s = "cbbd"
+Output: 2
+Explanation: One possible longest palindromic subsequence is "bb".
+
+
+ 
+Constraints:
+
+
+	1 <= s.length <= 1000
+	s consists only of lowercase English letters.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

@@ -1,4 +1,9 @@
-medium
+# Kth Element 2 Arrays
+
+---
+
+## Problem Statement
+
 Given two sorted arrays a[] and b[] and an element k, the task is to find the element that would be at the kth position of the combined sorted array.
 
 Examples :
@@ -13,3 +18,17 @@ Constraints:
 1 ≤ a.size(), b.size() ≤ 106
 1 ≤ k ≤ a.size() + b.size()
 0 ≤ a[i], b[i] ≤ 108
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search
+- Two Pointers

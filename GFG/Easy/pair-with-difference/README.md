@@ -1,4 +1,9 @@
-easy
+# Pair With Difference
+
+---
+
+## Problem Statement
+
 Given an array, arr[] and an integer x, return true if there exists a pair of elements in the array whose absolute difference is x, otherwise, return false.
 
 Examples:
@@ -15,3 +20,15 @@ Constraints:
 1<= arr.size() <=106 
 1<= arr[i] <=106 
 0<= x <=105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

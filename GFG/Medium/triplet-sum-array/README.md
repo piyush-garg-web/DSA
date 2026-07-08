@@ -1,4 +1,9 @@
-medium
+# Triplet Sum Array
+
+---
+
+## Problem Statement
+
 Given an array arr[] and an integer target, determine if there exists a triplet in the array whose sum equals the given target.
 
 Return true if such a triplet exists, otherwise, return false.
@@ -17,3 +22,16 @@ Explanation: No triplet in the array sums to 24.
 Constraints:
 3 ≤ arr.size() ≤ 5*103
 0 ≤ arr[i], target ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Two Pointers

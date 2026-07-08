@@ -1,4 +1,9 @@
-basic
+# Median Array
+
+---
+
+## Problem Statement
+
 Given an array arr[] of integers, calculate the median.
 
 Examples:
@@ -15,3 +20,15 @@ Explanation: The average of both elements will result in 1.5.
 Constraints:
 1 <= arr.size() <= 105
 1 <= arr[i] <= 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

@@ -1,4 +1,9 @@
-basic
+# Middle Of Three
+
+---
+
+## Problem Statement
+
 Given three distinct numbers a, b and c. Find the number with a value in the middle (Try to do it with minimum comparisons).
 
 Examples :
@@ -13,4 +18,15 @@ Input: a = 246, b = 214, c = 450
 Output: 246
 Constraints:
 1<=a, b, c<=109
-a, b, c are distinct. 
+a, b, c are distinct.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics

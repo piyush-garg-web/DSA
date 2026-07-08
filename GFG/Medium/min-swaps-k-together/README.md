@@ -1,4 +1,9 @@
-medium
+# Min Swaps K Together
+
+---
+
+## Problem Statement
+
 Given an array arr and a number k. One can apply a swap operation on the array any number of times, i.e choose any two index i and j (i < j) and swap arr[i] , arr[j] . Find the minimum number of swaps required to bring all the numbers less than or equal to k together, i.e. make them a contiguous subarray.
 
 Examples :
@@ -15,3 +20,15 @@ Constraints:
 1 ≤ arr.size() ≤ 106
 1 ≤ arr[i] ≤ 106
 1 ≤ k ≤ 106
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

@@ -1,4 +1,9 @@
-medium
+# Majority Element
+
+---
+
+## Problem Statement
+
 Given an array arr[]. Find the majority element in the array. If no majority element exists, return -1.
 
 Note: A majority element in an array is an element that appears strictly more than arr.size()/2 times in the array.
@@ -17,3 +22,15 @@ Explanation: Since, no element is present more than 2/2 times, so there is no ma
 Constraints:
 1 ≤ arr.size() ≤ 105
 1 ≤ arr[i] ≤ 105
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

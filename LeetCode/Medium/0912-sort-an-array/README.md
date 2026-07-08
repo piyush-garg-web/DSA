@@ -1,28 +1,47 @@
-<h2><a href="https://leetcode.com/problems/sort-an-array">912. Sort an Array</a></h2><h3>Medium</h3><hr><p>Given an array of integers <code>nums</code>, sort the array in ascending order and return it.</p>
+# Sort an Array
 
-<p>You must solve the problem <strong>without using any built-in</strong> functions in <code>O(nlog(n))</code> time complexity and with the smallest space complexity possible.</p>
+Problem Link: https://leetcode.com/problems/sort-an-array
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> nums = [5,2,3,1]
-<strong>Output:</strong> [1,2,3,5]
-<strong>Explanation:</strong> After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
-</pre>
+## Problem Statement
 
-<p><strong class="example">Example 2:</strong></p>
+Given an array of integers nums, sort the array in ascending order and return it.
 
-<pre>
-<strong>Input:</strong> nums = [5,1,1,2,0,0]
-<strong>Output:</strong> [0,0,1,1,2,5]
-<strong>Explanation:</strong> Note that the values of nums are not necessarily unique.
-</pre>
+You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>-5 * 10<sup>4</sup> &lt;= nums[i] &lt;= 5 * 10<sup>4</sup></code></li>
-</ul>
+
+Input: nums = [5,2,3,1]
+Output: [1,2,3,5]
+Explanation: After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
+
+
+Example 2:
+
+
+Input: nums = [5,1,1,2,0,0]
+Output: [0,0,1,1,2,5]
+Explanation: Note that the values of nums are not necessarily unique.
+
+
+ 
+Constraints:
+
+
+	1 <= nums.length <= 5 * 104
+	-5 * 104 <= nums[i] <= 5 * 104
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

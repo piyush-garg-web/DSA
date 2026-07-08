@@ -1,42 +1,62 @@
-<h2><a href="https://leetcode.com/problems/longest-common-subsequence">1143. Longest Common Subsequence</a></h2><h3>Medium</h3><hr><p>Given two strings <code>text1</code> and <code>text2</code>, return <em>the length of their longest <strong>common subsequence</strong>. </em>If there is no <strong>common subsequence</strong>, return <code>0</code>.</p>
+# Longest Common Subsequence
 
-<p>A <strong>subsequence</strong> of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.</p>
+Problem Link: https://leetcode.com/problems/longest-common-subsequence
 
-<ul>
-	<li>For example, <code>&quot;ace&quot;</code> is a subsequence of <code>&quot;abcde&quot;</code>.</li>
-</ul>
+---
 
-<p>A <strong>common subsequence</strong> of two strings is a subsequence that is common to both strings.</p>
+## Problem Statement
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
 
-<pre>
-<strong>Input:</strong> text1 = &quot;abcde&quot;, text2 = &quot;ace&quot; 
-<strong>Output:</strong> 3  
-<strong>Explanation:</strong> The longest common subsequence is &quot;ace&quot; and its length is 3.
-</pre>
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> text1 = &quot;abc&quot;, text2 = &quot;abc&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The longest common subsequence is &quot;abc&quot; and its length is 3.
-</pre>
+	For example, "ace" is a subsequence of "abcde".
 
-<p><strong class="example">Example 3:</strong></p>
 
-<pre>
-<strong>Input:</strong> text1 = &quot;abc&quot;, text2 = &quot;def&quot;
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> There is no such common subsequence, so the result is 0.
-</pre>
+A common subsequence of two strings is a subsequence that is common to both strings.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+Example 1:
 
-<ul>
-	<li><code>1 &lt;= text1.length, text2.length &lt;= 1000</code></li>
-	<li><code>text1</code> and <code>text2</code> consist of only lowercase English characters.</li>
-</ul>
+
+Input: text1 = "abcde", text2 = "ace" 
+Output: 3  
+Explanation: The longest common subsequence is "ace" and its length is 3.
+
+
+Example 2:
+
+
+Input: text1 = "abc", text2 = "abc"
+Output: 3
+Explanation: The longest common subsequence is "abc" and its length is 3.
+
+
+Example 3:
+
+
+Input: text1 = "abc", text2 = "def"
+Output: 0
+Explanation: There is no such common subsequence, so the result is 0.
+
+
+ 
+Constraints:
+
+
+	1 <= text1.length, text2.length <= 1000
+	text1 and text2 consist of only lowercase English characters.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- String

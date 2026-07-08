@@ -1,4 +1,9 @@
-medium
+# Median Row Wise Sorted Matrix
+
+---
+
+## Problem Statement
+
 Given a row-wise sorted matrix mat[][] of size n*m, where the number of rows and columns is always odd. Return the median of the matrix.
 
 Examples:
@@ -19,3 +24,16 @@ Explanation: Sorting matrix elements gives us [3, 4, 8]. Hence, 4 is median.
 Constraints:
 1 ≤ n, m ≤ 400
 1 ≤ mat[i][j] ≤ 2000
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
+- Binary Search

@@ -1,4 +1,9 @@
-medium
+# Minimize Height 2
+
+---
+
+## Problem Statement
+
 Given an array arr[] denoting heights of n towers and a positive integer k.
 
 For each tower, you must perform exactly one of the following operations exactly once.
@@ -22,3 +27,15 @@ Constraints
 1 ≤ k ≤ 107
 1 ≤ n ≤ 105
 1 ≤ arr[i] ≤ 107
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array

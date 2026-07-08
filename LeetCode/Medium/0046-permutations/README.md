@@ -1,21 +1,40 @@
-<h2><a href="https://leetcode.com/problems/permutations/">46. Permutations</a></h2><h3>Medium</h3><hr><p>Given an array <code>nums</code> of distinct integers, return all the possible <span data-keyword="permutation-array">permutations</span>. You can return the answer in <strong>any order</strong>.</p>
+# Permutations
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> nums = [1,2,3]
-<strong>Output:</strong> [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> nums = [0,1]
-<strong>Output:</strong> [[0,1],[1,0]]
-</pre><p><strong class="example">Example 3:</strong></p>
-<pre><strong>Input:</strong> nums = [1]
-<strong>Output:</strong> [[1]]
-</pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Problem Link: https://leetcode.com/problems/permutations/
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 6</code></li>
-	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
-	<li>All the integers of <code>nums</code> are <strong>unique</strong>.</li>
-</ul>
+---
+
+## Problem Statement
+
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+
+ 
+Example 1:
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+Example 2:
+Input: nums = [0,1]
+Output: [[0,1],[1,0]]
+Example 3:
+Input: nums = [1]
+Output: [[1]]
+
+ 
+Constraints:
+
+
+	1 <= nums.length <= 6
+	-10 <= nums[i] <= 10
+	All the integers of nums are unique.
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+## Topics
+- Array
