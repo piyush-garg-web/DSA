@@ -252,6 +252,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0017-letter-combinations-of-a-phone-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0051-n-queens](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0051-n-queens/) | Hard |
+| [0052-n-queens-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0052-n-queens-ii/) | Hard |
 | [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
