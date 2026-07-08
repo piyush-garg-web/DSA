@@ -70,6 +70,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
+| [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
@@ -258,6 +259,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
