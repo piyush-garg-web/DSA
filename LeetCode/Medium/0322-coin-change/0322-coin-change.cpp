@@ -1,11 +1,11 @@
 class Solution {
 private:
     int solve(vector<int>& coins, int amount) {
-
         vector<int> dp(amount + 1, INT_MAX);
         dp[0] = 0;
 
         int mini = INT_MAX;
+
         for (int i = 1; i < dp.size(); i++) {
             for (int j = 0; j < coins.size(); j++) {
                 if (i - coins[j] >= 0 && dp[i - coins[j]] != INT_MAX) {
@@ -16,9 +16,9 @@ private:
 
         if (dp[amount] == INT_MAX) {
             return -1;
-        } else {
-            return dp[amount];
         }
+
+        return dp[amount];
     }
 
 public:

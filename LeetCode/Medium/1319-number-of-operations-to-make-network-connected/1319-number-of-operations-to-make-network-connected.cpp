@@ -9,6 +9,7 @@ private:
         while (!q.empty()) {
             int top = q.front();
             q.pop();
+
             for (auto nbr : adjList[top]) {
                 if (!visited[nbr]) {
                     q.push(nbr);
@@ -21,6 +22,7 @@ private:
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
         unordered_map<int, list<int>> adjList;
+
         for (int i = 0; i < connections.size(); i++) {
             int u = connections[i][0];
             int v = connections[i][1];
@@ -31,6 +33,7 @@ public:
         int cables = connections.size();
         int count = 0;
         vector<int> visited(n, 0);
+
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 count++;
@@ -38,13 +41,10 @@ public:
             }
         }
 
-     if (cables<n-1) {
-        return -1;
-     }
+        if (cables < n - 1) {
+            return -1;
+        }
 
-     else {
-        return count-1;
-     }
-     
+        return count - 1;
     }
 };

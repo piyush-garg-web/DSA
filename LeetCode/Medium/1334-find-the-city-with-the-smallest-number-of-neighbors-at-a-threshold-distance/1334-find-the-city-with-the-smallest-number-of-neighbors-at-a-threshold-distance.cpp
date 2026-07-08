@@ -13,6 +13,7 @@ private:
             auto top = *st.begin();
             int topDist = top.first;
             int topNode = top.second;
+
             if (topDist <= distanceThreshold && topNode != i) {
                 cities++;
             }
@@ -22,12 +23,14 @@ private:
             for (auto nbr : adjList[topNode]) {
                 int nbrElement = nbr.first;
                 int nbrDistance = nbr.second;
+
                 if (topDist + nbrDistance < distance[nbrElement]) {
-                    auto it =
-                        st.find(make_pair(distance[nbrElement], nbrElement));
+                    auto it = st.find(make_pair(distance[nbrElement], nbrElement));
+
                     if (it != st.end()) {
                         st.erase(it);
                     }
+
                     distance[nbrElement] = topDist + nbrDistance;
                     st.insert(make_pair(topDist + nbrDistance, nbrElement));
                 }
@@ -40,6 +43,7 @@ private:
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
         unordered_map<int, list<pair<int, int>>> adjList;
+
         for (int i = 0; i < edges.size(); i++) {
             int u = edges[i][0];
             int v = edges[i][1];
@@ -50,13 +54,16 @@ public:
 
         int count = INT_MAX;
         int index = -1;
+
         for (int i = 0; i < n; i++) {
             int cities = dijkstra(i, n, adjList, distanceThreshold);
+
             if (cities <= count) {
                 count = cities;
                 index = i;
             }
         }
+
         return index;
     }
 };

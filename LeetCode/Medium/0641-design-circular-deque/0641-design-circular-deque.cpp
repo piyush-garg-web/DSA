@@ -1,4 +1,5 @@
 class MyCircularDeque {
+private:
     int* arr;
     int front;
     int rear;
@@ -94,19 +95,11 @@ public:
     }
 
     bool isEmpty() {
-        if (front == -1) {
-            return true;
-        }
-
-        return false;
+        return front == -1;
     }
 
     bool isFull() {
-        if ((front == 0 && rear == size - 1) || (rear == front - 1)) {
-            return true;
-        }
-
-        return false;
+        return (front == 0 && rear == size - 1) || (rear == front - 1);
     }
 };
 

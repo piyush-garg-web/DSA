@@ -4,6 +4,7 @@ public:
         vector<set<int>> ans(n);
         unordered_map<int, list<int>> adj;
         vector<int> indegree(n, 0);
+
         for (int i = 0; i < edges.size(); i++) {
             int u = edges[i][0];
             int v = edges[i][1];
@@ -37,11 +38,11 @@ public:
                 }
             }
         }
-        
+
         vector<vector<int>> result(n);
-        
-        for (int i=0;i<n;i++) {
-            result[i]=vector<int>(ans[i].begin(),ans[i].end());
+
+        for (int i = 0; i < n; i++) {
+            result[i] = vector<int>(ans[i].begin(), ans[i].end());
         }
 
         return result;

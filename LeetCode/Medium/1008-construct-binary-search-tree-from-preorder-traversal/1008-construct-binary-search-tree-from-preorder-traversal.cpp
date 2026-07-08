@@ -10,29 +10,29 @@
  * };
  */
 class Solution {
-    private :
-    TreeNode* buildBST(vector<int>& preorder,int& i,int mini,int maxi,int size) {
-if (i>=size) {
-    return NULL;
-}
+private:
+    TreeNode* buildBST(vector<int>& preorder, int& i, int mini, int maxi, int size) {
+        if (i >= size) {
+            return NULL;
+        }
 
-if (preorder[i]<mini || preorder[i]>maxi) {
-    return NULL;
-}
+        if (preorder[i] < mini || preorder[i] > maxi) {
+            return NULL;
+        }
 
-TreeNode* root=new TreeNode(preorder[i++]);
-root->left=buildBST(preorder,i,mini,root->val,size);
-root->right=buildBST(preorder,i,root->val,maxi,size);
-return root;
-
+        TreeNode* root = new TreeNode(preorder[i++]);
+        root->left = buildBST(preorder, i, mini, root->val, size);
+        root->right = buildBST(preorder, i, root->val, maxi, size);
+        return root;
     }
+
 public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        int i=0;
-        int mini=INT_MIN;
-        int maxi=INT_MAX;
-        int n=preorder.size();
-        TreeNode* ans=buildBST(preorder,i,mini,maxi,n);
+        int i = 0;
+        int mini = INT_MIN;
+        int maxi = INT_MAX;
+        int n = preorder.size();
+        TreeNode* ans = buildBST(preorder, i, mini, maxi, n);
         return ans;
     }
 };

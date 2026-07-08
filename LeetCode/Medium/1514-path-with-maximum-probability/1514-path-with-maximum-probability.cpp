@@ -4,6 +4,7 @@ public:
                           vector<double>& succProb, int start_node,
                           int end_node) {
         unordered_map<int, list<pair<int, double>>> adj;
+
         for (int i = 0; i < edges.size(); i++) {
             int u = edges[i][0];
             int v = edges[i][1];
@@ -15,7 +16,7 @@ public:
         vector<double> maxProb(n, 0.0);
         priority_queue<pair<double, int>> pq;
         maxProb[start_node] = 1.0;
-        pq.push(make_pair(maxProb[start_node],start_node));
+        pq.push(make_pair(maxProb[start_node], start_node));
 
         while (!pq.empty()) {
             auto top = pq.top();
@@ -36,8 +37,8 @@ public:
                     pq.push(make_pair(topProb * currProb, currNode));
                 }
             }
-
         }
+
         return 0.0;
     }
 };

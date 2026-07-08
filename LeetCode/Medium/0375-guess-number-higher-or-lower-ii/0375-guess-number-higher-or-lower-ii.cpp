@@ -1,25 +1,21 @@
 class Solution {
 private:
     int solve(int n) {
-
         vector<vector<int>> dp(n + 2, vector<int>(n + 2, 0));
 
         for (int i = n; i >= 1; i--) {
             for (int j = i; j <= n; j++) {
-
-                if (i==j) {
+                if (i == j) {
                     continue;
                 }
 
                 int ans = INT_MAX;
 
                 for (int k = i; k <= j; k++) {
-                    ans = min(ans,
-                              k + max(dp[i][k-1], dp[k+1][j]));
+                    ans = min(ans, k + max(dp[i][k - 1], dp[k + 1][j]));
                 }
 
-                dp[i][j]=ans;
-
+                dp[i][j] = ans;
             }
         }
 
@@ -27,5 +23,7 @@ private:
     }
 
 public:
-    int getMoneyAmount(int n) { return solve(n); }
+    int getMoneyAmount(int n) {
+        return solve(n);
+    }
 };
