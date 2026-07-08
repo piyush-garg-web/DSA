@@ -74,6 +74,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
 | [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
@@ -97,6 +98,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
 | [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -110,6 +112,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -156,6 +159,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
 | [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
@@ -434,6 +438,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
@@ -442,6 +447,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 ## Radix Sort
 | Problem Name | Difficulty |
@@ -452,10 +458,15 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 <!---LeetCode Topics End-->
