@@ -19,6 +19,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -227,6 +228,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
+| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
@@ -243,6 +245,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 ## Greedy
@@ -426,6 +429,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
