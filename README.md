@@ -121,6 +121,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0020-valid-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0856-score-of-parentheses](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
@@ -190,4 +191,8 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
