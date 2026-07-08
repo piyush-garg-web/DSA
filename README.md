@@ -113,6 +113,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -168,6 +169,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
+| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
 ## Binary Search
@@ -308,6 +310,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
+| [1691-maximum-height-by-stacking-cuboids](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [1824-minimum-sideway-jumps](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1824-minimum-sideway-jumps/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
