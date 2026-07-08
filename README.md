@@ -99,6 +99,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
+| [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
@@ -305,6 +306,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
