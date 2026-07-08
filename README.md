@@ -16,6 +16,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [0231-power-of-two](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0973-k-closest-points-to-origin/) | Medium |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
@@ -274,6 +275,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
+| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0377-combination-sum-iv](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
@@ -498,6 +500,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0199-binary-tree-right-side-view](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0210-course-schedule-ii/) | Medium |
+| [0279-perfect-squares](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0279-perfect-squares/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
