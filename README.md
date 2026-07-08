@@ -145,6 +145,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0206-reverse-linked-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
