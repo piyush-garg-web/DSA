@@ -407,6 +407,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
@@ -574,6 +575,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
@@ -615,4 +617,8 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+## Biconnected Component
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 <!---LeetCode Topics End-->
