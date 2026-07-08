@@ -63,6 +63,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0031-next-permutation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0031-next-permutation/) | Medium |
+| [0033-search-in-rotated-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
 | [0046-permutations](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
@@ -195,6 +196,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0069-sqrtx](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
