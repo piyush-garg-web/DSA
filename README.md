@@ -110,6 +110,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0801-minimum-swaps-to-make-sequences-increasing/) | Hard |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
+| [0860-lemonade-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0860-lemonade-change/) | Easy |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
@@ -407,6 +408,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
+| [0860-lemonade-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0860-lemonade-change/) | Easy |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
