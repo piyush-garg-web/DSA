@@ -63,6 +63,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0051-n-queens/) | Hard |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
@@ -247,6 +248,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0037-sudoku-solver](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0037-sudoku-solver/) | Hard |
 | [0048-rotate-image](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
@@ -264,6 +266,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0063-unique-paths-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
