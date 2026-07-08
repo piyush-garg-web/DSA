@@ -8,45 +8,45 @@ Problem Link: https://leetcode.com/problems/balanced-binary-tree
 
 Given a binary tree, determine if it is height-balanced.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: root = [3,9,20,null,null,15,7]
-Output: true
+### Example 1
 
+```text
+Input:
+root = [3,9,20,null,null,15,7]
 
-Example 2:
+Output:
+true
+```
 
+### Example 2
 
-Input: root = [1,2,2,3,3,null,null,4,4]
-Output: false
+```text
+Input:
+root = [1,2,2,3,3,null,null,4,4]
 
+Output:
+false
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+root = []
 
-Input: root = []
-Output: true
-
-
- 
-Constraints:
-
-
-	The number of nodes in the tree is in the range [0, 5000].
-	-104 <= Node.val <= 104
+Output:
+true
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Binary Search
-- Two Pointers
-- Tree
+```text
+The number of nodes in the tree is in the range [0, 5000].
+-104 <= Node.val <= 104
+```

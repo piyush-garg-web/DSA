@@ -14,44 +14,44 @@ Return the number of possible unique paths that the robot can take to reach the 
 
 The testcases are generated so that the answer will be less than or equal to 2 * 109.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
-Output: 2
-Explanation: There is one obstacle in the middle of the 3x3 grid above.
+### Example 1
+
+```text
+Input:
+obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
+
+Output:
+2
+
+Explanation:
+There is one obstacle in the middle of the 3x3 grid above.
 There are two ways to reach the bottom-right corner:
 1. Right -> Right -> Down -> Down
 2. Down -> Down -> Right -> Right
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: obstacleGrid = [[0,1],[0,0]]
-Output: 1
+```text
+Input:
+obstacleGrid = [[0,1],[0,0]]
 
-
- 
-Constraints:
-
-
-	m == obstacleGrid.length
-	n == obstacleGrid[i].length
-	1 <= m, n <= 100
-	obstacleGrid[i][j] is 0 or 1.
+Output:
+1
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Two Pointers
-- Dynamic Programming
+```text
+m == obstacleGrid.length
+n == obstacleGrid[i].length
+1 <= m, n <= 100
+obstacleGrid[i][j] is 0 or 1.
+```

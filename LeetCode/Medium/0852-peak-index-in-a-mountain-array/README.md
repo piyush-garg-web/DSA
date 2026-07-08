@@ -12,47 +12,46 @@ Return the index of the peak element.
 
 Your task is to solve it in O(log(n)) time complexity.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: arr = [0,1,0]
+### Example 1
 
-Output: 1
+```text
+Input:
+arr = [0,1,0]
 
+Output:
+1
+```
 
-Example 2:
+### Example 2
 
+```text
+Input:
+arr = [0,2,1,0]
 
-Input: arr = [0,2,1,0]
+Output:
+1
+```
 
-Output: 1
+### Example 3
 
+```text
+Input:
+arr = [0,10,5,2]
 
-Example 3:
-
-
-Input: arr = [0,10,5,2]
-
-Output: 1
-
-
- 
-Constraints:
-
-
-	3 <= arr.length <= 105
-	0 <= arr[i] <= 106
-	arr is guaranteed to be a mountain array.
+Output:
+1
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+3 <= arr.length <= 105
+0 <= arr[i] <= 106
+arr is guaranteed to be a mountain array.
+```

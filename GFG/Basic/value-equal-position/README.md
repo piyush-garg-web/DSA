@@ -8,26 +8,41 @@ Given an array arr[]. Find the elements whose value is equal to the position whe
 
 Note: There can be more than one element in the array which have the same value as its position. You need to include the position of every such element.
 
-Examples:
+---
 
-Input: arr[] = [15, 2, 45, 4, 7]
-Output: [2, 4]
-Explanation: Here, arr[2] = 2 exists here and arr[4] = 4 exists.
-Input: arr[] = [1]
-Output: [1]
-Explanation: Here arr[1] = 1 exists.
-Constraints:
+## Examples
+
+### Example 1
+
+```text
+Input:
+arr[] = [15, 2, 45, 4, 7]
+
+Output:
+[2, 4]
+
+Explanation:
+Here, arr[2] = 2 exists here and arr[4] = 4 exists.
+```
+
+### Example 2
+
+```text
+Input:
+arr[] = [1]
+
+Output:
+[1]
+
+Explanation:
+Here arr[1] = 1 exists.
+```
+
+---
+
+## Constraints
+
+```text
 1 ≤ arr.size ≤ 105
 1 ≤ arr[i] ≤ 106
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```

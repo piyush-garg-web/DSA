@@ -19,42 +19,44 @@ The athletes are placed based on their scores, where the 1st place athlete has t
 
 Return an array answer of size n where answer[i] is the rank of the ith athlete.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: score = [5,4,3,2,1]
-Output: ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
-Explanation: The placements are [1st, 2nd, 3rd, 4th, 5th].
+### Example 1
 
+```text
+Input:
+score = [5,4,3,2,1]
+
+Output:
+["Gold Medal","Silver Medal","Bronze Medal","4","5"]
+
+Explanation:
+The placements are [1st, 2nd, 3rd, 4th, 5th].
 Example 2:
+```
 
+### Example 2
 
-Input: score = [10,3,8,9,4]
-Output: ["Gold Medal","5","Bronze Medal","Silver Medal","4"]
-Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
+```text
+Input:
+score = [10,3,8,9,4]
 
+Output:
+["Gold Medal","5","Bronze Medal","Silver Medal","4"]
 
-
- 
-Constraints:
-
-
-	n == score.length
-	1 <= n <= 104
-	0 <= score[i] <= 106
-	All the values in score are unique.
+Explanation:
+The placements are [1st, 5th, 3rd, 2nd, 4th].
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- String
-- Heap
+```text
+n == score.length
+1 <= n <= 104
+0 <= score[i] <= 106
+All the values in score are unique.
+```

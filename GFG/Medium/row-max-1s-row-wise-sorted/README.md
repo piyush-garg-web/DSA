@@ -10,33 +10,54 @@ Note:
 
 The array follows 0-based indexing.
 The number of rows and columns in the array are denoted by n.
-Examples:
 
-Input: arr[][] = [[0,1,1,1],
-               [0,0,1,1],
-               [1,1,1,1],
-               [0,0,0,0]]
-Output: 2
-Explanation: Row 2 contains the most number of 1s (4 1s). Hence, the output is 2.
-Input: arr[][] = [[0,0],
-               [1,1]]
-Output: 1
-Explanation: Row 1 contains the most number of 1s (2 1s). Hence, the output is 1.
-Input: arr[][] = [[0,0], 
-               [0,0]]
-Output: -1
-Explanation: No row contains any 1s, so the output is -1.
-Constraints:
+---
+
+## Examples
+
+### Example 1
+
+```text
+Input:
+arr[][] = [[0,1,1,1],
+
+Output:
+2
+
+Explanation:
+Row 2 contains the most number of 1s (4 1s). Hence, the output is 2.
+```
+
+### Example 2
+
+```text
+Input:
+arr[][] = [[0,0],
+
+Output:
+1
+
+Explanation:
+Row 1 contains the most number of 1s (2 1s). Hence, the output is 1.
+```
+
+### Example 3
+
+```text
+Input:
+arr[][] = [[0,0],
+
+Output:
+-1
+
+Explanation:
+No row contains any 1s, so the output is -1.
+```
+
+---
+
+## Constraints
+
+```text
 1 ≤ arr.size(), arr[i].size() ≤ 103
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```

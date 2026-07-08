@@ -10,38 +10,41 @@ Given an integer n, return the least number of perfect square numbers that sum t
 
 A perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, 1, 4, 9, and 16 are perfect squares while 3 and 11 are not.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: n = 12
-Output: 3
-Explanation: 12 = 4 + 4 + 4.
+### Example 1
 
+```text
+Input:
+n = 12
 
+Output:
+3
+
+Explanation:
+12 = 4 + 4 + 4.
 Example 2:
+```
 
+### Example 2
 
-Input: n = 13
-Output: 2
-Explanation: 13 = 4 + 9.
+```text
+Input:
+n = 13
 
+Output:
+2
 
- 
-Constraints:
-
-
-	1 <= n <= 104
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Explanation:
+13 = 4 + 9.
+```
 
 ---
 
-## Topics
-- Array
-- Dynamic Programming
+## Constraints
+
+```text
+1 <= n <= 104
+```

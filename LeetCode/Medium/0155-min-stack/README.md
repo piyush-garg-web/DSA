@@ -20,17 +20,23 @@ Implement the MinStack class:
 
 You must implement a solution with O(1) time complexity for each function.
 
- 
-Example 1:
+---
 
+## Examples
 
+### Example 1
+
+```text
+Input:
 Input
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[0],[-3],[],[],[],[]]
 
+Output:
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+
+Explanation:
+[[],[-2],[0],[-3],[],[],[],[]]
 Output
 [null,null,null,null,-3,null,0,-2]
-
 Explanation
 MinStack minStack = new MinStack();
 minStack.push(-2);
@@ -40,24 +46,14 @@ minStack.getMin(); // return -3
 minStack.pop();
 minStack.top();    // return 0
 minStack.getMin(); // return -2
-
-
- 
-Constraints:
-
-
-	-231 <= val <= 231 - 1
-	Methods pop, top and getMin operations will always be called on non-empty stacks.
-	At most 3 * 104 calls will be made to push, pop, top, and getMin.
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Stack
+```text
+-231 <= val <= 231 - 1
+Methods pop, top and getMin operations will always be called on non-empty stacks.
+At most 3 * 104 calls will be made to push, pop, top, and getMin.
+```

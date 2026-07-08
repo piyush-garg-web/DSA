@@ -14,61 +14,50 @@ The reversal is only valid for that single move, and using a reversed edge costs
 
 Return the minimum total cost to travel from node 0 to node n - 1. If it is not possible, return -1.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: n = 4, edges = [[0,1,3],[3,1,1],[2,3,4],[0,2,2]]
+### Example 1
 
-Output: 5
+```text
+Input:
+n = 4, edges = [[0,1,3],[3,1,1],[2,3,4],[0,2,2]]
 
-Explanation: 
+Output:
+5
 
-
-
+Explanation:
 
 	Use the path 0 &rarr; 1 (cost 3).
 	At node 1 reverse the original edge 3 &rarr; 1 into 1 &rarr; 3 and traverse it at cost 2 * 1 = 2.
 	Total cost is 3 + 2 = 5.
-
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: n = 4, edges = [[0,2,1],[2,1,1],[1,3,1],[2,3,3]]
+```text
+Input:
+n = 4, edges = [[0,2,1],[2,1,1],[1,3,1],[2,3,3]]
 
-Output: 3
+Output:
+3
 
 Explanation:
 
-
 	No reversal is needed. Take the path 0 &rarr; 2 (cost 1), then 2 &rarr; 1 (cost 1), then 1 &rarr; 3 (cost 1).
 	Total cost is 1 + 1 + 1 = 3.
-
-
-
- 
-Constraints:
-
-
-	2 <= n <= 5 * 104
-	1 <= edges.length <= 105
-	edges[i] = [ui, vi, wi]
-	0 <= ui, vi <= n - 1
-	1 <= wi <= 1000
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Hash Map
-- Heap
-- Graph
+```text
+2 <= n <= 5 * 104
+1 <= edges.length <= 105
+edges[i] = [ui, vi, wi]
+0 <= ui, vi <= n - 1
+1 <= wi <= 1000
+```

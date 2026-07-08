@@ -14,42 +14,45 @@ Return the length of the longest cycle in the graph. If no cycle exists, return 
 
 A cycle is a path that starts and ends at the same node.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: edges = [3,3,4,2,3]
-Output: 3
-Explanation: The longest cycle in the graph is the cycle: 2 -> 4 -> 3 -> 2.
+### Example 1
+
+```text
+Input:
+edges = [3,3,4,2,3]
+
+Output:
+3
+
+Explanation:
+The longest cycle in the graph is the cycle: 2 -> 4 -> 3 -> 2.
 The length of this cycle is 3, so 3 is returned.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: edges = [2,-1,3,1]
-Output: -1
-Explanation: There are no cycles in this graph.
+```text
+Input:
+edges = [2,-1,3,1]
 
+Output:
+-1
 
- 
-Constraints:
-
-
-	n == edges.length
-	2 <= n <= 105
-	-1 <= edges[i] < n
-	edges[i] != i
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Explanation:
+There are no cycles in this graph.
+```
 
 ---
 
-## Topics
-- Array
-- DFS
+## Constraints
+
+```text
+n == edges.length
+2 <= n <= 105
+-1 <= edges[i] < n
+edges[i] != i
+```

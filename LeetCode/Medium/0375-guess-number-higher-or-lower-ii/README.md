@@ -18,13 +18,21 @@ We are playing the Guessing Game. The game will work as follows:
 
 Given a particular n, return the minimum amount of money you need to guarantee a win regardless of what number I pick.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: n = 10
-Output: 16
-Explanation: The winning strategy is as follows:
+### Example 1
+
+```text
+Input:
+n = 10
+
+Output:
+16
+
+Explanation:
+The winning strategy is as follows:
 - The range is [1,10]. Guess 7.
     - If this is my number, your total is $0. Otherwise, you pay $7.
     - If my number is higher, the range is [8,10]. Guess 9.
@@ -41,43 +49,44 @@ Explanation: The winning strategy is as follows:
             - If this is my number, your total is $7 + $3 = $10. Otherwise, you pay $1.
             - If my number is higher, it must be 2. Guess 2. Your total is $7 + $3 + $1 = $11.
 The worst case in all these scenarios is that you pay $16. Hence, you only need $16 to guarantee a win.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: n = 1
-Output: 0
-Explanation: There is only one possible number, so you can guess 1 and not have to pay anything.
+```text
+Input:
+n = 1
 
+Output:
+0
 
+Explanation:
+There is only one possible number, so you can guess 1 and not have to pay anything.
 Example 3:
+```
 
+### Example 3
 
-Input: n = 2
-Output: 1
-Explanation: There are two possible numbers, 1 and 2.
+```text
+Input:
+n = 2
+
+Output:
+1
+
+Explanation:
+There are two possible numbers, 1 and 2.
 - Guess 1.
     - If this is my number, your total is $0. Otherwise, you pay $1.
     - If my number is higher, it must be 2. Guess 2. Your total is $1.
 The worst case is that you pay $1.
-
-
- 
-Constraints:
-
-
-	1 <= n <= 200
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Dynamic Programming
+```text
+1 <= n <= 200
+```

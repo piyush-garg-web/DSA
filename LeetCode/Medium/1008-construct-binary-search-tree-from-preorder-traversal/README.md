@@ -14,40 +14,36 @@ A binary search tree is a binary tree where for every node, any descendant of No
 
 A preorder traversal of a binary tree displays the value of the node first, then traverses Node.left, then traverses Node.right.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: preorder = [8,5,1,7,10,12]
-Output: [8,5,10,1,7,null,12]
+### Example 1
 
+```text
+Input:
+preorder = [8,5,1,7,10,12]
 
-Example 2:
+Output:
+[8,5,10,1,7,null,12]
+```
 
+### Example 2
 
-Input: preorder = [1,3]
-Output: [1,null,3]
+```text
+Input:
+preorder = [1,3]
 
-
- 
-Constraints:
-
-
-	1 <= preorder.length <= 100
-	1 <= preorder[i] <= 1000
-	All the values of preorder are unique.
+Output:
+[1,null,3]
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Binary Search
-- Two Pointers
-- Tree
+```text
+1 <= preorder.length <= 100
+1 <= preorder[i] <= 1000
+All the values of preorder are unique.
+```

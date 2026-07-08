@@ -14,42 +14,39 @@ You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith
 
 Return the total number of provinces.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: isConnected = [[1,1,0],[1,1,0],[0,0,1]]
-Output: 2
+### Example 1
 
+```text
+Input:
+isConnected = [[1,1,0],[1,1,0],[0,0,1]]
 
-Example 2:
+Output:
+2
+```
 
+### Example 2
 
-Input: isConnected = [[1,0,0],[0,1,0],[0,0,1]]
-Output: 3
+```text
+Input:
+isConnected = [[1,0,0],[0,1,0],[0,0,1]]
 
-
- 
-Constraints:
-
-
-	1 <= n <= 200
-	n == isConnected.length
-	n == isConnected[i].length
-	isConnected[i][j] is 1 or 0.
-	isConnected[i][i] == 1
-	isConnected[i][j] == isConnected[j][i]
+Output:
+3
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Queue
-- BFS
+```text
+1 <= n <= 200
+n == isConnected.length
+n == isConnected[i].length
+isConnected[i][j] is 1 or 0.
+isConnected[i][i] == 1
+isConnected[i][j] == isConnected[j][i]
+```

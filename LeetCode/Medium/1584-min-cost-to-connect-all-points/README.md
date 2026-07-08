@@ -12,41 +12,42 @@ The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distanc
 
 Return the minimum cost to make all points connected. All points are connected if there is exactly one simple path between any two points.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
-Output: 20
-Explanation: 
+### Example 1
+
+```text
+Input:
+points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
+
+Output:
+20
+
+Explanation:
 
 We can connect the points as shown above to get the minimum cost of 20.
 Notice that there is a unique path between every pair of points.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: points = [[3,12],[-2,5],[-4,1]]
-Output: 18
+```text
+Input:
+points = [[3,12],[-2,5],[-4,1]]
 
-
- 
-Constraints:
-
-
-	1 <= points.length <= 1000
-	-106 <= xi, yi <= 106
-	All pairs (xi, yi) are distinct.
+Output:
+18
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+1 <= points.length <= 1000
+-106 <= xi, yi <= 106
+All pairs (xi, yi) are distinct.
+```

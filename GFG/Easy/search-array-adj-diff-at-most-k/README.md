@@ -17,20 +17,16 @@ Input: arr[] = [20, 40, 50], k = 20 , x = 70
 Output: -1 
 Explaination: As there is no occurrence of 70. So, return -1.
 
+---
 
-Constraints:
+## Examples
+
+---
+
+## Constraints
+
+```text
 1 ≤ arr.size ≤ 105
 1 ≤ k ≤ 102
 1 ≤ arr[i], x ≤ 105
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```

@@ -16,17 +16,23 @@ Implement the Trie class:
 	boolean search(String word) Returns true if the string word is in the trie (i.e., was inserted before), and false otherwise.
 	boolean startsWith(String prefix) Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.
 
+---
 
- 
-Example 1:
+## Examples
 
+### Example 1
 
+```text
+Input:
 Input
+
+Output:
 ["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
+
+Explanation:
 [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
 Output
 [null, null, true, false, true, null, true]
-
 Explanation
 Trie trie = new Trie();
 trie.insert("apple");
@@ -35,26 +41,14 @@ trie.search("app");     // return False
 trie.startsWith("app"); // return True
 trie.insert("app");
 trie.search("app");     // return True
-
-
- 
-Constraints:
-
-
-	1 <= word.length, prefix.length <= 2000
-	word and prefix consist only of lowercase English letters.
-	At most 3 * 104 calls in total will be made to insert, search, and startsWith.
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
-- Binary Search
-- Trie
+```text
+1 <= word.length, prefix.length <= 2000
+word and prefix consist only of lowercase English letters.
+At most 3 * 104 calls in total will be made to insert, search, and startsWith.
+```

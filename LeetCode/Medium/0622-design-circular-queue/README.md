@@ -22,18 +22,25 @@ Implement the MyCircularQueue class:
 	boolean isFull() Checks whether the circular queue is full or not.
 
 
-You must solve the problem without using the built-in queue data structure in your programming language. 
+You must solve the problem without using the built-in queue data structure in your programming language.
 
- 
-Example 1:
+---
 
+## Examples
 
+### Example 1
+
+```text
+Input:
 Input
+
+Output:
 ["MyCircularQueue", "enQueue", "enQueue", "enQueue", "enQueue", "Rear", "isFull", "deQueue", "enQueue", "Rear"]
+
+Explanation:
 [[3], [1], [2], [3], [4], [], [], [], [4], []]
 Output
 [null, true, true, true, false, 3, true, true, true, 4]
-
 Explanation
 MyCircularQueue myCircularQueue = new MyCircularQueue(3);
 myCircularQueue.enQueue(1); // return True
@@ -45,23 +52,14 @@ myCircularQueue.isFull();   // return True
 myCircularQueue.deQueue();  // return True
 myCircularQueue.enQueue(4); // return True
 myCircularQueue.Rear();     // return 4
-
-
- 
-Constraints:
-
-
-	1 <= k <= 1000
-	0 <= value <= 1000
-	At most 3000 calls will be made to enQueue, deQueue, Front, Rear, isEmpty, and isFull.
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
+```text
+1 <= k <= 1000
+0 <= value <= 1000
+At most 3000 calls will be made to enQueue, deQueue, Front, Rear, isEmpty, and isFull.
+```

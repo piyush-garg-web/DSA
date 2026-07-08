@@ -17,44 +17,36 @@ Assume a BST is defined as follows:
 	The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
 	Both the left and right subtrees must also be binary search trees.
 
+---
 
- 
-Example 1:
+## Examples
 
+### Example 1
 
-Input: root = [1,null,2,2]
-Output: [2]
+```text
+Input:
+root = [1,null,2,2]
 
+Output:
+[2]
+```
 
-Example 2:
+### Example 2
 
+```text
+Input:
+root = [0]
 
-Input: root = [0]
-Output: [0]
+Output:
+[0]
+```
 
+---
 
- 
-Constraints:
+## Constraints
 
-
-	The number of nodes in the tree is in the range [1, 104].
-	-105 <= Node.val <= 105
-
-
- 
+```text
+The number of nodes in the tree is in the range [1, 104].
+-105 <= Node.val <= 105
 Follow up: Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Binary Search
-- Two Pointers
-- Tree
+```

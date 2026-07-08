@@ -10,40 +10,35 @@ Given the root of a binary tree, return all root-to-leaf paths in any order.
 
 A leaf is a node with no children.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: root = [1,2,3,null,5]
-Output: ["1->2->5","1->3"]
+### Example 1
 
+```text
+Input:
+root = [1,2,3,null,5]
 
-Example 2:
+Output:
+["1->2->5","1->3"]
+```
 
+### Example 2
 
-Input: root = [1]
-Output: ["1"]
+```text
+Input:
+root = [1]
 
-
- 
-Constraints:
-
-
-	The number of nodes in the tree is in the range [1, 100].
-	-100 <= Node.val <= 100
+Output:
+["1"]
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- String
-- Binary Search
-- Two Pointers
-- Tree
+```text
+The number of nodes in the tree is in the range [1, 100].
+-100 <= Node.val <= 100
+```

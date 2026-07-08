@@ -14,36 +14,48 @@ Given the array nums after the possible rotation and an integer target, return t
 
 You must write an algorithm with O(log n) runtime complexity.
 
- 
-Example 1:
-Input: nums = [4,5,6,7,0,1,2], target = 0
-Output: 4
-Example 2:
-Input: nums = [4,5,6,7,0,1,2], target = 3
-Output: -1
-Example 3:
-Input: nums = [1], target = 0
-Output: -1
+---
 
- 
-Constraints:
+## Examples
 
+### Example 1
 
-	1 <= nums.length <= 5000
-	-104 <= nums[i] <= 104
-	All values of nums are unique.
-	nums is an ascending array that is possibly rotated.
-	-104 <= target <= 104
+```text
+Input:
+nums = [4,5,6,7,0,1,2], target = 0
+
+Output:
+4
+```
+
+### Example 2
+
+```text
+Input:
+nums = [4,5,6,7,0,1,2], target = 3
+
+Output:
+-1
+```
+
+### Example 3
+
+```text
+Input:
+nums = [1], target = 0
+
+Output:
+-1
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Binary Search
+```text
+1 <= nums.length <= 5000
+-104 <= nums[i] <= 104
+All values of nums are unique.
+nums is an ascending array that is possibly rotated.
+-104 <= target <= 104
+```

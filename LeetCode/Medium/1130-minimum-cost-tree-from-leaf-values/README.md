@@ -18,42 +18,41 @@ Among all possible binary trees considered, return the smallest possible sum of 
 
 A node is a leaf if and only if it has zero children.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: arr = [6,2,4]
-Output: 32
-Explanation: There are two possible trees shown.
+### Example 1
+
+```text
+Input:
+arr = [6,2,4]
+
+Output:
+32
+
+Explanation:
+There are two possible trees shown.
 The first has a non-leaf node sum 36, and the second has non-leaf node sum 32.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: arr = [4,11]
-Output: 44
+```text
+Input:
+arr = [4,11]
 
-
- 
-Constraints:
-
-
-	2 <= arr.length <= 40
-	1 <= arr[i] <= 15
-	It is guaranteed that the answer fits into a 32-bit signed integer (i.e., it is less than 231).
+Output:
+44
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Hash Map
-- Two Pointers
-- Dynamic Programming
+```text
+2 <= arr.length <= 40
+1 <= arr[i] <= 15
+It is guaranteed that the answer fits into a 32-bit signed integer (i.e., it is less than 231).
+```

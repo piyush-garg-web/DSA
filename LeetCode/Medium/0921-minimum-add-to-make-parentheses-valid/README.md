@@ -22,37 +22,35 @@ You are given a parentheses string s. In one move, you can insert a parenthesis 
 
 Return the minimum number of moves required to make s valid.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: s = "())"
-Output: 1
+### Example 1
 
+```text
+Input:
+s = "())"
 
-Example 2:
+Output:
+1
+```
 
+### Example 2
 
-Input: s = "((("
-Output: 3
+```text
+Input:
+s = "((("
 
-
- 
-Constraints:
-
-
-	1 <= s.length <= 1000
-	s[i] is either '(' or ')'.
+Output:
+3
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
-- Stack
+```text
+1 <= s.length <= 1000
+s[i] is either '(' or ')'.
+```

@@ -14,38 +14,40 @@ Return the maximum number of envelopes you can Russian doll (i.e., put one insid
 
 Note: You cannot rotate an envelope.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: envelopes = [[5,4],[6,4],[6,7],[2,3]]
-Output: 3
-Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
+### Example 1
 
+```text
+Input:
+envelopes = [[5,4],[6,4],[6,7],[2,3]]
 
+Output:
+3
+
+Explanation:
+The maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
 Example 2:
+```
 
+### Example 2
 
-Input: envelopes = [[1,1],[1,1],[1,1]]
-Output: 1
+```text
+Input:
+envelopes = [[1,1],[1,1],[1,1]]
 
-
- 
-Constraints:
-
-
-	1 <= envelopes.length <= 105
-	envelopes[i].length == 2
-	1 <= wi, hi <= 105
+Output:
+1
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+1 <= envelopes.length <= 105
+envelopes[i].length == 2
+1 <= wi, hi <= 105
+```

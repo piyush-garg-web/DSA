@@ -14,50 +14,54 @@ Return a string of the words in reverse order concatenated by a single space.
 
 Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: s = "the sky is blue"
-Output: "blue is sky the"
+### Example 1
 
+```text
+Input:
+s = "the sky is blue"
 
-Example 2:
+Output:
+"blue is sky the"
+```
 
+### Example 2
 
-Input: s = "  hello world  "
-Output: "world hello"
-Explanation: Your reversed string should not contain leading or trailing spaces.
+```text
+Input:
+s = "  hello world  "
 
+Output:
+"world hello"
 
+Explanation:
+Your reversed string should not contain leading or trailing spaces.
 Example 3:
+```
 
+### Example 3
 
-Input: s = "a good   example"
-Output: "example good a"
-Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
+```text
+Input:
+s = "a good   example"
 
+Output:
+"example good a"
 
- 
-Constraints:
+Explanation:
+You need to reduce multiple spaces between two words to a single space in the reversed string.
+```
 
+---
 
-	1 <= s.length <= 104
-	s contains English letters (upper-case and lower-case), digits, and spaces ' '.
-	There is at least one word in s.
+## Constraints
 
-
- 
+```text
+1 <= s.length <= 104
+s contains English letters (upper-case and lower-case), digits, and spaces ' '.
+There is at least one word in s.
 Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
+```

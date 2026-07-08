@@ -15,46 +15,46 @@ The score of a balanced parentheses string is based on the following rule:
 	AB has score A + B, where A and B are balanced parentheses strings.
 	(A) has score 2 * A, where A is a balanced parentheses string.
 
+---
 
- 
-Example 1:
+## Examples
 
+### Example 1
 
-Input: s = "()"
-Output: 1
+```text
+Input:
+s = "()"
 
+Output:
+1
+```
 
-Example 2:
+### Example 2
 
+```text
+Input:
+s = "(())"
 
-Input: s = "(())"
-Output: 2
+Output:
+2
+```
 
+### Example 3
 
-Example 3:
+```text
+Input:
+s = "()()"
 
-
-Input: s = "()()"
-Output: 2
-
-
- 
-Constraints:
-
-
-	2 <= s.length <= 50
-	s consists of only '(' and ')'.
-	s is a balanced parentheses string.
+Output:
+2
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
-- Stack
+```text
+2 <= s.length <= 50
+s consists of only '(' and ')'.
+s is a balanced parentheses string.
+```

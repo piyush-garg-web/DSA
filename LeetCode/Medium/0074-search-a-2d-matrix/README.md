@@ -17,38 +17,37 @@ Given an integer target, return true if target is in matrix or false otherwise.
 
 You must write a solution in O(log(m * n)) time complexity.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
-Output: true
+### Example 1
 
+```text
+Input:
+matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
 
-Example 2:
+Output:
+true
+```
 
+### Example 2
 
-Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
-Output: false
+```text
+Input:
+matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
 
-
- 
-Constraints:
-
-
-	m == matrix.length
-	n == matrix[i].length
-	1 <= m, n <= 100
-	-104 <= matrix[i][j], target <= 104
+Output:
+false
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+m == matrix.length
+n == matrix[i].length
+1 <= m, n <= 100
+-104 <= matrix[i][j], target <= 104
+```

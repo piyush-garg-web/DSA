@@ -10,37 +10,36 @@ Given an integer array nums of unique elements, return all possible subsets (the
 
 The solution set must not contain duplicate subsets. Return the solution in any order.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: nums = [1,2,3]
-Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+### Example 1
 
+```text
+Input:
+nums = [1,2,3]
 
-Example 2:
+Output:
+[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+```
 
+### Example 2
 
-Input: nums = [0]
-Output: [[],[0]]
+```text
+Input:
+nums = [0]
 
-
- 
-Constraints:
-
-
-	1 <= nums.length <= 10
-	-10 <= nums[i] <= 10
-	All the numbers of nums are unique.
+Output:
+[[],[0]]
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+1 <= nums.length <= 10
+-10 <= nums[i] <= 10
+All the numbers of nums are unique.
+```

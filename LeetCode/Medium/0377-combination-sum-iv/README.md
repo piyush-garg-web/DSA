@@ -10,13 +10,21 @@ Given an array of distinct integers nums and a target integer target, return the
 
 The test cases are generated so that the answer can fit in a 32-bit integer.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: nums = [1,2,3], target = 4
-Output: 7
+### Example 1
+
+```text
+Input:
+nums = [1,2,3], target = 4
+
+Output:
+7
+
 Explanation:
+
 The possible combination ways are:
 (1, 1, 1, 1)
 (1, 1, 2)
@@ -26,37 +34,27 @@ The possible combination ways are:
 (2, 2)
 (3, 1)
 Note that different sequences are counted as different combinations.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: nums = [9], target = 3
-Output: 0
+```text
+Input:
+nums = [9], target = 3
 
+Output:
+0
+```
 
- 
-Constraints:
+---
 
+## Constraints
 
-	1 <= nums.length <= 200
-	1 <= nums[i] <= 1000
-	All the elements of nums are unique.
-	1 <= target <= 1000
-
-
- 
+```text
+1 <= nums.length <= 200
+1 <= nums[i] <= 1000
+All the elements of nums are unique.
+1 <= target <= 1000
 Follow up: What if negative numbers are allowed in the given array? How does it change the problem? What limitation we need to add to the question to allow negative numbers?
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Dynamic Programming
+```

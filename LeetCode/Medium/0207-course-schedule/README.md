@@ -14,46 +14,47 @@ There are a total of numCourses courses you have to take, labeled from 0 to numC
 
 Return true if you can finish all courses. Otherwise, return false.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: numCourses = 2, prerequisites = [[1,0]]
-Output: true
-Explanation: There are a total of 2 courses to take. 
+### Example 1
+
+```text
+Input:
+numCourses = 2, prerequisites = [[1,0]]
+
+Output:
+true
+
+Explanation:
+There are a total of 2 courses to take.
 To take course 1 you should have finished course 0. So it is possible.
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
-Output: false
-Explanation: There are a total of 2 courses to take. 
+```text
+Input:
+numCourses = 2, prerequisites = [[1,0],[0,1]]
+
+Output:
+false
+
+Explanation:
+There are a total of 2 courses to take.
 To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.
-
-
- 
-Constraints:
-
-
-	1 <= numCourses <= 2000
-	0 <= prerequisites.length <= 5000
-	prerequisites[i].length == 2
-	0 <= ai, bi < numCourses
-	All the pairs prerequisites[i] are unique.
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Hash Map
-- Queue
-- Graph
+```text
+1 <= numCourses <= 2000
+0 <= prerequisites.length <= 5000
+prerequisites[i].length == 2
+0 <= ai, bi < numCourses
+All the pairs prerequisites[i] are unique.
+```

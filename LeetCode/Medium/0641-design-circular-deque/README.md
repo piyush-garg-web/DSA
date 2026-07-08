@@ -21,17 +21,23 @@ Implement the MyCircularDeque class:
 	boolean isEmpty() Returns true if the deque is empty, or false otherwise.
 	boolean isFull() Returns true if the deque is full, or false otherwise.
 
+---
 
- 
-Example 1:
+## Examples
 
+### Example 1
 
+```text
+Input:
 Input
+
+Output:
 ["MyCircularDeque", "insertLast", "insertLast", "insertFront", "insertFront", "getRear", "isFull", "deleteLast", "insertFront", "getFront"]
+
+Explanation:
 [[3], [1], [2], [3], [4], [], [], [], [4], []]
 Output
 [null, true, true, true, false, 2, true, true, true, 4]
-
 Explanation
 MyCircularDeque myCircularDeque = new MyCircularDeque(3);
 myCircularDeque.insertLast(1);  // return True
@@ -43,23 +49,14 @@ myCircularDeque.isFull();       // return True
 myCircularDeque.deleteLast();   // return True
 myCircularDeque.insertFront(4); // return True
 myCircularDeque.getFront();     // return 4
-
-
- 
-Constraints:
-
-
-	1 <= k <= 1000
-	0 <= value <= 1000
-	At most 2000 calls will be made to insertFront, insertLast, deleteFront, deleteLast, getFront, getRear, isEmpty, isFull.
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
+```text
+1 <= k <= 1000
+0 <= value <= 1000
+At most 2000 calls will be made to insertFront, insertLast, deleteFront, deleteLast, getFront, getRear, isEmpty, isFull.
+```

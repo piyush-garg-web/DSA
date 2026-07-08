@@ -8,29 +8,53 @@ Given a string s consisting of lowercase English letters, check whether it can b
 
 Return true if possible, otherwise, return false.
 
-Examples:
+---
 
-Input: s = "aaabc"
-Output: true
-Explanation: "aaabc" can rearranged to "abaca" or "acaba" as no two adjacent characters are same in the output string.
-Input: s = "aaabb"
-Output: true
-Explanation: "aaabb" can rearranged to "ababa" as no two adjacent characters are same in the output string.
-Input: s = "aaaabc"
-Output: false
-Explanation: No combinations possible such that two adjacent characters are different.
-Constraints :
+## Examples
+
+### Example 1
+
+```text
+Input:
+s = "aaabc"
+
+Output:
+true
+
+Explanation:
+"aaabc" can rearranged to "abaca" or "acaba" as no two adjacent characters are same in the output string.
+```
+
+### Example 2
+
+```text
+Input:
+s = "aaabb"
+
+Output:
+true
+
+Explanation:
+"aaabb" can rearranged to "ababa" as no two adjacent characters are same in the output string.
+```
+
+### Example 3
+
+```text
+Input:
+s = "aaaabc"
+
+Output:
+false
+
+Explanation:
+No combinations possible such that two adjacent characters are different.
+```
+
+---
+
+## Constraints
+
+```text
 1 ≤ |s| ≤ 105
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- String
+```

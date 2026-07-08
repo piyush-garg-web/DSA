@@ -12,38 +12,40 @@ We repeatedly make duplicate removals on s until we no longer can.
 
 Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: s = "abbaca"
-Output: "ca"
-Explanation: 
+### Example 1
+
+```text
+Input:
+s = "abbaca"
+
+Output:
+"ca"
+
+Explanation:
+
 For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: s = "azxxzy"
-Output: "ay"
+```text
+Input:
+s = "azxxzy"
 
-
- 
-Constraints:
-
-
-	1 <= s.length <= 105
-	s consists of lowercase English letters.
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Output:
+"ay"
+```
 
 ---
 
-## Topics
-- String
+## Constraints
+
+```text
+1 <= s.length <= 105
+s consists of lowercase English letters.
+```

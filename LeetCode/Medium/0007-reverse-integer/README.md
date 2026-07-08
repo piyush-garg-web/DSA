@@ -10,41 +10,44 @@ Given a signed 32-bit integer x, return x with its digits reversed. If reversing
 
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: x = 123
-Output: 321
+### Example 1
 
+```text
+Input:
+x = 123
 
-Example 2:
+Output:
+321
+```
 
+### Example 2
 
-Input: x = -123
-Output: -321
+```text
+Input:
+x = -123
 
+Output:
+-321
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+x = 120
 
-Input: x = 120
-Output: 21
-
-
- 
-Constraints:
-
-
-	-231 <= x <= 231 - 1
+Output:
+21
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
+```text
+-231 <= x <= 231 - 1
+```

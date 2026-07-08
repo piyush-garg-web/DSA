@@ -10,29 +10,35 @@ Write a function that reverses a string. The input string is given as an array o
 
 You must do this by modifying the input array in-place with O(1) extra memory.
 
- 
-Example 1:
-Input: s = ["h","e","l","l","o"]
-Output: ["o","l","l","e","h"]
-Example 2:
-Input: s = ["H","a","n","n","a","h"]
-Output: ["h","a","n","n","a","H"]
+---
 
- 
-Constraints:
+## Examples
 
+### Example 1
 
-	1 <= s.length <= 105
-	s[i] is a printable ascii character.
+```text
+Input:
+s = ["h","e","l","l","o"]
+
+Output:
+["o","l","l","e","h"]
+```
+
+### Example 2
+
+```text
+Input:
+s = ["H","a","n","n","a","h"]
+
+Output:
+["h","a","n","n","a","H"]
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```text
+1 <= s.length <= 105
+s[i] is a printable ascii character.
+```

@@ -8,47 +8,46 @@ Problem Link: https://leetcode.com/problems/reverse-linked-list/
 
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
+### Example 1
 
+```text
+Input:
+head = [1,2,3,4,5]
 
-Example 2:
+Output:
+[5,4,3,2,1]
+```
 
+### Example 2
 
-Input: head = [1,2]
-Output: [2,1]
+```text
+Input:
+head = [1,2]
 
+Output:
+[2,1]
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+head = []
 
-Input: head = []
-Output: []
+Output:
+[]
+```
 
+---
 
- 
-Constraints:
+## Constraints
 
-
-	The number of nodes in the list is the range [0, 5000].
-	-5000 <= Node.val <= 5000
-
-
- 
+```text
+The number of nodes in the list is the range [0, 5000].
+-5000 <= Node.val <= 5000
 Follow up: A linked list can be reversed either iteratively or recursively. Could you implement both?
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Linked List
+```

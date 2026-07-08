@@ -10,49 +10,50 @@ You are given a network of n nodes, labeled from 1 to n. You are also given time
 
 We will send a signal from a given node k. Return the minimum time it takes for all the n nodes to receive the signal. If it is impossible for all the n nodes to receive the signal, return -1.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2
-Output: 2
+### Example 1
 
+```text
+Input:
+times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2
 
-Example 2:
+Output:
+2
+```
 
+### Example 2
 
-Input: times = [[1,2,1]], n = 2, k = 1
-Output: 1
+```text
+Input:
+times = [[1,2,1]], n = 2, k = 1
 
+Output:
+1
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+times = [[1,2,1]], n = 2, k = 2
 
-Input: times = [[1,2,1]], n = 2, k = 2
-Output: -1
-
-
- 
-Constraints:
-
-
-	1 <= k <= n <= 100
-	1 <= times.length <= 6000
-	times[i].length == 3
-	1 <= ui, vi <= n
-	ui != vi
-	0 <= wi <= 100
-	All the pairs (ui, vi) are unique. (i.e., no multiple edges.)
+Output:
+-1
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Hash Map
+```text
+1 <= k <= n <= 100
+1 <= times.length <= 6000
+times[i].length == 3
+1 <= ui, vi <= n
+ui != vi
+0 <= wi <= 100
+All the pairs (ui, vi) are unique. (i.e., no multiple edges.)
+```

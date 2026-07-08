@@ -18,19 +18,17 @@ Output: 30
 Explanation: The subarray with maximum product is [-3, -10] with product = (-3) * (-10) = 30.
 Input: arr[] = [2, 3, 4] 
 Output: 24 
-Explanation: For an array with all positive elements, the result is product of all elements. 
-Constraints:
+Explanation: For an array with all positive elements, the result is product of all elements.
+
+---
+
+## Examples
+
+---
+
+## Constraints
+
+```text
 1 ≤ arr.size() ≤ 106
 -100 ≤ arr[i] ≤ 100
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
+```

@@ -16,19 +16,17 @@ Output: "aba"
 Explanation: The character 'a' at index 2 is the same as 'a' at index 1, so it is removed. The character 'a' at index 5 is the same as 'a' at index 4, so it is removed. The final string is "aba".
 Input: s = "aaaa"
 Output: "a"
-Explanation: "aaaa" => "aaa" => "aa" => "a" 
-Constraints:
+Explanation: "aaaa" => "aaa" => "aa" => "a"
+
+---
+
+## Examples
+
+---
+
+## Constraints
+
+```text
 1 ≤ n ≤ 106
 All characters in the string are lowercase English alphabets.
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
+```

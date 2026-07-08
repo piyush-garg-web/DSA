@@ -10,14 +10,21 @@ You are given an array of k linked-lists lists, each linked-list is sorted in as
 
 Merge all the linked-lists into one sorted linked-list and return it.
 
- 
+---
 
-Example 1:
+## Examples
 
-```
-Input: lists = [[1,4,5],[1,3,4],[2,6]]
-Output: [1,1,2,3,4,4,5,6]
-Explanation: The linked-lists are:
+### Example 1
+
+```text
+Input:
+lists = [[1,4,5],[1,3,4],[2,6]]
+
+Output:
+[1,1,2,3,4,4,5,6]
+
+Explanation:
+The linked-lists are:
 [
   1->4->5,
   1->3->4,
@@ -27,41 +34,35 @@ merging them into one sorted linked list:
 1->1->2->3->4->4->5->6
 ```
 
-Example 2:
+### Example 2
 
-```
-Input: lists = []
-Output: []
-```
+```text
+Input:
+lists = []
 
-Example 3:
-
-```
-Input: lists = [[]]
-Output: []
+Output:
+[]
 ```
 
- 
+### Example 3
 
-Constraints:
+```text
+Input:
+lists = [[]]
 
-	k == lists.length
-	0 <= k <= 104
-	0 <= lists[i].length <= 500
-	-104 <= lists[i][j] <= 104
-	lists[i] is sorted in ascending order.
-	The sum of lists[i].length will not exceed 104.
+Output:
+[]
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(N log k)
-**Space Complexity:** O(k)
-
----
-
-## Topics
-- Array
-- Linked List
-- Heap
+```text
+k == lists.length
+0 <= k <= 104
+0 <= lists[i].length <= 500
+-104 <= lists[i][j] <= 104
+lists[i] is sorted in ascending order.
+The sum of lists[i].length will not exceed 104.
+```

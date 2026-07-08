@@ -14,67 +14,61 @@ Return the minimum time to reach the room (n - 1, m - 1).
 
 Two rooms are adjacent if they share a common wall, either horizontally or vertically.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: moveTime = [[0,4],[4,4]]
+### Example 1
 
-Output: 6
+```text
+Input:
+moveTime = [[0,4],[4,4]]
+
+Output:
+6
 
 Explanation:
 
 The minimum time required is 6 seconds.
-
-
 	At time t == 4, move from room (0, 0) to room (1, 0) in one second.
 	At time t == 5, move from room (1, 0) to room (1, 1) in one second.
-
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: moveTime = [[0,0,0],[0,0,0]]
+```text
+Input:
+moveTime = [[0,0,0],[0,0,0]]
 
-Output: 3
+Output:
+3
 
 Explanation:
 
 The minimum time required is 3 seconds.
-
-
 	At time t == 0, move from room (0, 0) to room (1, 0) in one second.
 	At time t == 1, move from room (1, 0) to room (1, 1) in one second.
 	At time t == 2, move from room (1, 1) to room (1, 2) in one second.
-
-
-
 Example 3:
+```
 
+### Example 3
 
-Input: moveTime = [[0,1],[1,2]]
+```text
+Input:
+moveTime = [[0,1],[1,2]]
 
-Output: 3
-
-
- 
-Constraints:
-
-
-	2 <= n == moveTime.length <= 50
-	2 <= m == moveTime[i].length <= 50
-	0 <= moveTime[i][j] <= 109
+Output:
+3
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Heap
+```text
+2 <= n == moveTime.length <= 50
+2 <= m == moveTime[i].length <= 50
+0 <= moveTime[i][j] <= 109
+```

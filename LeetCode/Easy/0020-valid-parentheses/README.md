@@ -15,64 +15,65 @@ An input string is valid if:
 	Open brackets must be closed in the correct order.
 	Every close bracket has a corresponding open bracket of the same type.
 
+---
 
- 
-Example 1:
+## Examples
 
+### Example 1
 
-Input: s = "()"
+```text
+Input:
+s = "()"
 
-Output: true
+Output:
+true
+```
 
+### Example 2
 
-Example 2:
+```text
+Input:
+s = "()[]{}"
 
+Output:
+true
+```
 
-Input: s = "()[]{}"
+### Example 3
 
-Output: true
+```text
+Input:
+s = "(]"
 
+Output:
+false
+```
 
-Example 3:
+### Example 4
 
+```text
+Input:
+s = "([])"
 
-Input: s = "(]"
+Output:
+true
+```
 
-Output: false
+### Example 5
 
+```text
+Input:
+s = "([)]"
 
-Example 4:
-
-
-Input: s = "([])"
-
-Output: true
-
-
-Example 5:
-
-
-Input: s = "([)]"
-
-Output: false
-
-
- 
-Constraints:
-
-
-	1 <= s.length <= 104
-	s consists of parentheses only '()[]{}'.
+Output:
+false
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
-- Stack
+```text
+1 <= s.length <= 104
+s consists of parentheses only '()[]{}'.
+```

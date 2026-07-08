@@ -12,53 +12,57 @@ You are given an initial computer network connections. You can extract certain c
 
 Return the minimum number of times you need to do this in order to make all the computers connected. If it is not possible, return -1.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: n = 4, connections = [[0,1],[0,2],[1,2]]
-Output: 1
-Explanation: Remove cable between computer 1 and 2 and place between computers 1 and 3.
+### Example 1
 
+```text
+Input:
+n = 4, connections = [[0,1],[0,2],[1,2]]
 
+Output:
+1
+
+Explanation:
+Remove cable between computer 1 and 2 and place between computers 1 and 3.
 Example 2:
+```
 
+### Example 2
 
-Input: n = 6, connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]
-Output: 2
+```text
+Input:
+n = 6, connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]
 
+Output:
+2
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+n = 6, connections = [[0,1],[0,2],[0,3],[1,2]]
 
-Input: n = 6, connections = [[0,1],[0,2],[0,3],[1,2]]
-Output: -1
-Explanation: There are not enough cables.
+Output:
+-1
 
-
- 
-Constraints:
-
-
-	1 <= n <= 105
-	1 <= connections.length <= min(n * (n - 1) / 2, 105)
-	connections[i].length == 2
-	0 <= ai, bi < n
-	ai != bi
-	There are no repeated connections.
-	No two computers are connected by more than one cable.
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Explanation:
+There are not enough cables.
+```
 
 ---
 
-## Topics
-- Array
-- Hash Map
-- Queue
-- BFS
+## Constraints
+
+```text
+1 <= n <= 105
+1 <= connections.length <= min(n * (n - 1) / 2, 105)
+connections[i].length == 2
+0 <= ai, bi < n
+ai != bi
+There are no repeated connections.
+No two computers are connected by more than one cable.
+```

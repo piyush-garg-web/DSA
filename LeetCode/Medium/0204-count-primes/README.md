@@ -8,43 +8,48 @@ Problem Link: https://leetcode.com/problems/count-primes
 
 Given an integer n, return the number of prime numbers that are strictly less than n.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: n = 10
-Output: 4
-Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+### Example 1
 
+```text
+Input:
+n = 10
 
+Output:
+4
+
+Explanation:
+There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 Example 2:
+```
 
+### Example 2
 
-Input: n = 0
-Output: 0
+```text
+Input:
+n = 0
 
+Output:
+0
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+n = 1
 
-Input: n = 1
-Output: 0
-
-
- 
-Constraints:
-
-
-	0 <= n <= 5 * 106
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Output:
+0
+```
 
 ---
 
-## Topics
-- Array
+## Constraints
+
+```text
+0 <= n <= 5 * 106
+```

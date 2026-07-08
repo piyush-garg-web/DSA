@@ -10,50 +10,52 @@ Given the root of a binary tree and an integer targetSum, return all root-to-lea
 
 A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
-Output: [[5,4,11,2],[5,8,4,5]]
-Explanation: There are two paths whose sum equals targetSum:
+### Example 1
+
+```text
+Input:
+root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+
+Output:
+[[5,4,11,2],[5,8,4,5]]
+
+Explanation:
+There are two paths whose sum equals targetSum:
 5 + 4 + 11 + 2 = 22
 5 + 8 + 4 + 5 = 22
-
-
 Example 2:
+```
 
+### Example 2
 
-Input: root = [1,2,3], targetSum = 5
-Output: []
+```text
+Input:
+root = [1,2,3], targetSum = 5
 
+Output:
+[]
+```
 
-Example 3:
+### Example 3
 
+```text
+Input:
+root = [1,2], targetSum = 0
 
-Input: root = [1,2], targetSum = 0
-Output: []
-
-
- 
-Constraints:
-
-
-	The number of nodes in the tree is in the range [0, 5000].
-	-1000 <= Node.val <= 1000
-	-1000 <= targetSum <= 1000
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Output:
+[]
+```
 
 ---
 
-## Topics
-- Array
-- Binary Search
-- Two Pointers
-- Tree
+## Constraints
+
+```text
+The number of nodes in the tree is in the range [0, 5000].
+-1000 <= Node.val <= 1000
+-1000 <= targetSum <= 1000
+```

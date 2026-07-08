@@ -12,41 +12,40 @@ Given the two integers m and n, return the number of possible unique paths that 
 
 The test cases are generated so that the answer will be less than or equal to 2 * 109.
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: m = 3, n = 7
-Output: 28
+### Example 1
 
+```text
+Input:
+m = 3, n = 7
 
-Example 2:
+Output:
+28
+```
 
+### Example 2
 
-Input: m = 3, n = 2
-Output: 3
-Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+```text
+Input:
+m = 3, n = 2
+
+Output:
+3
+
+Explanation:
+From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
 1. Right -> Down -> Down
 2. Down -> Down -> Right
 3. Down -> Right -> Down
-
-
- 
-Constraints:
-
-
-	1 <= m, n <= 100
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- Array
-- Two Pointers
-- Dynamic Programming
+```text
+1 <= m, n <= 100
+```

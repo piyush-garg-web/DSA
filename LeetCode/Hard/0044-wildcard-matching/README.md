@@ -15,48 +15,57 @@ Given an input string (s) and a pattern (p), implement wildcard pattern matching
 
 The matching should cover the entire input string (not partial).
 
- 
-Example 1:
+---
 
+## Examples
 
-Input: s = "aa", p = "a"
-Output: false
-Explanation: "a" does not match the entire string "aa".
+### Example 1
 
+```text
+Input:
+s = "aa", p = "a"
 
+Output:
+false
+
+Explanation:
+"a" does not match the entire string "aa".
 Example 2:
+```
 
+### Example 2
 
-Input: s = "aa", p = "*"
-Output: true
-Explanation: '*' matches any sequence.
+```text
+Input:
+s = "aa", p = "*"
 
+Output:
+true
 
+Explanation:
+'*' matches any sequence.
 Example 3:
+```
 
+### Example 3
 
-Input: s = "cb", p = "?a"
-Output: false
-Explanation: '?' matches 'c', but the second letter is 'a', which does not match 'b'.
+```text
+Input:
+s = "cb", p = "?a"
 
+Output:
+false
 
- 
-Constraints:
-
-
-	0 <= s.length, p.length <= 2000
-	s contains only lowercase English letters.
-	p contains only lowercase English letters, '?' or '*'.
-
----
-
-## Complexity Analysis
-
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
+Explanation:
+'?' matches 'c', but the second letter is 'a', which does not match 'b'.
+```
 
 ---
 
-## Topics
-- Array
-- String
+## Constraints
+
+```text
+0 <= s.length, p.length <= 2000
+s contains only lowercase English letters.
+p contains only lowercase English letters, '?' or '*'.
+```

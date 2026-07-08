@@ -10,30 +10,35 @@ Given a string s, rearrange the characters of s so that any two adjacent charact
 
 Return any possible rearrangement of s or return "" if not possible.
 
- 
-Example 1:
-Input: s = "aab"
-Output: "aba"
-Example 2:
-Input: s = "aaab"
-Output: ""
+---
 
- 
-Constraints:
+## Examples
 
+### Example 1
 
-	1 <= s.length <= 500
-	s consists of lowercase English letters.
+```text
+Input:
+s = "aab"
+
+Output:
+"aba"
+```
+
+### Example 2
+
+```text
+Input:
+s = "aaab"
+
+Output:
+""
+```
 
 ---
 
-## Complexity Analysis
+## Constraints
 
-**Time Complexity:** O(n)
-**Space Complexity:** O(1)
-
----
-
-## Topics
-- String
-- Heap
+```text
+1 <= s.length <= 500
+s consists of lowercase English letters.
+```
