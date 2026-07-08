@@ -244,6 +244,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Memoization
 | Problem Name | Difficulty |
@@ -538,8 +539,13 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 <!---LeetCode Topics End-->
