@@ -93,6 +93,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2974-minimum-number-game](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/2974-minimum-number-game/) | Easy |
 | [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
@@ -117,6 +118,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [3005-count-elements-with-maximum-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/3005-count-elements-with-maximum-frequency/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 ## Sorting
@@ -192,6 +194,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -557,6 +560,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1514-path-with-maximum-probability](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1615-maximal-network-rank](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1615-maximal-network-rank/) | Medium |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2285-maximum-total-importance-of-roads/) | Medium |
 ## Union-Find
@@ -573,5 +577,6 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 <!---LeetCode Topics End-->
