@@ -84,6 +84,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
+| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
 | [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
@@ -201,6 +202,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0344-reverse-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0443-string-compression](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
+| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
 | [0567-permutation-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0567-permutation-in-string/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
@@ -273,6 +275,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0416-partition-equal-subset-sum/) | Medium |
+| [0474-ones-and-zeroes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0474-ones-and-zeroes/) | Medium |
 | [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
