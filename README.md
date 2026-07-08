@@ -112,6 +112,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1046-last-stone-weight](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
@@ -257,6 +258,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1910-remove-all-occurrences-of-a-substring/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -319,6 +321,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0983-minimum-cost-for-tickets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0983-minimum-cost-for-tickets/) | Medium |
 | [1027-longest-arithmetic-subsequence](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1027-longest-arithmetic-subsequence/) | Medium |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1039-minimum-score-triangulation-of-polygon/) | Medium |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1277-count-square-submatrices-with-all-ones/) | Medium |
@@ -377,6 +380,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0767-reorganize-string](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 | [1388-pizza-with-3n-slices](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1388-pizza-with-3n-slices/) | Hard |
 | [1402-reducing-dishes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1402-reducing-dishes/) | Hard |
@@ -387,6 +391,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1130-minimum-cost-tree-from-leaf-values/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
