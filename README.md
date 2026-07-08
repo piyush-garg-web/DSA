@@ -80,6 +80,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0347-top-k-frequent-elements](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
+| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0506-relative-ranks](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0506-relative-ranks/) | Easy |
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0622-design-circular-queue](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
@@ -263,6 +264,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0198-house-robber](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
+| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0518-coin-change-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
@@ -284,6 +286,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0078-subsets](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0494-target-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
