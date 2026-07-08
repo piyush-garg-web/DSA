@@ -21,6 +21,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
 | [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
@@ -55,6 +56,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0204-count-primes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
@@ -247,6 +249,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
@@ -294,6 +297,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
@@ -327,6 +331,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0701-insert-into-a-binary-search-tree/) | Medium |
