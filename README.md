@@ -27,6 +27,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0191-number-of-1-bits](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -70,6 +71,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0724-find-pivot-index](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -94,6 +96,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0088-merge-sorted-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
 | [0442-find-all-duplicates-in-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0442-find-all-duplicates-in-an-array/) | Medium |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
@@ -225,6 +228,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0148-sort-list](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0148-sort-list/) | Medium |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -403,4 +407,20 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1305-all-elements-in-two-binary-search-trees/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1382-balance-a-binary-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/1382-balance-a-binary-search-tree/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
+## Radix Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 <!---LeetCode Topics End-->
