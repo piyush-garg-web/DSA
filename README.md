@@ -384,6 +384,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
+| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [0897-increasing-order-search-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0897-increasing-order-search-tree/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0938-range-sum-of-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -448,6 +449,7 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | [0662-maximum-width-of-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
+| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -532,4 +534,5 @@ Data Structures &amp; Algorithms solutions in C++ | LeetCode | GeeksforGeeks
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
+| [0841-keys-and-rooms](https://github.com/piyush-garg-web/DSA/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 <!---LeetCode Topics End-->
