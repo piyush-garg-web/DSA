@@ -4,11 +4,8 @@ A curated collection of **Data Structures & Algorithms** solutions implemented i
 
 This repository serves as a structured record of my problem-solving journey, helping strengthen algorithmic thinking, improve coding skills, and prepare for software engineering interviews.
 
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
-![LeetCode](https://img.shields.io/badge/LeetCode-181%20Solved-orange?style=for-the-badge&logo=leetcode)
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-55%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
-![Total Problems](https://img.shields.io/badge/Total-236%20Problems-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+<!-- BADGES_START -->
+<!-- BADGES_END -->
 
 ---
 
@@ -29,11 +26,8 @@ The primary objectives of this repository are to:
 
 ## 📊 Repository statistics
 
-| Platform | Total | Basic | Easy | Medium | Hard |
-|:---------|------:|------:|-----:|-------:|-----:|
-| **LeetCode** | **181** | — | **51** | **110** | **20** |
-| **GeeksforGeeks** | **55** | **9** | **22** | **23** | **1** |
-| **Overall** | **236** | **9** | **73** | **133** | **21** |
+<!-- STATS_START -->
+<!-- STATS_END -->
 
 ---
 
