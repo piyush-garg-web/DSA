@@ -1,23 +1,22 @@
 # 📚 Data Structures & Algorithms
 
-A curated collection of **Data Structures & Algorithms** solutions implemented in **C++**, featuring problems from **LeetCode** and **GeeksforGeeks**.
+A curated collection of **Data Structures & Algorithms** solutions implemented in **C++**, featuring problems from **LeetCode** and **GFG**.
 
-This repository serves as a structured record of my problem-solving journey, helping strengthen algorithmic thinking, improve coding skills, and prepare for software engineering interviews.
+This repository serves as a structured record of my problem-solving journey, helping strengthen algorithmic thinking, improving coding skills, and preparing for software engineering interviews.
 
 <!-- BADGES_START -->
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
 ![LeetCode](https://img.shields.io/badge/LeetCode-181%20Solved-orange?style=for-the-badge&logo=leetcode)
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-55%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
+![GFG](https://img.shields.io/badge/GFG-55%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
 ![Total Problems](https://img.shields.io/badge/Total-236%20Problems-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
 <!-- BADGES_END -->
 
 ---
 
 ## 📖 About
 
-This repository contains my solutions to **Data Structures & Algorithms** problems solved on **LeetCode** and **GeeksforGeeks**.
+This repository contains my solutions to **Data Structures & Algorithms** problems solved on **LeetCode** and **GFG**.
 
 Each solution is implemented in **C++** and organized by **platform** and **difficulty**. Every problem directory contains the corresponding solution along with a standardized README that includes the original problem statement, examples, constraints, and (where available) the official problem link.
 
@@ -30,20 +29,55 @@ The primary objectives of this repository are to:
 
 ---
 
-## 📊 Repository statistics
+## 📊 Repository Statistics
 
 <!-- STATS_START -->
 | Platform | Total | Basic | Easy | Medium | Hard |
 |:---------|------:|------:|-----:|-------:|-----:|
 | **LeetCode** | **181** | — | **51** | **110** | **20** |
-| **GeeksforGeeks** | **55** | **9** | **22** | **23** | **1** |
+| **GFG** | **55** | **9** | **22** | **23** | **1** |
 | **Overall** | **236** | **9** | **73** | **133** | **21** |
-
 <!-- STATS_END -->
 
 ---
 
-## 📁 Repository structure
+## 🧠 Topics Covered
+
+This repository includes solutions covering a wide range of Data Structures and Algorithms concepts, including:
+
+- Arrays
+- Strings
+- Hashing
+- Two Pointers
+- Sliding Window
+- Prefix Sum
+- Binary Search
+- Sorting
+- Matrix
+- Recursion
+- Backtracking
+- Stack
+- Queue
+- Linked List
+- Trees
+- Binary Search Trees
+- Heaps (Priority Queue)
+- Tries
+- Graphs
+- Greedy Algorithms
+- Dynamic Programming
+- Bit Manipulation
+- Math
+- Divide and Conquer
+- Union Find (Disjoint Set Union)
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Topological Sort
+- Shortest Path Algorithms
+
+---
+
+## 📁 Repository Structure
 
 ```text
 DSA
@@ -53,7 +87,7 @@ DSA
 │   ├── Medium
 │   └── Hard
 │
-├── GeeksforGeeks
+├── GFG
 │   ├── Basic
 │   ├── Easy
 │   ├── Medium
@@ -66,22 +100,24 @@ DSA
 
 ---
 
-## 🛠️ Language & tools
+## 🛠️ Language & Tools
 
-- **C++**
-- **Git**
-- **GitHub**
+- **Language:** C++
+- **Version Control:** Git
+- **Repository Hosting:** GitHub
 
 ---
 
-## ✨ Repository highlights
+## ✨ Repository Highlights
 
 - 📚 **236** curated Data Structures & Algorithms solutions.
-- 💻 Solutions from both **LeetCode** and **GeeksforGeeks**.
-- 📂 Organized by **platform** and **difficulty** for easy navigation.
+- 💻 Solutions from both **LeetCode** and **GFG**.
+- 📂 Organized by **platform** and **difficulty** for intuitive navigation.
+- 🧠 Covers a broad range of fundamental and advanced DSA topics.
 - ⚡ Clean, readable, and interview-ready **C++** implementations.
 - 📝 Standardized problem-specific README files with consistent formatting.
 - 🔗 Official problem links included wherever available.
+- 🤖 Automated repository statistics and badges.
 - 🚀 Continuously updated with new solutions.
 
 ---
