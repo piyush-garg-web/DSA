@@ -7,8 +7,8 @@ This repository serves as a structured record of my problem-solving journey, hel
 <!-- BADGES_START -->
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
 ![LeetCode](https://img.shields.io/badge/LeetCode-181%20Solved-orange?style=for-the-badge&logo=leetcode)
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-56%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
-![Total Problems](https://img.shields.io/badge/Total-237%20Problems-success?style=for-the-badge)
+![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-59%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
+![Total Problems](https://img.shields.io/badge/Total-240%20Problems-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 <!-- BADGES_END -->
@@ -36,8 +36,8 @@ The primary objectives of this repository are to:
 | Platform | Total | Basic | Easy | Medium | Hard |
 |:---------|------:|------:|-----:|-------:|-----:|
 | **LeetCode** | **181** | — | **51** | **110** | **20** |
-| **GeeksforGeeks** | **56** | **9** | **23** | **23** | **1** |
-| **Overall** | **237** | **9** | **74** | **133** | **21** |
+| **GeeksforGeeks** | **59** | **9** | **24** | **25** | **1** |
+| **Overall** | **240** | **9** | **75** | **135** | **21** |
 
 <!-- STATS_END -->
 
