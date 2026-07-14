@@ -112,7 +112,9 @@ DSA
 
 ## ✨ Repository Highlights
 
-<!-- HIGHLIGHTS_TOTAL_START -->• 📚 **246** curated Data Structures & Algorithms solutions.<!-- HIGHLIGHTS_TOTAL_END -->
+<!-- HIGHLIGHTS_TOTAL_START -->
+• 📚 **246** curated Data Structures & Algorithms solutions.
+<!-- HIGHLIGHTS_TOTAL_END -->
 • 💻 Solutions from both **LeetCode** and **GFG**.
 • 📂 Organized by **platform** and **difficulty** for intuitive navigation.
 • 🧠 Covers a broad range of fundamental and advanced DSA topics.

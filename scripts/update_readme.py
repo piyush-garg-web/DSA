@@ -73,7 +73,7 @@ highlights_total = f"• 📚 **{overall}** curated Data Structures & Algorithms
 
 content = re.sub(
     r"<!-- HIGHLIGHTS_TOTAL_START -->.*?<!-- HIGHLIGHTS_TOTAL_END -->",
-    f"<!-- HIGHLIGHTS_TOTAL_START -->{highlights_total}<!-- HIGHLIGHTS_TOTAL_END -->",
+    f"<!-- HIGHLIGHTS_TOTAL_START -->\n{highlights_total}\n<!-- HIGHLIGHTS_TOTAL_END -->",
     content,
     flags=re.DOTALL,
 )
