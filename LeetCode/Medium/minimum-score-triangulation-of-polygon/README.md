@@ -1,9 +1,5 @@
 # Minimum Score Triangulation of Polygon
 
-Problem Link: https://leetcode.com/problems/minimum-score-triangulation-of-polygon
-
----
-
 ## Problem Statement
 
 You have a convex n-sided polygon where each vertex has an integer value. You are given an integer array values where values[i] is the value of the ith vertex in clockwise order.
@@ -14,59 +10,5 @@ You will triangulate the polygon. For each triangle, the weight of that triangle
 
 Return the minimum possible score that you can achieve with some triangulation of the polygon.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-values = [1,2,3]
-
-Output:
-6
-
-Explanation:
-The polygon is already triangulated, and the score of the only triangle is 6.
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-values = [3,7,4,5]
-
-Output:
-144
-
-Explanation:
-There are two triangulations, with possible scores: 3*7*5 + 4*5*7 = 245, or 3*4*5 + 3*4*7 = 144.
-The minimum score is 144.
-Example 3:
-​​​​​​​
-```
-
-### Example 3
-
-```text
-Input:
-values = [1,3,1,4,1,5]
-
-Output:
-13
-
-Explanation:
-The minimum score triangulation is 1*1*3 + 1*1*4 + 1*1*5 + 1*1*1 = 13.
-```
-
----
-
-## Constraints
-
-```text
-n == values.length
-3 <= n <= 50
-1 <= values[i] <= 100
-```
+## Problem Link
+https://leetcode.com/problems/minimum-score-triangulation-of-polygon

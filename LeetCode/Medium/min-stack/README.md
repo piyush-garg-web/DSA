@@ -1,9 +1,5 @@
 # Min Stack
 
-Problem Link: https://leetcode.com/problems/min-stack
-
----
-
 ## Problem Statement
 
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -20,40 +16,5 @@ Implement the MinStack class:
 
 You must implement a solution with O(1) time complexity for each function.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-Input
-
-Output:
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-
-Explanation:
-[[],[-2],[0],[-3],[],[],[],[]]
-Output
-[null,null,null,null,-3,null,0,-2]
-Explanation
-MinStack minStack = new MinStack();
-minStack.push(-2);
-minStack.push(0);
-minStack.push(-3);
-minStack.getMin(); // return -3
-minStack.pop();
-minStack.top();    // return 0
-minStack.getMin(); // return -2
-```
-
----
-
-## Constraints
-
-```text
--231 <= val <= 231 - 1
-Methods pop, top and getMin operations will always be called on non-empty stacks.
-At most 3 * 104 calls will be made to push, pop, top, and getMin.
-```
+## Problem Link
+https://leetcode.com/problems/min-stack

@@ -1,9 +1,5 @@
 # Max Product Subarray
 
-Problem Link: https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1
-
----
-
 ## Problem Statement
 
 Given an array arr[] that contains positive and negative integers (may contain 0 as well). Find the maximum product that we can get in a subarray of arr[].
@@ -22,15 +18,5 @@ Input: arr[] = [2, 3, 4]
 Output: 24 
 Explanation: For an array with all positive elements, the result is product of all elements.
 
----
-
-## Examples
-
----
-
-## Constraints
-
-```text
-1 ≤ arr.size() ≤ 106
--100 ≤ arr[i] ≤ 100
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1

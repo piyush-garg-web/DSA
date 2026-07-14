@@ -1,9 +1,5 @@
 # Search Array Adj Diff At Most K
 
-Problem Link: https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1
-
----
-
 ## Problem Statement
 
 Given a step array arr[], its step value k, and a key x, we need to find the index of key x in the array arr[]. If multiple occurrences of key x exist, return the first occurrence of the key. In case of no occurrence of key x exists return -1.
@@ -19,16 +15,5 @@ Input: arr[] = [20, 40, 50], k = 20 , x = 70
 Output: -1 
 Explaination: As there is no occurrence of 70. So, return -1.
 
----
-
-## Examples
-
----
-
-## Constraints
-
-```text
-1 ≤ arr.size ≤ 105
-1 ≤ k ≤ 102
-1 ≤ arr[i], x ≤ 105
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1

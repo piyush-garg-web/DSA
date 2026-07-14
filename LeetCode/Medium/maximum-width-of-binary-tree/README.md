@@ -1,9 +1,5 @@
 # Maximum Width of Binary Tree
 
-Problem Link: https://leetcode.com/problems/maximum-width-of-binary-tree
-
----
-
 ## Problem Statement
 
 Given the root of a binary tree, return the maximum width of the given tree.
@@ -14,56 +10,5 @@ The width of one level is defined as the length between the end-nodes (the leftm
 
 It is guaranteed that the answer will in the range of a 32-bit signed integer.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-root = [1,3,2,5,3,null,9]
-
-Output:
-4
-
-Explanation:
-The maximum width exists in the third level with length 4 (5,3,null,9).
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-root = [1,3,2,5,null,null,9,6,null,7]
-
-Output:
-7
-
-Explanation:
-The maximum width exists in the fourth level with length 7 (6,null,null,null,null,null,7).
-Example 3:
-```
-
-### Example 3
-
-```text
-Input:
-root = [1,3,2,5]
-
-Output:
-2
-
-Explanation:
-The maximum width exists in the second level with length 2 (3,2).
-```
-
----
-
-## Constraints
-
-```text
-The number of nodes in the tree is in the range [1, 3000].
--100 <= Node.val <= 100
-```
+## Problem Link
+https://leetcode.com/problems/maximum-width-of-binary-tree

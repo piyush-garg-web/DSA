@@ -1,9 +1,5 @@
 # Score of Parentheses
 
-Problem Link: https://leetcode.com/problems/score-of-parentheses
-
----
-
 ## Problem Statement
 
 Given a balanced parentheses string s, return the score of the string.
@@ -15,46 +11,5 @@ The score of a balanced parentheses string is based on the following rule:
 	AB has score A + B, where A and B are balanced parentheses strings.
 	(A) has score 2 * A, where A is a balanced parentheses string.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-s = "()"
-
-Output:
-1
-```
-
-### Example 2
-
-```text
-Input:
-s = "(())"
-
-Output:
-2
-```
-
-### Example 3
-
-```text
-Input:
-s = "()()"
-
-Output:
-2
-```
-
----
-
-## Constraints
-
-```text
-2 <= s.length <= 50
-s consists of only '(' and ')'.
-s is a balanced parentheses string.
-```
+## Problem Link
+https://leetcode.com/problems/score-of-parentheses

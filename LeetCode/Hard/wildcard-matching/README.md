@@ -1,9 +1,5 @@
 # Wildcard Matching
 
-Problem Link: https://leetcode.com/problems/wildcard-matching
-
----
-
 ## Problem Statement
 
 Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
@@ -15,57 +11,5 @@ Given an input string (s) and a pattern (p), implement wildcard pattern matching
 
 The matching should cover the entire input string (not partial).
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-s = "aa", p = "a"
-
-Output:
-false
-
-Explanation:
-"a" does not match the entire string "aa".
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-s = "aa", p = "*"
-
-Output:
-true
-
-Explanation:
-'*' matches any sequence.
-Example 3:
-```
-
-### Example 3
-
-```text
-Input:
-s = "cb", p = "?a"
-
-Output:
-false
-
-Explanation:
-'?' matches 'c', but the second letter is 'a', which does not match 'b'.
-```
-
----
-
-## Constraints
-
-```text
-0 <= s.length, p.length <= 2000
-s contains only lowercase English letters.
-p contains only lowercase English letters, '?' or '*'.
-```
+## Problem Link
+https://leetcode.com/problems/wildcard-matching

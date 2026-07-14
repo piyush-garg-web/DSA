@@ -1,9 +1,5 @@
 # Next Permutation
 
-Problem Link: https://leetcode.com/problems/next-permutation
-
----
-
 ## Problem Statement
 
 A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
@@ -24,45 +20,5 @@ Given an array of integers nums, find the next permutation of nums.
 
 The replacement must be in place and use only constant extra memory.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-nums = [1,2,3]
-
-Output:
-[1,3,2]
-```
-
-### Example 2
-
-```text
-Input:
-nums = [3,2,1]
-
-Output:
-[1,2,3]
-```
-
-### Example 3
-
-```text
-Input:
-nums = [1,1,5]
-
-Output:
-[1,5,1]
-```
-
----
-
-## Constraints
-
-```text
-1 <= nums.length <= 100
-0 <= nums[i] <= 100
-```
+## Problem Link
+https://leetcode.com/problems/next-permutation

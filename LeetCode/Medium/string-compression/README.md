@@ -1,9 +1,5 @@
 # String Compression
 
-Problem Link: https://leetcode.com/problems/string-compression
-
----
-
 ## Problem Statement
 
 Given an array of characters chars, compress it using the following algorithm:
@@ -23,59 +19,5 @@ You must write an algorithm that uses only constant extra space.
 
 Note: The characters in the array beyond the returned length do not matter and should be ignored.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-chars = ["a","a","b","b","c","c","c"]
-
-Output:
-6
-
-Explanation:
-The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
-After modifying the input array in-place, the first 6 characters of chars should be ["a","2","b","2","c","3"].
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-chars = ["a"]
-
-Output:
-1
-
-Explanation:
-The only group is "a", which remains uncompressed since it is a single character.
-After modifying the input array in-place, the first character of chars should be ["a"].
-Example 3:
-```
-
-### Example 3
-
-```text
-Input:
-chars = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
-
-Output:
-4
-
-Explanation:
-The groups are "a" and "bbbbbbbbbbbb". This compresses to "ab12".
-After modifying the input array in-place, the first 4 characters of chars should be ["a","b","1","2"].
-```
-
----
-
-## Constraints
-
-```text
-1 <= chars.length <= 2000
-chars[i] is a lowercase English letter, uppercase English letter, digit, or symbol.
-```
+## Problem Link
+https://leetcode.com/problems/string-compression

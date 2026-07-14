@@ -1,9 +1,5 @@
 # Russian Doll Envelopes
 
-Problem Link: https://leetcode.com/problems/russian-doll-envelopes
-
----
-
 ## Problem Statement
 
 You are given a 2D array of integers envelopes where envelopes[i] = [wi, hi] represents the width and the height of an envelope.
@@ -14,40 +10,5 @@ Return the maximum number of envelopes you can Russian doll (i.e., put one insid
 
 Note: You cannot rotate an envelope.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-envelopes = [[5,4],[6,4],[6,7],[2,3]]
-
-Output:
-3
-
-Explanation:
-The maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-envelopes = [[1,1],[1,1],[1,1]]
-
-Output:
-1
-```
-
----
-
-## Constraints
-
-```text
-1 <= envelopes.length <= 105
-envelopes[i].length == 2
-1 <= wi, hi <= 105
-```
+## Problem Link
+https://leetcode.com/problems/russian-doll-envelopes

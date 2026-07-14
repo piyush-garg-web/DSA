@@ -1,9 +1,5 @@
 # Relative Ranks
 
-Problem Link: https://leetcode.com/problems/relative-ranks
-
----
-
 ## Problem Statement
 
 You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.
@@ -19,44 +15,5 @@ The athletes are placed based on their scores, where the 1st place athlete has t
 
 Return an array answer of size n where answer[i] is the rank of the ith athlete.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-score = [5,4,3,2,1]
-
-Output:
-["Gold Medal","Silver Medal","Bronze Medal","4","5"]
-
-Explanation:
-The placements are [1st, 2nd, 3rd, 4th, 5th].
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-score = [10,3,8,9,4]
-
-Output:
-["Gold Medal","5","Bronze Medal","Silver Medal","4"]
-
-Explanation:
-The placements are [1st, 5th, 3rd, 2nd, 4th].
-```
-
----
-
-## Constraints
-
-```text
-n == score.length
-1 <= n <= 104
-0 <= score[i] <= 106
-All the values in score are unique.
-```
+## Problem Link
+https://leetcode.com/problems/relative-ranks

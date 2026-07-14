@@ -1,62 +1,9 @@
 # Count Inversions
 
-Problem Link: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
-
----
-
 ## Problem Statement
 
 Given an array of integers arr[]. You have to find the Inversion Count of the array. 
 Note : Inversion count is the number of pairs of elements (i, j) such that i < j and arr[i] > arr[j].
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-arr[] = [2, 4, 1, 3, 5]
-
-Output:
-3
-
-Explanation:
-The sequence 2, 4, 1, 3, 5 has three inversions (2, 1), (4, 1), (4, 3).
-```
-
-### Example 2
-
-```text
-Input:
-arr[] = [2, 3, 4, 5, 6]
-
-Output:
-0
-
-Explanation:
-As the sequence is already sorted so there is no inversion count.
-```
-
-### Example 3
-
-```text
-Input:
-arr[] = [10, 10, 10]
-
-Output:
-0
-
-Explanation:
-As all the elements of array are same, so there is no inversion count.
-```
-
----
-
-## Constraints
-
-```text
-1 ≤ arr.size() ≤ 105
-1 ≤ arr[i] ≤ 104
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1

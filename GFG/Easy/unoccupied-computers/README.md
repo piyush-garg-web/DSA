@@ -1,9 +1,5 @@
 # Unoccupied Computers
 
-Problem Link: https://www.geeksforgeeks.org/problems/unoccupied-computers-1646661078/1
-
----
-
 ## Problem Statement
 
 A cafe has n computers. The customer events are represented by a string s of uppercase English letters, where each distinct letter appears exactly twice:
@@ -14,42 +10,5 @@ A customer is assigned a computer only if one is available at the time of arriva
 
 Return the number of customers who could not be assigned a computer upon arrival.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-n = 3, s = "GACCBDDBAGEE"
-
-Output:
-1
-
-Explanation:
-Only D will not be able to get any computer. So the answer is 1.
-```
-
-### Example 2
-
-```text
-Input:
-n = 1, s = "ABCBAC"
-
-Output:
-2
-
-Explanation:
-B and C will not be able to get any computers. So the answer is 2.
-```
-
----
-
-## Constraints
-
-```text
-1 ≤ n ≤ 26
-1 ≤ |s| ≤ 52
-s consists of uppercase English letters and each letter occurs exactly 2 times.
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/unoccupied-computers-1646661078/1

@@ -1,9 +1,5 @@
 # Count Complete Tree Nodes
 
-Problem Link: https://leetcode.com/problems/count-complete-tree-nodes
-
----
-
 ## Problem Statement
 
 Given the root of a complete binary tree, return the number of the nodes in the tree.
@@ -12,46 +8,5 @@ According to Wikipedia, every level, except possibly the last, is completely fil
 
 Design an algorithm that runs in less than O(n) time complexity.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-root = [1,2,3,4,5,6]
-
-Output:
-6
-```
-
-### Example 2
-
-```text
-Input:
-root = []
-
-Output:
-0
-```
-
-### Example 3
-
-```text
-Input:
-root = [1]
-
-Output:
-1
-```
-
----
-
-## Constraints
-
-```text
-The number of nodes in the tree is in the range [0, 5 * 104].
-0 <= Node.val <= 5 * 104
-The tree is guaranteed to be complete.
-```
+## Problem Link
+https://leetcode.com/problems/count-complete-tree-nodes

@@ -1,9 +1,5 @@
 # Minimum Cost Tree From Leaf Values
 
-Problem Link: https://leetcode.com/problems/minimum-cost-tree-from-leaf-values
-
----
-
 ## Problem Statement
 
 Given an array arr of positive integers, consider all binary trees such that:
@@ -18,41 +14,5 @@ Among all possible binary trees considered, return the smallest possible sum of 
 
 A node is a leaf if and only if it has zero children.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-arr = [6,2,4]
-
-Output:
-32
-
-Explanation:
-There are two possible trees shown.
-The first has a non-leaf node sum 36, and the second has non-leaf node sum 32.
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-arr = [4,11]
-
-Output:
-44
-```
-
----
-
-## Constraints
-
-```text
-2 <= arr.length <= 40
-1 <= arr[i] <= 15
-It is guaranteed that the answer fits into a 32-bit signed integer (i.e., it is less than 231).
-```
+## Problem Link
+https://leetcode.com/problems/minimum-cost-tree-from-leaf-values

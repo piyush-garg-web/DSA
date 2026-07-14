@@ -1,9 +1,5 @@
 # Replace Consecutive 2 Same With One
 
-Problem Link: https://www.geeksforgeeks.org/problems/consecutive-elements2306/1
-
----
-
 ## Problem Statement
 
 Given a string s, consisting of lowercase alphabets. Remove consecutive duplicate characters from the string. 
@@ -20,15 +16,5 @@ Input: s = "aaaa"
 Output: "a"
 Explanation: "aaaa" => "aaa" => "aa" => "a"
 
----
-
-## Examples
-
----
-
-## Constraints
-
-```text
-1 ≤ n ≤ 106
-All characters in the string are lowercase English alphabets.
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/consecutive-elements2306/1

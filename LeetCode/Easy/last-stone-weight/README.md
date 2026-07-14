@@ -1,9 +1,5 @@
 # Last Stone Weight
 
-Problem Link: https://leetcode.com/problems/last-stone-weight
-
----
-
 ## Problem Statement
 
 You are given an array of integers stones where stones[i] is the weight of the ith stone.
@@ -19,43 +15,5 @@ At the end of the game, there is at most one stone left.
 
 Return the weight of the last remaining stone. If there are no stones left, return 0.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-stones = [2,7,4,1,8,1]
-
-Output:
-1
-
-Explanation:
-
-We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
-we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
-we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
-we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of the last stone.
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-stones = [1]
-
-Output:
-1
-```
-
----
-
-## Constraints
-
-```text
-1 <= stones.length <= 30
-1 <= stones[i] <= 1000
-```
+## Problem Link
+https://leetcode.com/problems/last-stone-weight

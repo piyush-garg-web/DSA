@@ -1,9 +1,5 @@
 # Union Array Duplicates
 
-Problem Link: https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1
-
----
-
 ## Problem Statement
 
 You are given two arrays a[] and b[], return the Union of both the arrays in any order.
@@ -13,54 +9,5 @@ The Union of two arrays is a collection of all distinct elements present in eith
 Note: Elements of a[] and b[] are not necessarily distinct.
 Note that, You can return the Union in any order but the driver code will print the result in sorted order only.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-a[] = [1, 2, 3, 2, 1], b[] = [3, 2, 2, 3, 3, 2]
-
-Output:
-[1, 2, 3]
-
-Explanation:
-Union set of both the arrays will be 1, 2 and 3.
-```
-
-### Example 2
-
-```text
-Input:
-a[] = [1, 2, 3], b[] = [4, 5, 6]
-
-Output:
-[1, 2, 3, 4, 5, 6]
-
-Explanation:
-Union set of both the arrays will be 1, 2, 3, 4, 5 and 6.
-```
-
-### Example 3
-
-```text
-Input:
-a[] = [1, 2, 1, 1, 2], b[] = [2, 2, 1, 2, 1]
-
-Output:
-[1, 2]
-
-Explanation:
-Union set of both the arrays will be 1 and 2.
-```
-
----
-
-## Constraints
-
-```text
-1 ≤ a.size(), b.size() ≤ 106
-0 ≤ a[i], b[i] ≤ 105
-```
+## Problem Link
+https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1

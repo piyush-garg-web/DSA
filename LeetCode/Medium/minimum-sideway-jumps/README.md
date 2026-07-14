@@ -1,9 +1,5 @@
 # Minimum Sideway Jumps
 
-Problem Link: https://leetcode.com/problems/minimum-sideway-jumps
-
----
-
 ## Problem Statement
 
 There is a 3 lane road of length n that consists of n + 1 points labeled from 0 to n. A frog starts at point 0 in the second lane and wants to jump to point n. However, there could be obstacles along the way.
@@ -24,59 +20,5 @@ Return the minimum number of side jumps the frog needs to reach any lane at poin
 
 Note: There will be no obstacles on points 0 and n.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-obstacles = [0,1,2,3,0]
-
-Output:
-2
-
-Explanation:
-The optimal solution is shown by the arrows above. There are 2 side jumps (red arrows).
-Note that the frog can jump over obstacles only when making side jumps (as shown at point 2).
-Example 2:
-```
-
-### Example 2
-
-```text
-Input:
-obstacles = [0,1,1,3,3,0]
-
-Output:
-0
-
-Explanation:
-There are no obstacles on lane 2. No side jumps are required.
-Example 3:
-```
-
-### Example 3
-
-```text
-Input:
-obstacles = [0,2,1,0,3,0]
-
-Output:
-2
-
-Explanation:
-The optimal solution is shown by the arrows above. There are 2 side jumps.
-```
-
----
-
-## Constraints
-
-```text
-obstacles.length == n + 1
-1 <= n <= 5 * 105
-0 <= obstacles[i] <= 3
-obstacles[0] == obstacles[n] == 0
-```
+## Problem Link
+https://leetcode.com/problems/minimum-sideway-jumps

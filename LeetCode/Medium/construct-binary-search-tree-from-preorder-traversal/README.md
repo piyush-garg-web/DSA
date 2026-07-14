@@ -1,9 +1,5 @@
 # Construct Binary Search Tree from Preorder Traversal
 
-Problem Link: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
-
----
-
 ## Problem Statement
 
 Given an array of integers preorder, which represents the preorder traversal of a BST (i.e., binary search tree), construct the tree and return its root.
@@ -14,36 +10,5 @@ A binary search tree is a binary tree where for every node, any descendant of No
 
 A preorder traversal of a binary tree displays the value of the node first, then traverses Node.left, then traverses Node.right.
 
----
-
-## Examples
-
-### Example 1
-
-```text
-Input:
-preorder = [8,5,1,7,10,12]
-
-Output:
-[8,5,10,1,7,null,12]
-```
-
-### Example 2
-
-```text
-Input:
-preorder = [1,3]
-
-Output:
-[1,null,3]
-```
-
----
-
-## Constraints
-
-```text
-1 <= preorder.length <= 100
-1 <= preorder[i] <= 1000
-All the values of preorder are unique.
-```
+## Problem Link
+https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
