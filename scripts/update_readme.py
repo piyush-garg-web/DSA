@@ -69,7 +69,7 @@ content = re.sub(
 )
 
 # ---------- Highlights Total ----------
-highlights_total = f"- 📚 **{overall}** curated Data Structures & Algorithms solutions."
+highlights_total = f"• 📚 **{overall}** curated Data Structures & Algorithms solutions."
 
 content = re.sub(
     r"<!-- HIGHLIGHTS_TOTAL_START -->.*?<!-- HIGHLIGHTS_TOTAL_END -->",
