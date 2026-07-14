@@ -68,6 +68,16 @@ content = re.sub(
     flags=re.DOTALL,
 )
 
+# ---------- Highlights Total ----------
+highlights_total = f"- 📚 **{overall}** curated Data Structures & Algorithms solutions."
+
+content = re.sub(
+    r"<!-- HIGHLIGHTS_TOTAL_START -->.*?<!-- HIGHLIGHTS_TOTAL_END -->",
+    f"<!-- HIGHLIGHTS_TOTAL_START -->\n{highlights_total}\n<!-- HIGHLIGHTS_TOTAL_END -->",
+    content,
+    flags=re.DOTALL,
+)
+
 README.write_text(content, encoding="utf-8")
 
 print("README statistics updated successfully.")
