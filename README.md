@@ -124,6 +124,17 @@ DSA
 
 ---
 
+## 🤝 Connect
+
+- 🌐 **Portfolio:** https://portfolio-one-livid-15.vercel.app/
+- 💼 **LinkedIn:** https://www.linkedin.com/in/piyushgarg-dev/
+- 💻 **GitHub:** https://github.com/piyush-garg-web
+- 🟠 **LeetCode:** https://leetcode.com/u/Pleetpro1/
+- 🟢 **GeeksforGeeks:** https://www.geeksforgeeks.org/user/piyushgarg07/
+- 📧 **Email:** piyushgarg6702@gmail.com
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
