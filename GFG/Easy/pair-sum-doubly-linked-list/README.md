@@ -1,4 +1,4 @@
-# Pair Sum Doubly Linekd list
+# Pair Sum Doubly Linked List
 
 ## Problem Statement
 
