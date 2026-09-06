@@ -7,8 +7,8 @@ This repository serves as a structured record of my problem-solving journey, hel
 <!-- BADGES_START -->
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
 ![LeetCode](https://img.shields.io/badge/LeetCode-182%20Solved-orange?style=for-the-badge&logo=leetcode)
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-196%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
-![Total Problems](https://img.shields.io/badge/Total-378%20Problems-success?style=for-the-badge)
+![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-199%20Solved-darkgreen?style=for-the-badge&logo=geeksforgeeks)
+![Total Problems](https://img.shields.io/badge/Total-381%20Problems-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 <!-- BADGES_END -->
@@ -36,8 +36,8 @@ The primary objectives of this repository are to:
 | Platform | Total | Basic | Easy | Medium | Hard |
 |:---------|------:|------:|-----:|-------:|-----:|
 | **LeetCode** | **182** | — | **52** | **110** | **20** |
-| **GeeksforGeeks** | **196** | **9** | **65** | **114** | **8** |
-| **Overall** | **378** | **9** | **117** | **224** | **28** |
+| **GeeksforGeeks** | **199** | **9** | **65** | **117** | **8** |
+| **Overall** | **381** | **9** | **117** | **227** | **28** |
 
 <!-- STATS_END -->
 
@@ -112,7 +112,7 @@ DSA
 
 ## ✨ Repository Highlights
 
-<!-- HIGHLIGHTS_TOTAL_START -->• 📚 **378** curated Data Structures & Algorithms solutions.<!-- HIGHLIGHTS_TOTAL_END -->
+<!-- HIGHLIGHTS_TOTAL_START -->• 📚 **381** curated Data Structures & Algorithms solutions.<!-- HIGHLIGHTS_TOTAL_END -->
 • 💻 Solutions from both **LeetCode** and **GFG**.  
 • 📂 Organized by **platform** and **difficulty** for intuitive navigation.  
 • 🧠 Covers a broad range of fundamental and advanced DSA topics.  
